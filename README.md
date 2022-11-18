@@ -26,7 +26,7 @@ For EmoTracker the packs folder can be found under `USER/Documents/EmoTracker/pa
 
 For Customization in PopTracker just edit the pack's files. Documenation for PopTracker's pack format can be found [here](https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md).
 For example: if you want to change the broadcast layout, you can add your desired layout to the `layout/broadcast.json` file.
-Make sure you have you layout backed up tho, so you don't lose it when you override the file while updating the pack.
+Make sure you have you layout backed up, so you don't lose it when you override the file while updating the pack.
 
 ### EmoTracker
 
@@ -34,4 +34,4 @@ For Customization in EmoTracker you overwrite the pack's file by placing the fil
 
 ## Credits
 
-Maps by Megaboy.
+Maps by Megaboy and MisterIbis
