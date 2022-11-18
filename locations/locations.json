@@ -1,0 +1,2831 @@
+//TODO - ADD TRADE LOCATIONS IN AFTER ADDING TRACKING OF THEIR TRADE ITEMS.
+
+[
+	{
+		"name": "ACDC Region",
+		"short_name": "ACDC Town",
+		"color": "#0400f8",
+		"children": [
+			
+			// ACDC Network Locations
+			{
+				"name": "ACDC Network",
+				"children": [
+				
+					//ACDC 1
+					{
+						"name": "ACDC1 Southwest BMD",
+						"short_name": "ACDC1 SW BMD",
+						"map_locations": [
+							{
+							"map": "ACDC Net",
+							"x": 83,
+							"y": 101
+							}
+						],
+						"sections": [
+							{
+							"name": "ACDC1 SW BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "ACDC1 NE BMD",
+						"map_locations": [
+							{
+							"map": "ACDC Net",
+							"x": 83,
+							"y": 101
+							}
+						],
+						"sections": [
+							{
+							"name": "ACDC1 NE BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+					},
+					{
+						"name": "ACDC1 PMD",
+						"map_locations": [
+						  {
+						"map": "ACDC Net",
+						"x": 83,
+						"y": 101
+					  }
+					],
+					"sections": [
+					  {
+						"name": "ACDC1 PMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					  ]
+					},
+					{
+						"name": "ACDC2 N BMD",
+						"map_locations": [
+						  {
+						"map": "ACDC Net",
+						"x": 83,
+						"y": 101
+					  }
+					],
+					"sections": [
+					  {
+						"name": "ACDC2 N BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					  ]
+					},
+					{
+						"name": "ACDC3 SW BMD",
+						"map_locations": [
+						  {
+						"map": "ACDC Net",
+						"x": 83,
+						"y": 101
+					  }
+					],
+					"sections": [
+					  {
+						"name": "ACDC3 SW BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					  ]
+					},
+					{
+						"name": "ACDC3 NE BMD",
+						"map_locations": [
+						  {
+						"map": "ACDC Net",
+						"x": 83,
+						"y": 101
+					  }
+					],
+					"sections": [
+					  {
+						"name": "ACDC3 NE BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					  ]
+					}
+				]
+			},
+				//School Computers
+			{
+				"name": "School Comps",
+				"children": [
+							{
+						"name": "School 1 Entrance BMD",
+						"map_locations": [
+						{
+						"map": "ACDC School",
+						"x": 83,
+						"y": 101
+					}
+					],
+					"sections": [
+					{
+						"name": "School 1 Entrance BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "School 1 North Central BMD",
+						"map_locations": [
+						{
+						"map": "ACDC School",
+						"x": 83,
+						"y": 101
+					}
+					],
+					"sections": [
+					{
+						"name": "School 1 North Central BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "School 1 Far West BMD",
+						"map_locations": [
+						{
+						"map": "ACDC School",
+						"x": 83,
+						"y": 101
+					}
+					],
+					"sections": [
+					{
+						"name": "School 1 Far West BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "School 1 KeydataA BMD",
+						"map_locations": [
+						{
+						"map": "ACDC School",
+						"x": 83,
+						"y": 101
+					}
+					],
+					"sections": [
+					{
+						"name": "School 1 KeydataA BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "School 1 KeydataB BMD",
+						"map_locations": [
+						{
+						"map": "ACDC School",
+						"x": 83,
+						"y": 101
+					}
+					],
+					"sections": [
+					{
+						"name": "School 1 KeydataB BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "School 1 KeydataC BMD",
+						"map_locations": [
+						{
+						"map": "ACDC School",
+						"x": 83,
+						"y": 101
+					}
+					],
+					"sections": [
+					{
+						"name": "School 1 KeydataC BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "School 2 Entrance BMD",
+						"map_locations": [
+						{
+						"map": "ACDC School",
+						"x": 83,
+						"y": 101
+					}
+					],
+					"sections": [
+					{
+						"name": "School 2 Entrance BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "School 2 South BMD",
+						"map_locations": [
+						{
+						"map": "ACDC School",
+						"x": 83,
+						"y": 101
+					}
+					],
+					"sections": [
+					{
+						"name": "School 2 South BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "School 2 KeydataA BMD",
+						"map_locations": [
+						{
+						"map": "ACDC School",
+						"x": 83,
+						"y": 101
+					}
+					],
+					"sections": [
+					{
+						"name": "School 2 KeydataA BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "School 2 KeydataB BMD",
+						"map_locations": [
+						{
+						"map": "ACDC School",
+						"x": 83,
+						"y": 101
+					}
+					],
+					"sections": [
+					{
+						"name": "School 2 KeydataB BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "School 2 KeydataC BMD",
+						"map_locations": [
+						{
+						"map": "ACDC School",
+						"x": 83,
+						"y": 101
+					}
+					],
+					"sections": [
+					{
+						"name": "School 2 KeydataC BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "School 2 Mainframe BMD",
+						"map_locations": [
+						{
+						"map": "ACDC Town",
+						"x": 83,
+						"y": 101
+					}
+					],
+					"sections": [
+					{
+						"name": "School 2 Mainframe BMD",
+						"access_rules": [],
+						"item_count": 1
+					    }
+					  ]
+					}
+				]
+			},
+			//Locations Around ACDC Town
+			{
+				"name": "ACDC Town Locations",
+				"children": [
+				{
+					"name": "Doghouse BMD",
+					"map_locations": [
+					  {
+                    "map": "ACDC Town",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Doghouse BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "SecurityPanel BMD",
+					"map_locations": [
+					  {
+                    "map": "ACDC Town",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "SecurityPanel BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yai's Phone BMD",
+					"map_locations": [
+					  {
+                    "map": "ACDC Town",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yai's Phone BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Numberman Display BMD",
+					"map_locations": [
+					  {
+                    "map": "ACDC Town",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Numberman Display BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "ACDC Tank 1 BMD",
+					"map_locations": [
+					  {
+                    "map": "ACDC Town",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "ACDC Tank 1 BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "ACDC Tank 2 BMD",
+					"map_locations": [
+					  {
+                    "map": "ACDC Town",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "ACDC Tank 2 BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "ACDC School BMDs",
+					"map_locations": [
+					  {
+                    "map": "ACDC Town",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "ACDC School Server BMDs",
+                    "access_rules": [],
+                    "item_count": 2
+					},
+                    {
+                    "name": "ACDC School Blackboard BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Higsby's PEGI-compliant item dispenser",
+					"short_name": "Numberman Codes",
+					"map_locations": [
+					  {
+                    "map": "ACDC Town",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Numberman Codes",
+                    "access_rules": [],
+                    "item_count": 31
+					}
+                  ]
+				},
+				{
+					"name": "Mayls HP BMD",
+					"map_locations": [
+					  {
+					"map": "ACDC Town",
+					"x": 83,
+					"y": 101
+				  }
+				],
+				"sections": [
+				  {
+					"name": "Mayls HP BMD",
+					"access_rules": [],
+					"item_count": 1
+					}
+				  ]
+				},
+				{
+					"name": "Yais HP BMD",
+					"map_locations": [
+					  {
+					"map": "ACDC Town",
+					"x": 83,
+					"y": 101
+				  }
+				],
+				"sections": [
+				  {
+					"name": "Yais HP BMD",
+					"access_rules": [],
+					"item_count": 2
+					}
+				  ]
+				},
+				{
+					"name": "Dexs HP BMD",
+					"map_locations": [
+					  {
+					"map": "ACDC Town",
+					"x": 83,
+					"y": 101
+				  }
+				],
+				"sections": [
+				  {
+					"name": "Dexs HP BMD",
+					"access_rules": [],
+					"item_count": 2
+					}
+				  ]
+				}
+				]
+			},
+			//Scilab network checks
+			{
+				"name": "SciLab Cyberworld",
+				"access_rules": ["CSciPas", "SubPET"],
+				"children": [
+				{
+					"name": "SciLab 1 East BMD",
+					"map_locations": [
+					  {
+                    "map": "SciLab Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "SciLab 1 East BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "SciLab 1 WWW BMD",
+					"map_locations": [
+					  {
+                    "map": "SciLab Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "SciLab 1 WWW BMD",
+                    "access_rules": ["WWW ID"],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "SciLab 2 South BMD",
+					"map_locations": [
+					  {
+                    "map": "SciLab Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "SciLab 2 South BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "SciLab 2 West BMD",
+					"map_locations": [
+					  {
+                    "map": "SciLab Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "SciLab 2 West BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				}
+
+			]
+			},
+			//Scilab Overworld Checks
+			{
+				"name": "SciLab Overworld",
+				"access_rules": ["SubPET"],
+				"children": [
+				{
+					"name": "SciLab - Garbage Can",
+					"map_locations": [
+					  {
+                    "map": "SciLab",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "SciLab - Garbage Can",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "SciLab - Vending Machine BMD",
+					"map_locations": [
+					  {
+                    "map": "SciLab",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "SciLab - Vending Machine BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "SciLab - Virus Lab Door BMDs",
+					"map_locations": [
+					  {
+                    "map": "SciLab",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "SciLab - Virus Lab Door BMDs",
+                    "access_rules": [],
+                    "item_count": 2
+					}
+                  ]
+				},
+				{
+					"name": "SciLab - Dad's Computer",
+					"map_locations": [
+					  {
+                    "map": "SciLab",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "SciLab Dad's Computer BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					},
+					{
+					"name": "SciLab Dad's Computer PMD",
+					"access_rules": [],
+					"item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "SciLab - Job Board",
+					"map_locations": [
+					  {
+                    "map": "SciLab",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+					{
+						"name": "Job - Please deliver this",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Job - My Navi is sick",
+						"access_rules": ["Recov30*"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Help me with my son",
+						"access_rules": ["Needle"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Transmission error",
+						"access_rules": ["Needle"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Chip Prices",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Im broke",
+						"access_rules": ["Needle"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Rare chips for cheap",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Be my boyfriend",
+						"access_rules": ["PETCase"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Will you deliver",
+						"access_rules": ["Needle,PETCase"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Somebody please help",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Looking for condor",
+						"access_rules": ["Needle,PETCase"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Help with rehab",
+						"access_rules": ["PETCase"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Old Master",
+						"access_rules": ["PETCase"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Catching gang members",
+						"access_rules": ["Needle", "CYokaPas"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Please adopt a virus",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Legendary Tomes",
+						"access_rules": ["PETCase,Press,Magnum1"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Legendary Tomes Treasure",
+						"access_rules": ["PETCase,Press,Magnum1"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Hide and seek First Child",
+						"access_rules": ["Needle"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Hide and seek Second Child",
+						"access_rules": ["Needle"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Hide and seek Third Child",
+						"access_rules": ["Needle"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Hide and seek Fourth Child",
+						"access_rules": ["Needle"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Hide and seek Completion",
+						"access_rules": ["Needle"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Finding the blue Navi",
+						"access_rules": ["Press"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Give your support",
+						"access_rules": ["PETCase"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Stamp collecting",
+						"access_rules": ["PETCase,Needle","PETCase,CYokaPas"],
+						"item_count": 1
+						},
+						{
+						"name": "Job - Help with a will",
+						"access_rules": ["Needle,PETCase,Press"],
+						"item_count": 1
+						}
+                  ]
+				}
+			]
+			},
+			//Yoka Cyberworld
+			{
+				"name": "Yoka Cyberworld",
+				"access_rules": ["Needle", "CYokaPas"],
+				"children": [
+				{
+					"name": "Yoka 1 North BMD",
+					"map_locations": [
+					  {
+                    "map": "Yoka Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka 1 North BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka 1 WWW BMD",
+					"map_locations": [
+					  {
+                    "map": "Yoka Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka 1 WWW BMD",
+                    "access_rules": ["WWW ID"],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka 1 PMD",
+					"map_locations": [
+					  {
+                    "map": "Yoka Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka 1 PMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka 2 Lower BMD",
+					"map_locations": [
+					  {
+                    "map": "Yoka Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka 2 Lower BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka 2 Upper BMD",
+					"map_locations": [
+					  {
+                    "map": "Yoka Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka 2 Upper BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				}
+				]
+			},
+			//Yoka Overworld
+			{
+				"name": "Yoka",
+				"access_rules": ["Needle"],
+				"children": [
+				{
+					"name": "Yoka Mr. Quiz",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka Mr. Quiz",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka Quiz Master",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka Quiz Master",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka Inn - Jars",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka Inn - Jars",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka Zoo - Garbage",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka Zoo - Garbage",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka Zoo - Panda",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka Zoo - Panda PMD",
+                    "access_rules": [],
+                    "item_count": 1
+					},
+					{
+					"name": "Yoka Zoo - Panda BMD",
+					"access_rules": [],
+					"item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka Inn - TV BMD",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka Inn - TV BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka Inn - Armor BMD",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka Inn - Armor BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka Inn - Hot Spring BMD",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka Inn - Hot Spring BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka Zoo - Ticket Machine BMD",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka Zoo - Ticket Machine BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Tamako's HomePage",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Tamako's HomePage PMD",
+                    "access_rules": [],
+                    "item_count": 1
+					},
+					{
+					"name": "Tamako's HomePage BMD",
+					"access_rules": [],
+					"item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Tamako's HomePage",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Yoka - Comedian",
+                    "access_rules": [],
+                    "item_count": 1
+					},
+					{
+					"name": "Yoka - Comedian",
+					"access_rules": [],
+					"item_count": 1
+					}
+                  ]
+				}
+				
+			]
+			},
+			// For my own sanity, splitting Zoo comps into their own thing.
+			{
+				"name": "Yoka - Zoo Computers",
+				"access_rules": ["Needle"],
+				"children": [
+				{
+					"name": "Zoo 1 East BMD",
+					"map_locations": [
+					  {
+                    "map": "Zoo Computers",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 1 East BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Zoo 1 North BMD",
+					"map_locations": [
+					  {
+                    "map": "Zoo Computers",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 1 North BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Zoo 2 East BMD",
+					"map_locations": [
+					  {
+                    "map": "Zoo Computers",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 2 East BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Zoo 2 Central BMD",
+					"map_locations": [
+					  {
+                    "map": "Zoo Computers",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 2 Central BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Zoo 2 West BMD",
+					"map_locations": [
+					  {
+                    "map": "Zoo Computers",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 2 West BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Zoo 3 North BMD",
+					"map_locations": [
+					  {
+                    "map": "Zoo Computers",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 3 North BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Zoo 3 Central BMD",
+					"map_locations": [
+					  {
+                    "map": "Zoo Computers",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 3 Central BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Zoo 3 Path BMD",
+					"map_locations": [
+					  {
+                    "map": "Zoo Computers",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 3 Path BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Zoo 3 Northwest BMD",
+					"map_locations": [
+					  {
+                    "map": "Zoo Computers",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 3 Northwest BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Zoo 4 West BMD",
+					"map_locations": [
+					  {
+                    "map": "Zoo Computers",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 4 West BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Zoo 4 Northwest BMD",
+					"map_locations": [
+					  {
+                    "map": "Zoo Computers",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 4 Northwest BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Zoo 4 Southeast BMD",
+					"map_locations": [
+					  {
+                    "map": "Zoo Computers",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 4 Southeast BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				}
+				]
+			},
+			//Life's a beach, and then you die
+			{
+				"name": "Beach Cyberworld",
+				"access_rules": ["PETCase", "CBeacPass"],
+				"children": [
+				{
+					"name": "Beach 1 BMD",
+					"map_locations": [
+					  {
+                    "map": "Beach Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Beach 1 BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Beach 1 PMD",
+					"map_locations": [
+					  {
+                    "map": "Beach Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Beach 1 PMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Beach 2 East BMD",
+					"map_locations": [
+					  {
+                    "map": "Beach Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Beach 2 East BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Beach 2 West BMD",
+					"map_locations": [
+					  {
+                    "map": "Beach Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Beach 2 West BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Beach - Villain",
+					"map_locations": [
+					  {
+                    "map": "Beach Net",
+                    "x": 83,
+                    "y": 101
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Beach - Villain",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				}
+			]
+			},
+			//Beach Overworld
+			{
+				"name": "Beach Overworld",
+				"access_rules": ["PETCase"],
+				"children": [
+					{
+                        "name": "Beach DNN Main Console PMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach DNN Main Console PMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Hades GrabBack K Trade",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Hades GrabBack K Trade",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach Hospital Bed BMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach Hospital Bed BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach News Van BMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach News Van BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Hades South BMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Hades South BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach Battle Console BMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach Battle Console BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach Hospital Pink Door",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach Hospital Pink Door",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Hades Quiz King",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Hades Quiz King",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Hospital Quiz Queen",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Hospital Quiz Queen",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach Hospital Tree",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach Hospital Tree",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach Vending Machine BMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach Vending Machine BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Hospital DynaWav V Trade",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Hospital DynaWav V Trade",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach DNN HoleMetr H Trade",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach DNN HoleMetr H Trade",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach Broadcast Computer BMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach Broadcast Computer BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Hades Boat Dock",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Hades Boat Dock",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach DNN Kiosk",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach DNN Kiosk",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach Department Store",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach Department Store",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach DNN WideSwrd C Trade",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach DNN WideSwrd C Trade",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Hades HadesKey BMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Hades HadesKey BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach DNN Security Panel PMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach DNN Security Panel PMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Undernet 6 TV BMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Undernet 6 TV BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Hades Gargoyle BMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Hades Gargoyle BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach DNN Boxes",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach DNN Boxes",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach Hospital Girl",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach Hospital Girl",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach Hospital Hidden Conversation",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach Hospital Hidden Conversation",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach DNN Poster",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach DNN Poster",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach DNN Shadow J Trade",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach DNN Shadow J Trade",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach Hospital Plaque",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach Hospital Plaque",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach TV BMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach TV BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },          
+					{
+                        "name": "Beach Security System BMD",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Beach Security System BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    }
+			]
+			},
+			//Hospital Comps
+			{
+				"name": "Beach - Hospital Comps",
+				"access_rules": ["PETCase"],
+				"children": [
+					{
+                        "name": "Hospital 1 North BMD",
+                        "map_locations": [
+                          {
+                        "map": "Hospital Comps 1-3",
+                        "x": 83,
+                        "y": 101
+						  }
+						],
+						"sections": [
+						{
+							"name": "Hospital 1 North BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 1 West BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 1-3",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 1 West BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 1 Center BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 1-3",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 1 Center BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 2 Island BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 1-3",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 2 Island BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 2 Central BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 1-3",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 2 Central BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 2 Southwest BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 1-3",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 2 Southwest BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 3 West BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 1-3",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 3 West BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 3 Central BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 1-3",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 3 Central BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 3 Northwest BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 1-3",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 3 Northwest BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 4 North BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 4-5",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 4 North BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 4 Central BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 4-5",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 4 Central BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 4 Southeast BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 4-5",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 4 Southeast BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 5 Island BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 4-5",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 5 Island BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 5 Northeast BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 4-5",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 5 Northeast BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						},
+						{
+							"name": "Hospital 5 Southwest BMD",
+							"map_locations": [
+							{
+							"map": "Hospital Comps 4-5",
+							"x": 83,
+							"y": 101
+						}
+						],
+						"sections": [
+						{
+							"name": "Hospital 5 Southwest BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						]
+						}
+					]
+				},
+				//Undernet, regular (Pre-drillman access)
+				{
+					"name": "Undernet",
+				"access_rules": ["Press","GigFreez"],
+				"children": [
+					{
+                        "name": "Undernet 1 South BMD",
+                        "map_locations": [
+                          {
+                        "map": "Undernet 1-4",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Undernet 1 South BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },
+                    {
+                        "name": "Undernet 1 WWW BMD",
+                        "map_locations": [
+                          {
+                        "map": "Undernet 1-4",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Undernet 1 WWW BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },
+                    {
+                        "name": "Undernet 2 Lower BMD",
+                        "map_locations": [
+                          {
+                        "map": "Undernet 1-4",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Undernet 2 Lower BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },
+                    {
+                        "name": "Undernet 2 Upper BMD",
+                        "map_locations": [
+                          {
+                        "map": "Undernet 1-4",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Undernet 2 Upper BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },
+                    {
+                        "name": "Undernet 3 South BMD",
+                        "map_locations": [
+                          {
+                        "map": "Undernet 1-4",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Undernet 3 South BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },
+                    {
+                        "name": "Undernet 3 Central BMD",
+                        "map_locations": [
+                          {
+                        "map": "Undernet 1-4",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Undernet 3 Central BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },
+                    {
+                        "name": "Undernet 4 Pillar Prog",
+                        "map_locations": [
+                          {
+                        "map": "Undernet 1-4",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Undernet 4 Pillar Prog",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },
+                    {
+                        "name": "Undernet 4 Top North BMD",
+                        "map_locations": [
+                          {
+                        "map": "Undernet 1-4",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Undernet 4 Top North BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },
+                    {
+                        "name": "Undernet 4 Bottom West BMD",
+                        "map_locations": [
+                          {
+                        "map": "Undernet 1-4",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Undernet 4 Bottom West BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },
+                    {
+                        "name": "Undernet 4 Top Pillar BMD",
+                        "map_locations": [
+                          {
+                        "map": "Undernet 1-4",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Undernet 4 Top Pillar BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },
+                    {
+                        "name": "Undernet 5 Upper BMD",
+                        "map_locations": [
+                          {
+                        "map": "Undernet 5-7",
+                        "x": 83,
+                        "y": 101
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Undernet 5 Upper BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    }
+				]
+				},
+				// Deep Undernet
+				{
+					"name": "Deep Undernet",
+					"access_rules": ["CSciPas","SubPET"],
+					"children": [
+						{
+							"name": "Undernet 5 Lower BMD",
+							"map_locations": [
+							  {
+							"map": "Undernet 5-7",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "Undernet 5 Lower BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "Undernet 6 East BMD",
+							"map_locations": [
+							  {
+							"map": "Undernet 5-7",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "Undernet 6 East BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "Undernet 6 Central BMD",
+							"map_locations": [
+							  {
+							"map": "Undernet 5-7",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "Undernet 6 Central BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "Undernet 7 PMD",
+							"map_locations": [
+							  {
+							"map": "Undernet 5-7",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "Undernet 7 PMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "Undernet 7 West BMD",
+							"map_locations": [
+							  {
+							"map": "Undernet 5-7",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "Undernet 7 West BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "Undernet 7 Northeast BMD",
+							"map_locations": [
+							  {
+							"map": "Undernet 5-7",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "Undernet 7 Northeast BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "Undernet 7 Northwest BMD",
+							"map_locations": [
+							  {
+							"map": "Undernet 5-7",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "Undernet 7 Northwest BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						}
+					]
+				},
+				// World 3 island - Time to win!
+				{
+					"name": "WWW island",
+					"access_rules": ["GigFreez"],
+					"children": [
+						{
+							"name": "WWW Control Room 1 Screen",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW Control Room 1 Screen",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW Wilys Desk",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW Wilys Desk",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW Wall BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW Wall BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 1 East BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 1 East BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 1 West BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 1 West BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 1 Central BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 1 Central BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 1 South BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 1 South BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 2 East BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 2 East BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 2 Northwest BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 2 Northwest BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 2 West BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 2 West BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 3 East BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 3 East BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 3 North BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 3 North BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 3 South BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 3 South BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 4 Central BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 4 Central BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 4 Northwest BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 4 Northwest BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "WWW 4 East BMD",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "WWW 4 East BMD",
+							"access_rules": [],
+							"item_count": 1
+							}
+						  ]
+						},
+						{
+							"name": "Alpha Defeated",
+							"map_locations": [
+							  {
+							"map": "WWW Areas",
+							"x": 83,
+							"y": 101
+						  }
+						],
+						"sections": [
+						  {
+							"name": "Alpha Defeated",
+							"access_rules": [],
+							"hosted_item": "Alpha"
+							}
+						  ]
+						}
+					]
+				}
+
+		]
+	}
+]

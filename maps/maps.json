@@ -1,0 +1,98 @@
+[
+    {
+        "name": "ACDC Town",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/ACDC Town.png"
+    },
+    {
+        "name": "ACDC Net",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/BN3 ACDC.png"
+    },
+    {
+        "name": "ACDC School",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/BN3 School Comp.png"
+    },
+    {
+        "name": "SciLab",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/SciLab.png"
+    },
+    {
+        "name": "SciLab Net",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/BN3 SciLab Net.png"
+    },
+    {
+        "name": "Beach",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/Beach.png"
+    },
+    {
+        "name": "Beach Net",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/BN3 Beach Net.png"
+    },
+    {
+        "name": "Hospital Comps 1-3",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/BN3 Hospital Comp 123.png"
+    },
+    {
+        "name": "Hospital Comps 4-5",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/BN3 Hospital Comp 45.png"
+    },
+    {
+        "name": "Yoka",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/Yoka.png"
+    },
+    {
+        "name": "Yoka Net",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/BN3 Yoka Net.png"
+    },
+    {
+        "name": "Zoo Computers",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/BN3 Zoo Comp.png"
+    },
+    {
+        "name": "Hades",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/Hades.png"
+    },
+    {
+        "name": "Undernet 1-4",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/BN3 Undernet 1234.png"
+    },
+    {
+        "name": "Undernet 5-7",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/BN3 Undernet 567.png"
+    },
+    {
+        "name": "WWW Areas",
+        "location_size": 80,
+        "location_border_thickness": 10,
+        "img": "images/maps/WWW Areas.png"
+    }
+]

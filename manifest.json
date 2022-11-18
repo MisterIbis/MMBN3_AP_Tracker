@@ -1,0 +1,13 @@
+﻿{
+  "name": "Megaman Battle Network 3 AP Randomizer",
+  "game_name": "Battle Network 3",
+  "platform": "GBA",
+  "package_version": "0.1.0.0",
+  "package_uid": "BattleNetwork3",
+  "author": "MisterIbis",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker"     
+    }
+  }
+}

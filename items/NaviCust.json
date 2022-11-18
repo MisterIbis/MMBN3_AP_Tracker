@@ -1,0 +1,75 @@
+[   {
+        "name": "ModTools",
+        "type": "toggle",
+        "img": "images/ModTools.png",
+        "codes": "ModTools"
+    },
+	{
+        "name": "Expanded Memory",
+        "type": "progressive",
+        "stages": [
+            {
+				"img": "images/ExpMem.png",
+                "codes": "Expmem1"
+			},
+			{
+				"img": "images/ExpMem2.png",
+                "codes": "Expmem2"
+			}
+		]
+    },
+	{
+		"name": "Spin White",
+		"type": "toggle",
+		"img": "images/SpinWht",
+		"codes": "SpinWht"
+	},
+	{
+		"name": "Spin Pink",
+		"type": "toggle",
+		"img": "images/SpinPnk",
+		"codes": "SpinPnk"
+	},
+	{
+		"name": "Spin Yellow",
+		"type": "toggle",
+		"img": "images/SpinYllw",
+		"codes": "SpinYllw"
+	},
+	{
+		"name": "Spin Red",
+		"type": "toggle",
+		"img": "images/SpinRed",
+		"codes": "SpinRed"
+	},
+	{
+		"name": "Spin Blue",
+		"type": "toggle",
+		"img": "images/SpinBlue",
+		"codes": "SpinBlue"
+	},
+	{
+		"name": "Spin Green",
+		"type": "toggle",
+		"img": "images/SpinGrn",
+		"codes": "SpinGrn"
+	},
+	{
+		"name": "Spin Orange",
+		"type": "toggle",
+		"img": "images/SpinOrange",
+		"codes": "SpinOrange"
+	},
+	{
+		"name": "Spin Purple",
+		"type": "toggle",
+		"img": "images/SpinPurple",
+		"codes": "SpinPurple"
+	},
+	{
+		"name": "Spin Dark",
+		"type": "toggle",
+		"img": "images/SpinDark",
+		"codes": "SpinDark"
+	}
+]

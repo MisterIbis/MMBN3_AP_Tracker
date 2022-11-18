@@ -1,0 +1,68 @@
+ [  
+    {
+        "name": "Cyber ACDC Metro Pass",
+        "type": "toggle",
+        "img": "images/CACDCPas.png",
+        "codes": "CACDCPas"
+    },
+    {
+        "name": "Cyber Scilab Metro Pass",
+        "type": "toggle",
+        "img": "images/CSciPas.png",
+        "codes": "CSciPas"
+    },   
+	{
+        "name": "Cyber Yoka Metro Pass",
+        "type": "toggle",
+        "img": "images/CYokaPas.png",
+        "codes": "CYokaPas"
+    },
+	{
+        "name": "Cyber Beach Metro Pass",
+        "type": "toggle",
+        "img": "images/CBeacPas.png",
+        "codes": "CBeacPas"
+    },
+	{
+        "name": "WWW ID",
+        "type": "toggle",
+        "img": "images/WWW_ID.png",
+        "codes": "WWW_ID"
+    },
+	{
+        "name": "Press Program",
+        "type": "toggle",
+        "img": "images/press.png",
+        "codes": "press"
+    },
+	{
+		"name": "SubPET",
+		"type": "toggle",
+		"img": "images/SubPET.png",
+		"codes": "SubPET"
+	},
+	{
+		"name": "Needle",
+		"type": "toggle",
+		"img": "images/Needle.png",
+		"codes": "Needle"
+	},
+	{
+		"name": "PETCase",
+		"type": "toggle",
+		"img": "images/PETCase.png",
+		"codes": "PETCase"
+	},
+    {
+		"name": "OrderSys",
+		"type": "toggle",
+		"img": "images/OrderSys.png",
+		"codes": "OrderSys"
+	},
+    {
+		"name": "Mr. Famous' Wristband",
+		"type": "toggle",
+		"img": "images/Wristband.png",
+		"codes": "Famous"
+	}
+]
