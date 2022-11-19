@@ -18,7 +18,7 @@
 						"short_name": "ACDC1 SW BMD",
 						"map_locations": [
 							{
-							"map": "ACDC Net",
+							"map": "ACDCNet",
 							"x": 83,
 							"y": 101
 							}
@@ -35,7 +35,7 @@
 						"name": "ACDC1 NE BMD",
 						"map_locations": [
 							{
-							"map": "ACDC Net",
+							"map": "ACDCNet",
 							"x": 83,
 							"y": 101
 							}
@@ -52,7 +52,7 @@
 						"name": "ACDC1 PMD",
 						"map_locations": [
 						  {
-						"map": "ACDC Net",
+						"map": "ACDCNet",
 						"x": 83,
 						"y": 101
 					  }
@@ -69,7 +69,7 @@
 						"name": "ACDC2 N BMD",
 						"map_locations": [
 						  {
-						"map": "ACDC Net",
+						"map": "ACDCNet",
 						"x": 83,
 						"y": 101
 					  }
@@ -86,7 +86,7 @@
 						"name": "ACDC3 SW BMD",
 						"map_locations": [
 						  {
-						"map": "ACDC Net",
+						"map": "ACDCNet",
 						"x": 83,
 						"y": 101
 					  }
@@ -103,7 +103,7 @@
 						"name": "ACDC3 NE BMD",
 						"map_locations": [
 						  {
-						"map": "ACDC Net",
+						"map": "ACDCNet",
 						"x": 83,
 						"y": 101
 					  }
@@ -126,7 +126,7 @@
 						"name": "School 1 Entrance BMD",
 						"map_locations": [
 						{
-						"map": "ACDC School",
+						"map": "ACDCSchool",
 						"x": 83,
 						"y": 101
 					}
@@ -143,7 +143,7 @@
 						"name": "School 1 North Central BMD",
 						"map_locations": [
 						{
-						"map": "ACDC School",
+						"map": "ACDCSchool",
 						"x": 83,
 						"y": 101
 					}
@@ -160,7 +160,7 @@
 						"name": "School 1 Far West BMD",
 						"map_locations": [
 						{
-						"map": "ACDC School",
+						"map": "ACDCSchool",
 						"x": 83,
 						"y": 101
 					}
@@ -177,7 +177,7 @@
 						"name": "School 1 KeydataA BMD",
 						"map_locations": [
 						{
-						"map": "ACDC School",
+						"map": "ACDCSchool",
 						"x": 83,
 						"y": 101
 					}
@@ -194,7 +194,7 @@
 						"name": "School 1 KeydataB BMD",
 						"map_locations": [
 						{
-						"map": "ACDC School",
+						"map": "ACDCSchool",
 						"x": 83,
 						"y": 101
 					}
@@ -211,7 +211,7 @@
 						"name": "School 1 KeydataC BMD",
 						"map_locations": [
 						{
-						"map": "ACDC School",
+						"map": "ACDCSchool",
 						"x": 83,
 						"y": 101
 					}
@@ -228,7 +228,7 @@
 						"name": "School 2 Entrance BMD",
 						"map_locations": [
 						{
-						"map": "ACDC School",
+						"map": "ACDCSchool",
 						"x": 83,
 						"y": 101
 					}
@@ -245,7 +245,7 @@
 						"name": "School 2 South BMD",
 						"map_locations": [
 						{
-						"map": "ACDC School",
+						"map": "ACDCSchool",
 						"x": 83,
 						"y": 101
 					}
@@ -262,7 +262,7 @@
 						"name": "School 2 KeydataA BMD",
 						"map_locations": [
 						{
-						"map": "ACDC School",
+						"map": "ACDCSchool",
 						"x": 83,
 						"y": 101
 					}
@@ -279,7 +279,7 @@
 						"name": "School 2 KeydataB BMD",
 						"map_locations": [
 						{
-						"map": "ACDC School",
+						"map": "ACDCSchool",
 						"x": 83,
 						"y": 101
 					}
@@ -296,7 +296,7 @@
 						"name": "School 2 KeydataC BMD",
 						"map_locations": [
 						{
-						"map": "ACDC School",
+						"map": "ACDCSchool",
 						"x": 83,
 						"y": 101
 					}
@@ -313,7 +313,7 @@
 						"name": "School 2 Mainframe BMD",
 						"map_locations": [
 						{
-						"map": "ACDC Town",
+						"map": "ACDCTown",
 						"x": 83,
 						"y": 101
 					}
@@ -336,7 +336,7 @@
 					"name": "Doghouse BMD",
 					"map_locations": [
 					  {
-                    "map": "ACDC Town",
+                    "map": "ACDCTown",
                     "x": 83,
                     "y": 101
                   }
@@ -353,7 +353,7 @@
 					"name": "SecurityPanel BMD",
 					"map_locations": [
 					  {
-                    "map": "ACDC Town",
+                    "map": "ACDCTown",
                     "x": 83,
                     "y": 101
                   }
@@ -370,7 +370,7 @@
 					"name": "Yai's Phone BMD",
 					"map_locations": [
 					  {
-                    "map": "ACDC Town",
+                    "map": "ACDCTown",
                     "x": 83,
                     "y": 101
                   }
@@ -387,7 +387,7 @@
 					"name": "Numberman Display BMD",
 					"map_locations": [
 					  {
-                    "map": "ACDC Town",
+                    "map": "ACDCTown",
                     "x": 83,
                     "y": 101
                   }
@@ -404,7 +404,7 @@
 					"name": "ACDC Tank 1 BMD",
 					"map_locations": [
 					  {
-                    "map": "ACDC Town",
+                    "map": "ACDCTown",
                     "x": 83,
                     "y": 101
                   }
@@ -421,7 +421,7 @@
 					"name": "ACDC Tank 2 BMD",
 					"map_locations": [
 					  {
-                    "map": "ACDC Town",
+                    "map": "ACDCTown",
                     "x": 83,
                     "y": 101
                   }
@@ -438,7 +438,7 @@
 					"name": "ACDC School BMDs",
 					"map_locations": [
 					  {
-                    "map": "ACDC Town",
+                    "map": "ACDCTown",
                     "x": 83,
                     "y": 101
                   }
@@ -461,7 +461,7 @@
 					"short_name": "Numberman Codes",
 					"map_locations": [
 					  {
-                    "map": "ACDC Town",
+                    "map": "ACDCTown",
                     "x": 83,
                     "y": 101
                   }
@@ -478,7 +478,7 @@
 					"name": "Mayls HP BMD",
 					"map_locations": [
 					  {
-					"map": "ACDC Town",
+					"map": "ACDCTown",
 					"x": 83,
 					"y": 101
 				  }
@@ -495,7 +495,7 @@
 					"name": "Yais HP BMD",
 					"map_locations": [
 					  {
-					"map": "ACDC Town",
+					"map": "ACDCTown",
 					"x": 83,
 					"y": 101
 				  }
@@ -512,7 +512,7 @@
 					"name": "Dexs HP BMD",
 					"map_locations": [
 					  {
-					"map": "ACDC Town",
+					"map": "ACDCTown",
 					"x": 83,
 					"y": 101
 				  }
@@ -536,7 +536,7 @@
 					"name": "SciLab 1 East BMD",
 					"map_locations": [
 					  {
-                    "map": "SciLab Net",
+                    "map": "SciLabNet",
                     "x": 83,
                     "y": 101
                   }
@@ -553,7 +553,7 @@
 					"name": "SciLab 1 WWW BMD",
 					"map_locations": [
 					  {
-                    "map": "SciLab Net",
+                    "map": "SciLabNet",
                     "x": 83,
                     "y": 101
                   }
@@ -570,7 +570,7 @@
 					"name": "SciLab 2 South BMD",
 					"map_locations": [
 					  {
-                    "map": "SciLab Net",
+                    "map": "SciLabNet",
                     "x": 83,
                     "y": 101
                   }
@@ -587,7 +587,7 @@
 					"name": "SciLab 2 West BMD",
 					"map_locations": [
 					  {
-                    "map": "SciLab Net",
+                    "map": "SciLabNet",
                     "x": 83,
                     "y": 101
                   }
@@ -834,7 +834,7 @@
 					"name": "Yoka 1 North BMD",
 					"map_locations": [
 					  {
-                    "map": "Yoka Net",
+                    "map": "YokaNet",
                     "x": 83,
                     "y": 101
                   }
@@ -851,7 +851,7 @@
 					"name": "Yoka 1 WWW BMD",
 					"map_locations": [
 					  {
-                    "map": "Yoka Net",
+                    "map": "YokaNet",
                     "x": 83,
                     "y": 101
                   }
@@ -868,7 +868,7 @@
 					"name": "Yoka 1 PMD",
 					"map_locations": [
 					  {
-                    "map": "Yoka Net",
+                    "map": "YokaNet",
                     "x": 83,
                     "y": 101
                   }
@@ -885,7 +885,7 @@
 					"name": "Yoka 2 Lower BMD",
 					"map_locations": [
 					  {
-                    "map": "Yoka Net",
+                    "map": "YokaNet",
                     "x": 83,
                     "y": 101
                   }
@@ -902,7 +902,7 @@
 					"name": "Yoka 2 Upper BMD",
 					"map_locations": [
 					  {
-                    "map": "Yoka Net",
+                    "map": "YokaNet",
                     "x": 83,
                     "y": 101
                   }
@@ -1136,7 +1136,7 @@
 					"name": "Zoo 1 East BMD",
 					"map_locations": [
 					  {
-                    "map": "Zoo Computers",
+                    "map": "ZooComps",
                     "x": 83,
                     "y": 101
                   }
@@ -1153,7 +1153,7 @@
 					"name": "Zoo 1 North BMD",
 					"map_locations": [
 					  {
-                    "map": "Zoo Computers",
+                    "map": "ZooComps",
                     "x": 83,
                     "y": 101
                   }
@@ -1170,7 +1170,7 @@
 					"name": "Zoo 2 East BMD",
 					"map_locations": [
 					  {
-                    "map": "Zoo Computers",
+                    "map": "ZooComps",
                     "x": 83,
                     "y": 101
                   }
@@ -1187,7 +1187,7 @@
 					"name": "Zoo 2 Central BMD",
 					"map_locations": [
 					  {
-                    "map": "Zoo Computers",
+                    "map": "ZooComps",
                     "x": 83,
                     "y": 101
                   }
@@ -1204,7 +1204,7 @@
 					"name": "Zoo 2 West BMD",
 					"map_locations": [
 					  {
-                    "map": "Zoo Computers",
+                    "map": "ZooComps",
                     "x": 83,
                     "y": 101
                   }
@@ -1221,7 +1221,7 @@
 					"name": "Zoo 3 North BMD",
 					"map_locations": [
 					  {
-                    "map": "Zoo Computers",
+                    "map": "ZooComps",
                     "x": 83,
                     "y": 101
                   }
@@ -1238,7 +1238,7 @@
 					"name": "Zoo 3 Central BMD",
 					"map_locations": [
 					  {
-                    "map": "Zoo Computers",
+                    "map": "ZooComps",
                     "x": 83,
                     "y": 101
                   }
@@ -1255,7 +1255,7 @@
 					"name": "Zoo 3 Path BMD",
 					"map_locations": [
 					  {
-                    "map": "Zoo Computers",
+                    "map": "ZooComps",
                     "x": 83,
                     "y": 101
                   }
@@ -1272,7 +1272,7 @@
 					"name": "Zoo 3 Northwest BMD",
 					"map_locations": [
 					  {
-                    "map": "Zoo Computers",
+                    "map": "ZooComps",
                     "x": 83,
                     "y": 101
                   }
@@ -1289,7 +1289,7 @@
 					"name": "Zoo 4 West BMD",
 					"map_locations": [
 					  {
-                    "map": "Zoo Computers",
+                    "map": "ZooComps",
                     "x": 83,
                     "y": 101
                   }
@@ -1306,7 +1306,7 @@
 					"name": "Zoo 4 Northwest BMD",
 					"map_locations": [
 					  {
-                    "map": "Zoo Computers",
+                    "map": "ZooComps",
                     "x": 83,
                     "y": 101
                   }
@@ -1323,7 +1323,7 @@
 					"name": "Zoo 4 Southeast BMD",
 					"map_locations": [
 					  {
-                    "map": "Zoo Computers",
+                    "map": "ZooComps",
                     "x": 83,
                     "y": 101
                   }
@@ -1347,7 +1347,7 @@
 					"name": "Beach 1 BMD",
 					"map_locations": [
 					  {
-                    "map": "Beach Net",
+                    "map": "BeachNet",
                     "x": 83,
                     "y": 101
                   }
@@ -1364,7 +1364,7 @@
 					"name": "Beach 1 PMD",
 					"map_locations": [
 					  {
-                    "map": "Beach Net",
+                    "map": "BeachNet",
                     "x": 83,
                     "y": 101
                   }
@@ -1381,7 +1381,7 @@
 					"name": "Beach 2 East BMD",
 					"map_locations": [
 					  {
-                    "map": "Beach Net",
+                    "map": "BeachNet",
                     "x": 83,
                     "y": 101
                   }
@@ -1398,7 +1398,7 @@
 					"name": "Beach 2 West BMD",
 					"map_locations": [
 					  {
-                    "map": "Beach Net",
+                    "map": "BeachNet",
                     "x": 83,
                     "y": 101
                   }
@@ -1415,7 +1415,7 @@
 					"name": "Beach - Villain",
 					"map_locations": [
 					  {
-                    "map": "Beach Net",
+                    "map": "BeachNet",
                     "x": 83,
                     "y": 101
                   }
@@ -1956,7 +1956,7 @@
                         "name": "Hospital 1 North BMD",
                         "map_locations": [
                           {
-                        "map": "Hospital Comps 1-3",
+                        "map": "HospitalComps1-3",
                         "x": 83,
                         "y": 101
 						  }
@@ -1973,7 +1973,7 @@
 							"name": "Hospital 1 West BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 1-3",
+							"map": "HospitalComps1-3",
 							"x": 83,
 							"y": 101
 						}
@@ -1990,7 +1990,7 @@
 							"name": "Hospital 1 Center BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 1-3",
+							"map": "HospitalComps1-3",
 							"x": 83,
 							"y": 101
 						}
@@ -2007,7 +2007,7 @@
 							"name": "Hospital 2 Island BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 1-3",
+							"map": "HospitalComps1-3",
 							"x": 83,
 							"y": 101
 						}
@@ -2024,7 +2024,7 @@
 							"name": "Hospital 2 Central BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 1-3",
+							"map": "HospitalComps1-3",
 							"x": 83,
 							"y": 101
 						}
@@ -2041,7 +2041,7 @@
 							"name": "Hospital 2 Southwest BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 1-3",
+							"map": "HospitalComps1-3",
 							"x": 83,
 							"y": 101
 						}
@@ -2058,7 +2058,7 @@
 							"name": "Hospital 3 West BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 1-3",
+							"map": "HospitalComps1-3",
 							"x": 83,
 							"y": 101
 						}
@@ -2075,7 +2075,7 @@
 							"name": "Hospital 3 Central BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 1-3",
+							"map": "HospitalComps1-3",
 							"x": 83,
 							"y": 101
 						}
@@ -2092,7 +2092,7 @@
 							"name": "Hospital 3 Northwest BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 1-3",
+							"map": "HospitalComps1-3",
 							"x": 83,
 							"y": 101
 						}
@@ -2109,7 +2109,7 @@
 							"name": "Hospital 4 North BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 4-5",
+							"map": "HospitalComps4-5",
 							"x": 83,
 							"y": 101
 						}
@@ -2126,7 +2126,7 @@
 							"name": "Hospital 4 Central BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 4-5",
+							"map": "HospitalComps4-5",
 							"x": 83,
 							"y": 101
 						}
@@ -2143,7 +2143,7 @@
 							"name": "Hospital 4 Southeast BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 4-5",
+							"map": "HospitalComps4-5",
 							"x": 83,
 							"y": 101
 						}
@@ -2160,7 +2160,7 @@
 							"name": "Hospital 5 Island BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 4-5",
+							"map": "HospitalComps4-5",
 							"x": 83,
 							"y": 101
 						}
@@ -2177,7 +2177,7 @@
 							"name": "Hospital 5 Northeast BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 4-5",
+							"map": "HospitalComps4-5",
 							"x": 83,
 							"y": 101
 						}
@@ -2194,7 +2194,7 @@
 							"name": "Hospital 5 Southwest BMD",
 							"map_locations": [
 							{
-							"map": "Hospital Comps 4-5",
+							"map": "HospitalComps4-5",
 							"x": 83,
 							"y": 101
 						}
@@ -2218,7 +2218,7 @@
                         "name": "Undernet 1 South BMD",
                         "map_locations": [
                           {
-                        "map": "Undernet 1-4",
+                        "map": "Undernet1-4",
                         "x": 83,
                         "y": 101
                       }
@@ -2235,7 +2235,7 @@
                         "name": "Undernet 1 WWW BMD",
                         "map_locations": [
                           {
-                        "map": "Undernet 1-4",
+                        "map": "Undernet1-4",
                         "x": 83,
                         "y": 101
                       }
@@ -2252,7 +2252,7 @@
                         "name": "Undernet 2 Lower BMD",
                         "map_locations": [
                           {
-                        "map": "Undernet 1-4",
+                        "map": "Undernet1-4",
                         "x": 83,
                         "y": 101
                       }
@@ -2269,7 +2269,7 @@
                         "name": "Undernet 2 Upper BMD",
                         "map_locations": [
                           {
-                        "map": "Undernet 1-4",
+                        "map": "Undernet1-4",
                         "x": 83,
                         "y": 101
                       }
@@ -2286,7 +2286,7 @@
                         "name": "Undernet 3 South BMD",
                         "map_locations": [
                           {
-                        "map": "Undernet 1-4",
+                        "map": "Undernet1-4",
                         "x": 83,
                         "y": 101
                       }
@@ -2303,7 +2303,7 @@
                         "name": "Undernet 3 Central BMD",
                         "map_locations": [
                           {
-                        "map": "Undernet 1-4",
+                        "map": "Undernet1-4",
                         "x": 83,
                         "y": 101
                       }
@@ -2320,7 +2320,7 @@
                         "name": "Undernet 4 Pillar Prog",
                         "map_locations": [
                           {
-                        "map": "Undernet 1-4",
+                        "map": "Undernet1-4",
                         "x": 83,
                         "y": 101
                       }
@@ -2337,7 +2337,7 @@
                         "name": "Undernet 4 Top North BMD",
                         "map_locations": [
                           {
-                        "map": "Undernet 1-4",
+                        "map": "Undernet1-4",
                         "x": 83,
                         "y": 101
                       }
@@ -2354,7 +2354,7 @@
                         "name": "Undernet 4 Bottom West BMD",
                         "map_locations": [
                           {
-                        "map": "Undernet 1-4",
+                        "map": "Undernet1-4",
                         "x": 83,
                         "y": 101
                       }
@@ -2371,7 +2371,7 @@
                         "name": "Undernet 4 Top Pillar BMD",
                         "map_locations": [
                           {
-                        "map": "Undernet 1-4",
+                        "map": "Undernet1-4",
                         "x": 83,
                         "y": 101
                       }
@@ -2388,7 +2388,7 @@
                         "name": "Undernet 5 Upper BMD",
                         "map_locations": [
                           {
-                        "map": "Undernet 5-7",
+                        "map": "Undernet5-7",
                         "x": 83,
                         "y": 101
                       }
@@ -2412,7 +2412,7 @@
 							"name": "Undernet 5 Lower BMD",
 							"map_locations": [
 							  {
-							"map": "Undernet 5-7",
+							"map": "Undernet5-7",
 							"x": 83,
 							"y": 101
 						  }
@@ -2429,7 +2429,7 @@
 							"name": "Undernet 6 East BMD",
 							"map_locations": [
 							  {
-							"map": "Undernet 5-7",
+							"map": "Undernet5-7",
 							"x": 83,
 							"y": 101
 						  }
@@ -2446,7 +2446,7 @@
 							"name": "Undernet 6 Central BMD",
 							"map_locations": [
 							  {
-							"map": "Undernet 5-7",
+							"map": "Undernet5-7",
 							"x": 83,
 							"y": 101
 						  }
@@ -2463,7 +2463,7 @@
 							"name": "Undernet 7 PMD",
 							"map_locations": [
 							  {
-							"map": "Undernet 5-7",
+							"map": "Undernet5-7",
 							"x": 83,
 							"y": 101
 						  }
@@ -2480,7 +2480,7 @@
 							"name": "Undernet 7 West BMD",
 							"map_locations": [
 							  {
-							"map": "Undernet 5-7",
+							"map": "Undernet5-7",
 							"x": 83,
 							"y": 101
 						  }
@@ -2497,7 +2497,7 @@
 							"name": "Undernet 7 Northeast BMD",
 							"map_locations": [
 							  {
-							"map": "Undernet 5-7",
+							"map": "Undernet5-7",
 							"x": 83,
 							"y": 101
 						  }
@@ -2514,7 +2514,7 @@
 							"name": "Undernet 7 Northwest BMD",
 							"map_locations": [
 							  {
-							"map": "Undernet 5-7",
+							"map": "Undernet5-7",
 							"x": 83,
 							"y": 101
 						  }
@@ -2538,7 +2538,7 @@
 							"name": "WWW Control Room 1 Screen",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2555,7 +2555,7 @@
 							"name": "WWW Wilys Desk",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2572,7 +2572,7 @@
 							"name": "WWW Wall BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2589,7 +2589,7 @@
 							"name": "WWW 1 East BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2606,7 +2606,7 @@
 							"name": "WWW 1 West BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2623,7 +2623,7 @@
 							"name": "WWW 1 Central BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2640,7 +2640,7 @@
 							"name": "WWW 1 South BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2657,7 +2657,7 @@
 							"name": "WWW 2 East BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2674,7 +2674,7 @@
 							"name": "WWW 2 Northwest BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2691,7 +2691,7 @@
 							"name": "WWW 2 West BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2708,7 +2708,7 @@
 							"name": "WWW 3 East BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2725,7 +2725,7 @@
 							"name": "WWW 3 North BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2742,7 +2742,7 @@
 							"name": "WWW 3 South BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2759,7 +2759,7 @@
 							"name": "WWW 4 Central BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2776,7 +2776,7 @@
 							"name": "WWW 4 Northwest BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2793,7 +2793,7 @@
 							"name": "WWW 4 East BMD",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }
@@ -2810,7 +2810,7 @@
 							"name": "Alpha Defeated",
 							"map_locations": [
 							  {
-							"map": "WWW Areas",
+							"map": "WWWAreas",
 							"x": 83,
 							"y": 101
 						  }

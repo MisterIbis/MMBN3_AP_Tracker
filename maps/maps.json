@@ -1,98 +1,66 @@
 [
     {
-        "name": "ACDC Town",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/maps/ACDC Town.png"
+        "name": "ACDCTown",
+        "img": "images/maps/ACDC_Town.png"
     },
     {
-        "name": "ACDC Net",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/maps/BN3 ACDC.png"
+        "name": "ACDCNet",
+        "img": "images/maps/ACDC_Net.png"
     },
     {
-        "name": "ACDC School",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/maps/BN3 School Comp.png"
+        "name": "ACDCSchool",
+        "img": "images/maps/School_Comp.png"
     },
     {
         "name": "SciLab",
-        "location_size": 80,
-        "location_border_thickness": 10,
         "img": "images/maps/SciLab.png"
     },
     {
-        "name": "SciLab Net",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/maps/BN3 SciLab Net.png"
+        "name": "SciLabNet",
+        "img": "images/maps/SciLab_Net.png"
     },
     {
         "name": "Beach",
-        "location_size": 80,
-        "location_border_thickness": 10,
         "img": "images/maps/Beach.png"
     },
     {
-        "name": "Beach Net",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/maps/BN3 Beach Net.png"
+        "name": "BeachNet",
+        "img": "images/maps/Beach_Net.png"
     },
     {
-        "name": "Hospital Comps 1-3",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/maps/BN3 Hospital Comp 123.png"
+        "name": "HospitalComps1-3",
+        "img": "images/maps/Hospital_Comp_123.png"
     },
     {
-        "name": "Hospital Comps 4-5",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/maps/BN3 Hospital Comp 45.png"
+        "name": "HospitalComps4-5",
+        "img": "images/maps/Hospital_Comp_45.png"
     },
     {
         "name": "Yoka",
-        "location_size": 80,
-        "location_border_thickness": 10,
         "img": "images/maps/Yoka.png"
     },
     {
-        "name": "Yoka Net",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/maps/BN3 Yoka Net.png"
+        "name": "YokaNet",
+        "img": "images/maps/Yoka_Net.png"
     },
     {
-        "name": "Zoo Computers",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/maps/BN3 Zoo Comp.png"
+        "name": "ZooComps",
+        "img": "images/maps/Zoo_Comps.png"
     },
     {
         "name": "Hades",
-        "location_size": 80,
-        "location_border_thickness": 10,
         "img": "images/maps/Hades.png"
     },
     {
-        "name": "Undernet 1-4",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/maps/BN3 Undernet 1234.png"
+        "name": "Undernet1-4",
+        "img": "images/maps/Undernet_1234.png"
     },
     {
-        "name": "Undernet 5-7",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/maps/BN3 Undernet 567.png"
+        "name": "Undernet5-7",
+        "img": "images/maps/Undernet_567.png"
     },
     {
-        "name": "WWW Areas",
-        "location_size": 80,
-        "location_border_thickness": 10,
-        "img": "images/maps/WWW Areas.png"
+        "name": "WWWAreas",
+        "img": "images/maps/WWW_Areas.png"
     }
 ]
