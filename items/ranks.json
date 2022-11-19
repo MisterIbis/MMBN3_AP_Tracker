@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Rank",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/ranks/rank-00.gif",
+                "codes": "ranks"
+            },
+            {
+                "img": "images/ranks/rank-01.gif",
+                "codes": "ranks"
+            },
+            {
+                "img": "images/ranks/rank-02.gif",
+                "codes": "ranks"
+            },
+            {
+                "img": "images/ranks/rank-03.gif",
+                "codes": "ranks"
+            },
+            {
+                "img": "images/ranks/rank-04.gif",
+                "codes": "ranks"
+            },
+            {
+                "img": "images/ranks/rank-05.gif",
+                "codes": "ranks"
+            },
+            {
+                "img": "images/ranks/rank-06.gif",
+                "codes": "ranks"
+            },
+            {
+                "img": "images/ranks/rank-07.gif",
+                "codes": "ranks"
+            },
+            {
+                "img": "images/ranks/rank-08.gif",
+                "codes": "ranks"
+            }
+        ]
+    },
+    {
+        "name": "Ranks Required",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/ranks/rank-goal-0.gif",
+                "codes": "ranksRequired"
+            },
+            {
+                "img": "images/ranks/rank-goal-1.gif",
+                "codes": "ranksRequired"
+            },
+            {
+                "img": "images/ranks/rank-goal-2.gif",
+                "codes": "ranksRequired"
+            },
+            {
+                "img": "images/ranks/rank-goal-3.gif",
+                "codes": "ranksRequired"
+            },
+            {
+                "img": "images/ranks/rank-goal-4.gif",
+                "codes": "ranksRequired"
+            },
+            {
+                "img": "images/ranks/rank-goal-5.gif",
+                "codes": "ranksRequired"
+            },
+            {
+                "img": "images/ranks/rank-goal-6.gif",
+                "codes": "ranksRequired"
+            },
+            {
+                "img": "images/ranks/rank-goal-7.gif",
+                "codes": "ranksRequired"
+            },
+            {
+                "img": "images/ranks/rank-goal-8.gif",
+                "codes": "ranksRequired"
+            }
+        ]
+    }
+]
