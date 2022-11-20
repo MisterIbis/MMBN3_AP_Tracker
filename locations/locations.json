@@ -659,7 +659,7 @@
 					  {
                     "map": "SciLab",
                     "x": 740,
-                    "y": 512
+                    "y": 409
                   }
                 ],
                 "sections": [
@@ -1036,8 +1036,8 @@
 					"map_locations": [
 					  {
                     "map": "YokaNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 1529,
+                    "y": 407
                   }
                 ],
                 "sections": [
@@ -1352,10 +1352,10 @@
                   ]
 				},
 				{
-					"name": "Beach - Villain",
+					"name": "Undernet - Villain",
 					"map_locations": [
 					  {
-                    "map": "BeachNet",
+                    "map": "Undernet1-4",
                     "x": 83,
                     "y": 101
                   }
@@ -1683,8 +1683,8 @@
                         "map_locations": [
                           {
                         "map": "HadesComp",
-                        "x": 1015,
-                        "y": 605
+                        "x": 664,
+                        "y": 689
                       }
                     ],
                     "sections": [
