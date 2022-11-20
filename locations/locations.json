@@ -1,5 +1,3 @@
-//TODO - ADD TRADE LOCATIONS IN AFTER ADDING TRACKING OF THEIR TRADE ITEMS.
-
 [
 	{
 		"name": "ACDC Region",
@@ -15,52 +13,51 @@
 					//ACDC 1
 					{
 						"name": "ACDC1 Southwest BMD",
-						"short_name": "ACDC1 SW BMD",
 						"map_locations": [
 							{
 							"map": "ACDCNet",
-							"x": 83,
-							"y": 101
+							"x": 185,
+							"y": 299
 							}
 						],
 						"sections": [
 							{
-							"name": "ACDC1 SW BMD",
+							"name": "BMD",
 							"access_rules": [],
 							"item_count": 1
 							}
 						]
 					},
 					{
-						"name": "ACDC1 NE BMD",
+						"name": "ACDC1 Northeast BMD",
 						"map_locations": [
 							{
 							"map": "ACDCNet",
-							"x": 83,
-							"y": 101
+							"x": 889,
+							"y": 367
 							}
 						],
 						"sections": [
 							{
-							"name": "ACDC1 NE BMD",
+							"name": "BMD",
 							"access_rules": [],
 							"item_count": 1
 							}
 						]
 					},
 					{
-						"name": "ACDC1 PMD",
+						"name": "ACDC1 Purple Mystery Data",
 						"map_locations": [
 						  {
 						"map": "ACDCNet",
-						"x": 83,
-						"y": 101
+						"x": 635,
+						"y": 522
 					  }
 					],
 					"sections": [
 					  {
 						"name": "ACDC1 PMD",
-						"access_rules": [],
+						"access_rules": ["WWW_ID"],
 						"item_count": 1
 						}
 					  ]
@@ -70,8 +67,8 @@
 						"map_locations": [
 						  {
 						"map": "ACDCNet",
-						"x": 83,
-						"y": 101
+						"x": 2404,
+						"y": 284
 					  }
 					],
 					"sections": [
@@ -87,8 +84,8 @@
 						"map_locations": [
 						  {
 						"map": "ACDCNet",
-						"x": 83,
-						"y": 101
+						"x": 2112,
+						"y": 527
 					  }
 					],
 					"sections": [
@@ -104,8 +101,8 @@
 						"map_locations": [
 						  {
 						"map": "ACDCNet",
-						"x": 83,
-						"y": 101
+						"x": 936,
+						"y": 1136
 					  }
 					],
 					"sections": [
@@ -127,8 +124,8 @@
 						"map_locations": [
 						{
 						"map": "ACDCSchool",
-						"x": 83,
-						"y": 101
+						"x": 273,
+						"y": 445
 					}
 					],
 					"sections": [
@@ -144,8 +141,8 @@
 						"map_locations": [
 						{
 						"map": "ACDCSchool",
-						"x": 83,
-						"y": 101
+						"x": 656,
+						"y": 276
 					}
 					],
 					"sections": [
@@ -161,8 +158,8 @@
 						"map_locations": [
 						{
 						"map": "ACDCSchool",
-						"x": 83,
-						"y": 101
+						"x": 173,
+						"y": 412
 					}
 					],
 					"sections": [
@@ -178,8 +175,8 @@
 						"map_locations": [
 						{
 						"map": "ACDCSchool",
-						"x": 83,
-						"y": 101
+						"x": 368,
+						"y": 261
 					}
 					],
 					"sections": [
@@ -195,8 +192,8 @@
 						"map_locations": [
 						{
 						"map": "ACDCSchool",
-						"x": 83,
-						"y": 101
+						"x": 609,
+						"y": 510
 					}
 					],
 					"sections": [
@@ -212,8 +209,8 @@
 						"map_locations": [
 						{
 						"map": "ACDCSchool",
-						"x": 83,
-						"y": 101
+						"x": 288,
+						"y": 302
 					}
 					],
 					"sections": [
@@ -229,8 +226,8 @@
 						"map_locations": [
 						{
 						"map": "ACDCSchool",
-						"x": 83,
-						"y": 101
+						"x": 1840,
+						"y": 216
 					}
 					],
 					"sections": [
@@ -246,8 +243,8 @@
 						"map_locations": [
 						{
 						"map": "ACDCSchool",
-						"x": 83,
-						"y": 101
+						"x": 1516,
+						"y": 622
 					}
 					],
 					"sections": [
@@ -263,8 +260,8 @@
 						"map_locations": [
 						{
 						"map": "ACDCSchool",
-						"x": 83,
-						"y": 101
+						"x": 2014,
+						"y": 518
 					}
 					],
 					"sections": [
@@ -280,8 +277,8 @@
 						"map_locations": [
 						{
 						"map": "ACDCSchool",
-						"x": 83,
-						"y": 101
+						"x": 1546,
+						"y": 524
 					}
 					],
 					"sections": [
@@ -297,8 +294,8 @@
 						"map_locations": [
 						{
 						"map": "ACDCSchool",
-						"x": 83,
-						"y": 101
+						"x": 1852,
+						"y": 549
 					}
 					],
 					"sections": [
@@ -313,9 +310,9 @@
 						"name": "School 2 Mainframe BMD",
 						"map_locations": [
 						{
-						"map": "ACDCTown",
-						"x": 83,
-						"y": 101
+						"map": "ACDCSchool",
+						"x": 1228,
+						"y": 463
 					}
 					],
 					"sections": [
@@ -337,8 +334,8 @@
 					"map_locations": [
 					  {
                     "map": "ACDCTown",
-                    "x": 83,
-                    "y": 101
+                    "x": 457,
+                    "y": 439
                   }
                 ],
                 "sections": [
@@ -354,8 +351,8 @@
 					"map_locations": [
 					  {
                     "map": "ACDCTown",
-                    "x": 83,
-                    "y": 101
+                    "x": 493,
+                    "y": 398
                   }
                 ],
                 "sections": [
@@ -367,29 +364,12 @@
                   ]
 				},
 				{
-					"name": "Yai's Phone BMD",
+					"name": "Higsby's Shop",
 					"map_locations": [
 					  {
                     "map": "ACDCTown",
-                    "x": 83,
-                    "y": 101
-                  }
-                ],
-                "sections": [
-                  {
-                    "name": "Yai's Phone BMD",
-                    "access_rules": [],
-                    "item_count": 1
-					}
-                  ]
-				},
-				{
-					"name": "Numberman Display BMD",
-					"map_locations": [
-					  {
-                    "map": "ACDCTown",
-                    "x": 83,
-                    "y": 101
+                    "x": 820,
+                    "y": 255
                   }
                 ],
                 "sections": [
@@ -397,7 +377,13 @@
                     "name": "Numberman Display BMD",
                     "access_rules": [],
                     "item_count": 1
-					}
+					},
+					{
+						"name": "Numberman Codes",
+						"access_rules": [],
+						"clear_as_group": false,
+						"item_count": 31
+						}
                   ]
 				},
 				{
@@ -405,8 +391,8 @@
 					"map_locations": [
 					  {
                     "map": "ACDCTown",
-                    "x": 83,
-                    "y": 101
+                    "x": 1278,
+                    "y": 384
                   }
                 ],
                 "sections": [
@@ -422,8 +408,8 @@
 					"map_locations": [
 					  {
                     "map": "ACDCTown",
-                    "x": 83,
-                    "y": 101
+                    "x": 930,
+                    "y": 560
                   }
                 ],
                 "sections": [
@@ -439,8 +425,8 @@
 					"map_locations": [
 					  {
                     "map": "ACDCTown",
-                    "x": 83,
-                    "y": 101
+                    "x": 1029,
+                    "y": 209
                   }
                 ],
                 "sections": [
@@ -457,30 +443,12 @@
                   ]
 				},
 				{
-					"name": "Higsby's PEGI-compliant item dispenser",
-					"short_name": "Numberman Codes",
-					"map_locations": [
-					  {
-                    "map": "ACDCTown",
-                    "x": 83,
-                    "y": 101
-                  }
-                ],
-                "sections": [
-                  {
-                    "name": "Numberman Codes",
-                    "access_rules": [],
-                    "item_count": 31
-					}
-                  ]
-				},
-				{
 					"name": "Mayls HP BMD",
 					"map_locations": [
 					  {
 					"map": "ACDCTown",
-					"x": 83,
-					"y": 101
+					"x": 344,
+					"y": 476
 				  }
 				],
 				"sections": [
@@ -492,12 +460,12 @@
 				  ]
 				},
 				{
-					"name": "Yais HP BMD",
+					"name": "Yai's House",
 					"map_locations": [
 					  {
 					"map": "ACDCTown",
-					"x": 83,
-					"y": 101
+					"x": 578,
+					"y": 248
 				  }
 				],
 				"sections": [
@@ -505,7 +473,12 @@
 					"name": "Yais HP BMD",
 					"access_rules": [],
 					"item_count": 2
-					}
+					},
+					{
+						"name": "Yai's Phone BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
 				  ]
 				},
 				{
@@ -513,8 +486,8 @@
 					"map_locations": [
 					  {
 					"map": "ACDCTown",
-					"x": 83,
-					"y": 101
+					"x": 844,
+					"y": 588
 				  }
 				],
 				"sections": [
@@ -537,8 +510,8 @@
 					"map_locations": [
 					  {
                     "map": "SciLabNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 804,
+                    "y": 1148
                   }
                 ],
                 "sections": [
@@ -554,14 +527,13 @@
 					"map_locations": [
 					  {
                     "map": "SciLabNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 584,
+                    "y": 1228
                   }
                 ],
                 "sections": [
                   {
-                    "name": "SciLab 1 WWW BMD",
-                    "access_rules": ["WWW ID"],
+                    "name": "SciLab 1 WWW_BMD",
                     "item_count": 1
 					}
                   ]
@@ -571,8 +543,8 @@
 					"map_locations": [
 					  {
                     "map": "SciLabNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 1384,
+                    "y": 633
                   }
                 ],
                 "sections": [
@@ -588,8 +560,8 @@
 					"map_locations": [
 					  {
                     "map": "SciLabNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 1105,
+                    "y": 261
                   }
                 ],
                 "sections": [
@@ -613,8 +585,8 @@
 					"map_locations": [
 					  {
                     "map": "SciLab",
-                    "x": 83,
-                    "y": 101
+                    "x": 577,
+                    "y": 612
                   }
                 ],
                 "sections": [
@@ -630,8 +602,8 @@
 					"map_locations": [
 					  {
                     "map": "SciLab",
-                    "x": 83,
-                    "y": 101
+                    "x": 519,
+                    "y": 634
                   }
                 ],
                 "sections": [
@@ -647,8 +619,8 @@
 					"map_locations": [
 					  {
                     "map": "SciLab",
-                    "x": 83,
-                    "y": 101
+                    "x": 642,
+                    "y": 391
                   }
                 ],
                 "sections": [
@@ -664,8 +636,8 @@
 					"map_locations": [
 					  {
                     "map": "SciLab",
-                    "x": 83,
-                    "y": 101
+                    "x": 1600,
+                    "y": 215
                   }
                 ],
                 "sections": [
@@ -686,8 +658,8 @@
 					"map_locations": [
 					  {
                     "map": "SciLab",
-                    "x": 83,
-                    "y": 101
+                    "x": 740,
+                    "y": 512
                   }
                 ],
                 "sections": [
@@ -835,8 +807,8 @@
 					"map_locations": [
 					  {
                     "map": "YokaNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 634,
+                    "y": 180
                   }
                 ],
                 "sections": [
@@ -852,14 +824,14 @@
 					"map_locations": [
 					  {
                     "map": "YokaNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 440,
+                    "y": 310
                   }
                 ],
                 "sections": [
                   {
                     "name": "Yoka 1 WWW BMD",
-                    "access_rules": ["WWW ID"],
+                    "access_rules": ["WWW_ID"],
                     "item_count": 1
 					}
                   ]
@@ -869,14 +841,14 @@
 					"map_locations": [
 					  {
                     "map": "YokaNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 490,
+                    "y": 540
                   }
                 ],
                 "sections": [
                   {
                     "name": "Yoka 1 PMD",
-                    "access_rules": [],
+                    "access_rules": ["press"],
                     "item_count": 1
 					}
                   ]
@@ -886,8 +858,8 @@
 					"map_locations": [
 					  {
                     "map": "YokaNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 1465,
+                    "y": 360
                   }
                 ],
                 "sections": [
@@ -903,14 +875,14 @@
 					"map_locations": [
 					  {
                     "map": "YokaNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 1370,
+                    "y": 253
                   }
                 ],
                 "sections": [
                   {
                     "name": "Yoka 2 Upper BMD",
-                    "access_rules": [],
+                    "access_rules": ["press"],
                     "item_count": 1
 					}
                   ]
@@ -923,12 +895,12 @@
 				"access_rules": ["Needle"],
 				"children": [
 				{
-					"name": "Yoka Mr. Quiz",
+					"name": "Yoka Inn",
 					"map_locations": [
 					  {
                     "map": "Yoka",
-                    "x": 83,
-                    "y": 101
+                    "x": 210,
+                    "y": 715
                   }
                 ],
                 "sections": [
@@ -936,40 +908,31 @@
                     "name": "Yoka Mr. Quiz",
                     "access_rules": [],
                     "item_count": 1
-					}
-                  ]
-				},
-				{
+					},
+					{
 					"name": "Yoka Quiz Master",
-					"map_locations": [
-					  {
-                    "map": "Yoka",
-                    "x": 83,
-                    "y": 101
-                  }
-                ],
-                "sections": [
-                  {
-                    "name": "Yoka Quiz Master",
-                    "access_rules": [],
-                    "item_count": 1
-					}
-                  ]
-				},
-				{
+					"access_rules": [],
+					"item_count": 1
+					},
+					{
 					"name": "Yoka Inn - Jars",
-					"map_locations": [
-					  {
-                    "map": "Yoka",
-                    "x": 83,
-                    "y": 101
-                  }
-                ],
-                "sections": [
-                  {
-                    "name": "Yoka Inn - Jars",
-                    "access_rules": [],
-                    "item_count": 1
+					"access_rules": [],
+					"item_count": 1
+					},
+					{
+					"name": "Yoka Inn - TV BMD",
+					"access_rules": [],
+					"item_count": 1
+					},
+					{
+					"name": "Yoka Inn - Armor BMD",
+					"access_rules": [],
+					"item_count": 1
+					},
+					{
+					"name": "Yoka Inn - Hot Spring BMD",
+					"access_rules": [],
+					"item_count": 1
 					}
                   ]
 				},
@@ -978,8 +941,8 @@
 					"map_locations": [
 					  {
                     "map": "Yoka",
-                    "x": 83,
-                    "y": 101
+                    "x": 1109,
+                    "y": 85
                   }
                 ],
                 "sections": [
@@ -995,8 +958,8 @@
 					"map_locations": [
 					  {
                     "map": "Yoka",
-                    "x": 83,
-                    "y": 101
+                    "x": 1350,
+                    "y": 416
                   }
                 ],
                 "sections": [
@@ -1013,51 +976,17 @@
                   ]
 				},
 				{
-					"name": "Yoka Inn - TV BMD",
+					"name": "Yoka Zoo - Giraffe BMD",
 					"map_locations": [
 					  {
                     "map": "Yoka",
-                    "x": 83,
-                    "y": 101
+                    "x": 1220,
+                    "y": 124
                   }
                 ],
                 "sections": [
                   {
-                    "name": "Yoka Inn - TV BMD",
-                    "access_rules": [],
-                    "item_count": 1
-					}
-                  ]
-				},
-				{
-					"name": "Yoka Inn - Armor BMD",
-					"map_locations": [
-					  {
-                    "map": "Yoka",
-                    "x": 83,
-                    "y": 101
-                  }
-                ],
-                "sections": [
-                  {
-                    "name": "Yoka Inn - Armor BMD",
-                    "access_rules": [],
-                    "item_count": 1
-					}
-                  ]
-				},
-				{
-					"name": "Yoka Inn - Hot Spring BMD",
-					"map_locations": [
-					  {
-                    "map": "Yoka",
-                    "x": 83,
-                    "y": 101
-                  }
-                ],
-                "sections": [
-                  {
-                    "name": "Yoka Inn - Hot Spring BMD",
+                    "name": "Yoka Zoo - Giraffe BMD",
                     "access_rules": [],
                     "item_count": 1
 					}
@@ -1068,8 +997,8 @@
 					"map_locations": [
 					  {
                     "map": "Yoka",
-                    "x": 83,
-                    "y": 101
+                    "x": 971,
+                    "y": 594
                   }
                 ],
                 "sections": [
@@ -1085,8 +1014,8 @@
 					"map_locations": [
 					  {
                     "map": "Yoka",
-                    "x": 83,
-                    "y": 101
+                    "x": 114,
+                    "y": 714
                   }
                 ],
                 "sections": [
@@ -1103,10 +1032,10 @@
                   ]
 				},
 				{
-					"name": "Tamako's HomePage",
+					"name": "Comedian",
 					"map_locations": [
 					  {
-                    "map": "Yoka",
+                    "map": "YokaNet",
                     "x": 83,
                     "y": 101
                   }
@@ -1116,15 +1045,9 @@
                     "name": "Yoka - Comedian",
                     "access_rules": [],
                     "item_count": 1
-					},
-					{
-					"name": "Yoka - Comedian",
-					"access_rules": [],
-					"item_count": 1
 					}
                   ]
 				}
-				
 			]
 			},
 			// For my own sanity, splitting Zoo comps into their own thing.
@@ -1137,8 +1060,8 @@
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 83,
-                    "y": 101
+                    "x": 864,
+                    "y": 497
                   }
                 ],
                 "sections": [
@@ -1154,8 +1077,8 @@
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 83,
-                    "y": 101
+                    "x": 780,
+                    "y": 320
                   }
                 ],
                 "sections": [
@@ -1167,12 +1090,29 @@
                   ]
 				},
 				{
+					"name": "Zoo 1 Central BMD",
+					"map_locations": [
+					  {
+                    "map": "ZooComps",
+                    "x": 678,
+                    "y": 432
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Zoo 1 Central BMD",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
 					"name": "Zoo 2 East BMD",
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 83,
-                    "y": 101
+                    "x": 2113,
+                    "y": 224
                   }
                 ],
                 "sections": [
@@ -1188,8 +1128,8 @@
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 83,
-                    "y": 101
+                    "x": 2040,
+                    "y": 350
                   }
                 ],
                 "sections": [
@@ -1205,8 +1145,8 @@
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 83,
-                    "y": 101
+                    "x": 1220,
+                    "y": 541
                   }
                 ],
                 "sections": [
@@ -1222,8 +1162,8 @@
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 83,
-                    "y": 101
+                    "x": 434,
+                    "y": 870
                   }
                 ],
                 "sections": [
@@ -1239,8 +1179,8 @@
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 83,
-                    "y": 101
+                    "x": 659,
+                    "y": 1144
                   }
                 ],
                 "sections": [
@@ -1256,8 +1196,8 @@
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 83,
-                    "y": 101
+                    "x": 617,
+                    "y": 904
                   }
                 ],
                 "sections": [
@@ -1273,8 +1213,8 @@
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 83,
-                    "y": 101
+                    "x": 244,
+                    "y": 932
                   }
                 ],
                 "sections": [
@@ -1290,8 +1230,8 @@
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 83,
-                    "y": 101
+                    "x": 1203,
+                    "y": 1203
                   }
                 ],
                 "sections": [
@@ -1307,8 +1247,8 @@
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 83,
-                    "y": 101
+                    "x": 1204,
+                    "y": 1041
                   }
                 ],
                 "sections": [
@@ -1324,8 +1264,8 @@
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 83,
-                    "y": 101
+                    "x": 1920,
+                    "y": 1310
                   }
                 ],
                 "sections": [
@@ -1348,8 +1288,8 @@
 					"map_locations": [
 					  {
                     "map": "BeachNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 320,
+                    "y": 1027
                   }
                 ],
                 "sections": [
@@ -1365,8 +1305,8 @@
 					"map_locations": [
 					  {
                     "map": "BeachNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 768,
+                    "y": 800
                   }
                 ],
                 "sections": [
@@ -1382,14 +1322,14 @@
 					"map_locations": [
 					  {
                     "map": "BeachNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 1871,
+                    "y": 415
                   }
                 ],
                 "sections": [
                   {
                     "name": "Beach 2 East BMD",
-                    "access_rules": [],
+                    "access_rules": ["press"],
                     "item_count": 1
 					}
                   ]
@@ -1399,8 +1339,8 @@
 					"map_locations": [
 					  {
                     "map": "BeachNet",
-                    "x": 83,
-                    "y": 101
+                    "x": 1388,
+                    "y": 357
                   }
                 ],
                 "sections": [
@@ -1436,12 +1376,12 @@
 				"access_rules": ["PETCase"],
 				"children": [
 					{
-                        "name": "Beach DNN Main Console PMD",
+                        "name": "Beach - DNN Station",
                         "map_locations": [
                           {
                         "map": "Beach",
-                        "x": 83,
-                        "y": 101
+                        "x": 1478,
+                        "y": 187
                       }
                     ],
                     "sections": [
@@ -1449,7 +1389,42 @@
                         "name": "Beach DNN Main Console PMD",
                         "access_rules": [],
                         "item_count": 1
-                        }
+                        },
+						{
+						"name": "Beach Battle Console BMD",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach DNN Shadow J Trade",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach DNN HoleMetr H Trade",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach DNN WideSwrd C Trade",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach DNN Security Panel PMD",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach DNN Boxes",
+						"access_rules": [],
+						"item_count": 1
+						},                      
+						{
+						"name": "Beach Broadcast Computer BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
                       ]
                     },          
 					{
@@ -1470,226 +1445,79 @@
                       ]
                     },          
 					{
-                        "name": "Beach Hospital Bed BMD",
+                        "name": "Beach - Hospital",
                         "map_locations": [
                           {
                         "map": "Beach",
-                        "x": 83,
-                        "y": 101
+                        "x": 419,
+                        "y": 507
                       }
                     ],
                     "sections": [
                       {
-                        "name": "Beach Hospital Bed BMD",
+                        "name": "Beach - Hospital - Bed BMD",
                         "access_rules": [],
                         "item_count": 1
-                        }
+                        },
+						{
+						"name": "Beach - Hospital - Pink Door",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Hospital Quiz Queen",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach Hospital Tree",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach Vending Machine BMD",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Hospital DynaWav V Trade",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach Hospital Girl",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach Hospital Hidden Conversation",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach Hospital Plaque",
+						"access_rules": [],
+						"item_count": 1
+						}
                       ]
                     },          
 					{
-                        "name": "Beach News Van BMD",
+                        "name": "Beach - News Van BMD",
                         "map_locations": [
                           {
                         "map": "Beach",
-                        "x": 83,
-                        "y": 101
+                        "x": 1664,
+                        "y": 259
                       }
                     ],
                     "sections": [
                       {
-                        "name": "Beach News Van BMD",
+                        "name": "Beach - News Van BMD",
                         "access_rules": [],
                         "item_count": 1
                         }
                       ]
-                    },          
-					{
-                        "name": "Hades South BMD",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Hades South BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Beach Battle Console BMD",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach Battle Console BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Beach Hospital Pink Door",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach Hospital Pink Door",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Hades Quiz King",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Hades Quiz King",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Hospital Quiz Queen",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Hospital Quiz Queen",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Beach Hospital Tree",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach Hospital Tree",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Beach Vending Machine BMD",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach Vending Machine BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Hospital DynaWav V Trade",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Hospital DynaWav V Trade",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Beach DNN HoleMetr H Trade",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach DNN HoleMetr H Trade",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Beach Broadcast Computer BMD",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach Broadcast Computer BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Hades Boat Dock",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Hades Boat Dock",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
+                    },     
 					{
                         "name": "Beach DNN Kiosk",
                         "map_locations": [
@@ -1723,58 +1551,7 @@
                         "item_count": 1
                         }
                       ]
-                    },          
-					{
-                        "name": "Beach DNN WideSwrd C Trade",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach DNN WideSwrd C Trade",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Hades HadesKey BMD",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Hades HadesKey BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Beach DNN Security Panel PMD",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach DNN Security Panel PMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
+                    },   
 					{
                         "name": "Undernet 6 TV BMD",
                         "map_locations": [
@@ -1791,75 +1568,7 @@
                         "item_count": 1
                         }
                       ]
-                    },          
-					{
-                        "name": "Hades Gargoyle BMD",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Hades Gargoyle BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Beach DNN Boxes",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach DNN Boxes",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Beach Hospital Girl",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach Hospital Girl",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Beach Hospital Hidden Conversation",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach Hospital Hidden Conversation",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
+                    },     
 					{
                         "name": "Beach DNN Poster",
                         "map_locations": [
@@ -1876,41 +1585,7 @@
                         "item_count": 1
                         }
                       ]
-                    },          
-					{
-                        "name": "Beach DNN Shadow J Trade",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach DNN Shadow J Trade",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Beach Hospital Plaque",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach Hospital Plaque",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
+                    },
 					{
                         "name": "Beach TV BMD",
                         "map_locations": [
@@ -1947,885 +1622,993 @@
                     }
 			]
 			},
-			//Hospital Comps
+			// Hades Isle Checks
 			{
-				"name": "Beach - Hospital Comps",
+				"name": "Hades Isle",
 				"access_rules": ["PETCase"],
 				"children": [
 					{
-                        "name": "Hospital 1 North BMD",
+                        "name": "Hades Gargoyle BMD",
                         "map_locations": [
                           {
-                        "map": "HospitalComps1-3",
-                        "x": 83,
-                        "y": 101
-						  }
-						],
-						"sections": [
-						{
-							"name": "Hospital 1 North BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 1 West BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps1-3",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 1 West BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 1 Center BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps1-3",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 1 Center BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 2 Island BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps1-3",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 2 Island BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 2 Central BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps1-3",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 2 Central BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 2 Southwest BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps1-3",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 2 Southwest BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 3 West BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps1-3",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 3 West BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 3 Central BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps1-3",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 3 Central BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 3 Northwest BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps1-3",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 3 Northwest BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 4 North BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps4-5",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 4 North BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 4 Central BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps4-5",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 4 Central BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 4 Southeast BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps4-5",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 4 Southeast BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 5 Island BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps4-5",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 5 Island BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 5 Northeast BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps4-5",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 5 Northeast BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						},
-						{
-							"name": "Hospital 5 Southwest BMD",
-							"map_locations": [
-							{
-							"map": "HospitalComps4-5",
-							"x": 83,
-							"y": 101
-						}
-						],
-						"sections": [
-						{
-							"name": "Hospital 5 Southwest BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						]
-						}
-					]
-				},
-				//Undernet, regular (Pre-drillman access)
-				{
-					"name": "Undernet",
-				"access_rules": ["Press","GigFreez"],
-				"children": [
+                        "map": "HadesIsle",
+                        "x": 1015,
+                        "y": 605
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Hades Gargoyle BMD",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    }, 
 					{
-                        "name": "Undernet 1 South BMD",
+                        "name": "Hades HadesKey BMD",
                         "map_locations": [
                           {
-                        "map": "Undernet1-4",
-                        "x": 83,
-                        "y": 101
+                        "map": "HadesComp",
+                        "x": 675,
+                        "y": 77
                       }
                     ],
                     "sections": [
                       {
-                        "name": "Undernet 1 South BMD",
+                        "name": "Hades HadesKey BMD",
+                        "access_rules": ["press"],
+                        "item_count": 1
+                        }
+                      ]
+                    },    
+					{
+                        "name": "Hades Boat Dock",
+                        "map_locations": [
+                          {
+                        "map": "HadesIsle",
+                        "x": 366,
+                        "y": 790
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Hades Boat Dock",
                         "access_rules": [],
                         "item_count": 1
                         }
                       ]
                     },
-                    {
-                        "name": "Undernet 1 WWW BMD",
+					{
+                        "name": "Hades South BMD",
                         "map_locations": [
                           {
-                        "map": "Undernet1-4",
-                        "x": 83,
-                        "y": 101
+                        "map": "HadesComp",
+                        "x": 1015,
+                        "y": 605
                       }
                     ],
                     "sections": [
                       {
-                        "name": "Undernet 1 WWW BMD",
-                        "access_rules": [],
+                        "name": "Hades South BMD",
+                        "access_rules": ["press"],
                         "item_count": 1
                         }
                       ]
-                    },
-                    {
-                        "name": "Undernet 2 Lower BMD",
+                    },        
+					{
+                        "name": "Hades Quiz King",
                         "map_locations": [
                           {
-                        "map": "Undernet1-4",
-                        "x": 83,
-                        "y": 101
+                        "map": "HadesIsle",
+                        "x": 1233,
+                        "y": 260
                       }
                     ],
                     "sections": [
                       {
-                        "name": "Undernet 2 Lower BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },
-                    {
-                        "name": "Undernet 2 Upper BMD",
-                        "map_locations": [
-                          {
-                        "map": "Undernet1-4",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Undernet 2 Upper BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },
-                    {
-                        "name": "Undernet 3 South BMD",
-                        "map_locations": [
-                          {
-                        "map": "Undernet1-4",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Undernet 3 South BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },
-                    {
-                        "name": "Undernet 3 Central BMD",
-                        "map_locations": [
-                          {
-                        "map": "Undernet1-4",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Undernet 3 Central BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },
-                    {
-                        "name": "Undernet 4 Pillar Prog",
-                        "map_locations": [
-                          {
-                        "map": "Undernet1-4",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Undernet 4 Pillar Prog",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },
-                    {
-                        "name": "Undernet 4 Top North BMD",
-                        "map_locations": [
-                          {
-                        "map": "Undernet1-4",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Undernet 4 Top North BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },
-                    {
-                        "name": "Undernet 4 Bottom West BMD",
-                        "map_locations": [
-                          {
-                        "map": "Undernet1-4",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Undernet 4 Bottom West BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },
-                    {
-                        "name": "Undernet 4 Top Pillar BMD",
-                        "map_locations": [
-                          {
-                        "map": "Undernet1-4",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Undernet 4 Top Pillar BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },
-                    {
-                        "name": "Undernet 5 Upper BMD",
-                        "map_locations": [
-                          {
-                        "map": "Undernet5-7",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Undernet 5 Upper BMD",
+                        "name": "Hades Quiz King",
                         "access_rules": [],
                         "item_count": 1
                         }
                       ]
                     }
 				]
-				},
-				// Deep Undernet
+			},
+			//Hospital Comps 
+			{
+			"name": "Beach - Hospital Comps",
+			"access_rules": ["PETCase"],
+			"children": [
 				{
-					"name": "Deep Undernet",
-					"access_rules": ["CSciPas","SubPET"],
-					"children": [
+					"name": "Hospital 1 North BMD",
+					"map_locations": [
 						{
-							"name": "Undernet 5 Lower BMD",
-							"map_locations": [
-							  {
-							"map": "Undernet5-7",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "Undernet 5 Lower BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "Undernet 6 East BMD",
-							"map_locations": [
-							  {
-							"map": "Undernet5-7",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "Undernet 6 East BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "Undernet 6 Central BMD",
-							"map_locations": [
-							  {
-							"map": "Undernet5-7",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "Undernet 6 Central BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "Undernet 7 PMD",
-							"map_locations": [
-							  {
-							"map": "Undernet5-7",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "Undernet 7 PMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "Undernet 7 West BMD",
-							"map_locations": [
-							  {
-							"map": "Undernet5-7",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "Undernet 7 West BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "Undernet 7 Northeast BMD",
-							"map_locations": [
-							  {
-							"map": "Undernet5-7",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "Undernet 7 Northeast BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "Undernet 7 Northwest BMD",
-							"map_locations": [
-							  {
-							"map": "Undernet5-7",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "Undernet 7 Northwest BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
+					"map": "HospitalComps1-3",
+					"x": 573,
+					"y": 267
+						}
+					],
+					"sections": [
+					{
+						"name": "Hospital 1 North BMD",
+						"access_rules": [],
+						"item_count": 1
 						}
 					]
-				},
-				// World 3 island - Time to win!
-				{
-					"name": "WWW island",
-					"access_rules": ["GigFreez"],
-					"children": [
+					},
+					{
+						"name": "Hospital 1 West BMD",
+						"map_locations": [
 						{
-							"name": "WWW Control Room 1 Screen",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW Control Room 1 Screen",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW Wilys Desk",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW Wilys Desk",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW Wall BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW Wall BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 1 East BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 1 East BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 1 West BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 1 West BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 1 Central BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 1 Central BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 1 South BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 1 South BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 2 East BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 2 East BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 2 Northwest BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 2 Northwest BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 2 West BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 2 West BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 3 East BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 3 East BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 3 North BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 3 North BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 3 South BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 3 South BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 4 Central BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 4 Central BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 4 Northwest BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 4 Northwest BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "WWW 4 East BMD",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "WWW 4 East BMD",
-							"access_rules": [],
-							"item_count": 1
-							}
-						  ]
-						},
-						{
-							"name": "Alpha Defeated",
-							"map_locations": [
-							  {
-							"map": "WWWAreas",
-							"x": 83,
-							"y": 101
-						  }
-						],
-						"sections": [
-						  {
-							"name": "Alpha Defeated",
-							"access_rules": [],
-							"hosted_item": "Alpha"
-							}
-						  ]
+						"map": "HospitalComps1-3",
+						"x": 252,
+						"y": 264
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 1 West BMD",
+						"access_rules": [],
+						"item_count": 1
 						}
+					]
+					},
+					{
+						"name": "Hospital 1 Center BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps1-3",
+						"x": 426,
+						"y": 431
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 1 Center BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "Hospital 2 Island BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps1-3",
+						"x": 1676,
+						"y": 291
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 2 Island BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "Hospital 2 Central BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps1-3",
+						"x": 1611,
+						"y": 326
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 2 Central BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "Hospital 2 Southwest BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps1-3",
+						"x": 1325,
+						"y": 567
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 2 Southwest BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "Hospital 3 West BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps1-3",
+						"x": 615,
+						"y": 930
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 3 West BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "Hospital 3 Central BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps1-3",
+						"x": 1310,
+						"y": 1053
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 3 Central BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "Hospital 3 Northwest BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps1-3",
+						"x": 614,
+						"y": 928
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 3 Northwest BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "Hospital 4 North BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps4-5",
+						"x": 810,
+						"y": 174
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 4 North BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "Hospital 4 Central BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps4-5",
+						"x": 433,
+						"y": 367
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 4 Central BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "Hospital 4 Southeast BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps4-5",
+						"x": 844,
+						"y": 509
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 4 Southeast BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "Hospital 5 Island BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps4-5",
+						"x": 1587,
+						"y": 588
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 5 Island BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "Hospital 5 Northeast BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps4-5",
+						"x": 2099,
+						"y": 206
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 5 Northeast BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					},
+					{
+						"name": "Hospital 5 Southwest BMD",
+						"map_locations": [
+						{
+						"map": "HospitalComps4-5",
+						"x": 1524,
+						"y": 556
+					}
+					],
+					"sections": [
+					{
+						"name": "Hospital 5 Southwest BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					]
+					}
+				]
+			},
+			//Undernet, regular (Pre-drillman access)
+			{
+				"name": "Undernet",
+			"access_rules": ["Press","GigFreez"],
+			"children": [
+				{
+					"name": "Undernet 1 South BMD",
+					"map_locations": [
+						{
+					"map": "Undernet1-4",
+					"x": 571,
+					"y": 600
+					}
+				],
+				"sections": [
+					{
+					"name": "Undernet 1 South BMD",
+					"access_rules": [],
+					"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Undernet 1 WWW BMD",
+					"map_locations": [
+						{
+					"map": "Undernet1-4",
+					"x": 97,
+					"y": 199
+					}
+				],
+				"sections": [
+					{
+					"name": "Undernet 1 WWW BMD",
+					"access_rules": ["WWW_ID"],
+					"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Undernet 2 Lower BMD",
+					"map_locations": [
+						{
+					"map": "Undernet1-4",
+					"x": 1707,
+					"y": 709
+					}
+				],
+				"sections": [
+					{
+					"name": "Undernet 2 Lower BMD",
+					"access_rules": [],
+					"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Undernet 2 Upper BMD",
+					"map_locations": [
+						{
+					"map": "Undernet1-4",
+					"x": 2057,
+					"y": 503
+					}
+				],
+				"sections": [
+					{
+					"name": "Undernet 2 Upper BMD",
+					"access_rules": [],
+					"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Undernet 3 South BMD",
+					"map_locations": [
+						{
+					"map": "Undernet1-4",
+					"x": 225,
+					"y": 1640
+					}
+				],
+				"sections": [
+					{
+					"name": "Undernet 3 South BMD",
+					"access_rules": [],
+					"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Undernet 3 Central BMD",
+					"map_locations": [
+						{
+					"map": "Undernet1-4",
+					"x": 706,
+					"y": 1371
+					}
+				],
+				"sections": [
+					{
+					"name": "Undernet 3 Central BMD",
+					"access_rules": [],
+					"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Undernet 4 Pillar Prog",
+					"map_locations": [
+						{
+					"map": "Undernet1-4",
+					"x": 1580,
+					"y": 1504
+					}
+				],
+				"sections": [
+					{
+					"name": "Undernet 4 Pillar Prog",
+					"access_rules": [],
+					"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Undernet 4 Top North BMD",
+					"map_locations": [
+						{
+					"map": "Undernet1-4",
+					"x": 1740,
+					"y": 1029
+					}
+				],
+				"sections": [
+					{
+					"name": "Undernet 4 Top North BMD",
+					"access_rules": [],
+					"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Undernet 4 Bottom West BMD",
+					"map_locations": [
+						{
+					"map": "Undernet1-4",
+					"x": 1131,
+					"y": 1237
+					}
+				],
+				"sections": [
+					{
+					"name": "Undernet 4 Bottom West BMD",
+					"access_rules": [],
+					"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Undernet 4 Top Pillar BMD",
+					"map_locations": [
+						{
+					"map": "Undernet1-4",
+					"x": 1547,
+					"y": 1059
+					}
+				],
+				"sections": [
+					{
+					"name": "Undernet 4 Top Pillar BMD",
+					"access_rules": [],
+					"item_count": 1
+					}
+					]
+				},
+				{
+					"name": "Undernet 5 Upper BMD",
+					"map_locations": [
+						{
+					"map": "Undernet5-7",
+					"x": 106,
+					"y": 515
+					}
+				],
+				"sections": [
+					{
+					"name": "Undernet 5 Upper BMD",
+					"access_rules": [],
+					"item_count": 1
+					}
 					]
 				}
-
+			]
+			},
+			// Deep Undernet
+			{
+				"name": "Deep Undernet",
+				"access_rules": ["CSciPas","SubPET"],
+				"children": [
+					{
+						"name": "Undernet 5 Lower BMD",
+						"map_locations": [
+							{
+						"map": "Undernet5-7",
+						"x": 696,
+						"y": 226
+						}
+					],
+					"sections": [
+						{
+						"name": "Undernet 5 Lower BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "Undernet 6 East BMD",
+						"map_locations": [
+							{
+						"map": "Undernet5-7",
+						"x": 2045,
+						"y": 635
+						}
+					],
+					"sections": [
+						{
+						"name": "Undernet 6 East BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "Undernet 6 Central BMD",
+						"map_locations": [
+							{
+						"map": "Undernet5-7",
+						"x": 1564,
+						"y": 334
+						}
+					],
+					"sections": [
+						{
+						"name": "Undernet 6 Central BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "Undernet 7 PMD",
+						"map_locations": [
+							{
+						"map": "Undernet5-7",
+						"x": 1527,
+						"y": 900
+						}
+					],
+					"sections": [
+						{
+						"name": "Undernet 7 PMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "Undernet 7 West BMD",
+						"map_locations": [
+							{
+						"map": "Undernet5-7",
+						"x": 602,
+						"y": 1269
+						}
+					],
+					"sections": [
+						{
+						"name": "Undernet 7 West BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "Undernet 7 Northeast BMD",
+						"map_locations": [
+							{
+						"map": "Undernet5-7",
+						"x": 1414,
+						"y": 1350
+						}
+					],
+					"sections": [
+						{
+						"name": "Undernet 7 Northeast BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "Undernet 7 Northwest BMD",
+						"map_locations": [
+							{
+						"map": "Undernet5-7",
+						"x": 841,
+						"y": 1051
+						}
+					],
+					"sections": [
+						{
+						"name": "Undernet 7 Northwest BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "Undernet 7  BMD",
+						"map_locations": [
+							{
+						"map": "Undernet5-7",
+						"x": 1083,
+						"y": 1190
+						}
+					],
+					"sections": [
+						{
+						"name": "Undernet 7 Hammer BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					}
+				]
+			},
+			// World 3 island - Time to win!
+			{
+				"name": "WWW island",
+				"access_rules": ["GigFreez"],
+				"children": [
+					{
+						"name": "WWW Control Room 1 Screen",
+						"map_locations": [
+							{
+						"map": "WWWIsle",
+						"x": 83,
+						"y": 101
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW Control Room 1 Screen",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW Wilys Desk",
+						"map_locations": [
+							{
+						"map": "WWWIsle",
+						"x": 83,
+						"y": 101
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW Wilys Desk",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW Wall BMD",
+						"map_locations": [
+							{
+						"map": "WWWIsle",
+						"x": 83,
+						"y": 101
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW Wall BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 1 East BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 567,
+						"y": 530
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW 1 East BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 1 West BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 120,
+						"y": 373
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW 1 West BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 1 Central BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 419,
+						"y": 415
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW 1 Central BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 1 South BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 475,
+						"y": 586
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW ID Data A",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 2 East BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 1880,
+						"y": 395
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW 2 East BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 2 Northwest BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 1434,
+						"y": 207
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW 2 Northwest BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 2 West BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 1210,
+						"y": 481
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW ID Data B",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 3 East BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 836,
+						"y": 1327
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW 3 East BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 3 North BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 576,
+						"y": 1006
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW 3 North BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 3 South BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 229,
+						"y": 1438
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW 3 ID Data C",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 4 Central BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 1577,
+						"y": 1208
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW 4 Central BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 4 Northwest BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 1355,
+						"y": 1003
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW 4 Northwest BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW 4 East BMD",
+						"map_locations": [
+							{
+						"map": "WWWAreas",
+						"x": 2062,
+						"y": 1259
+						}
+					],
+					"sections": [
+						{
+						"name": "WWW ID Data D",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "Alpha Defeated",
+						"map_locations": [
+							{
+						"map": "WWWIsle",
+						"x": 83,
+						"y": 101
+						}
+					],
+					"sections": [
+						{
+						"name": "Alpha Defeated",
+						"access_rules": [],
+						"hosted_item": "Alpha"
+						}
+						]
+					}
+				]
+			}
 		]
 	}
 ]

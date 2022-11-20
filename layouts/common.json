@@ -1,0 +1,180 @@
+{
+    "overworld_maps": {
+      "type": "tabbed",
+      "tabs": [
+        {
+          "title": "ACDC Town",
+          "content": {
+            "type": "map",
+            "maps": [
+              "ACDCTown"
+            ]
+          }
+        },
+        {
+          "title": "SciLab",
+          "content": {
+            "type": "map",
+            "maps": [
+              "SciLab"
+            ]
+          }
+        },
+        {
+          "title": "Yoka",
+          "content": {
+            "type": "map",
+            "maps": [
+              "Yoka"
+            ]
+          }
+        },
+        {
+          "title": "Beach",
+          "content": {
+            "type": "map",
+            "maps": [
+              "Beach"
+            ]
+          }
+        },
+        {
+          "title": "Hades Isle",
+          "content": {
+            "type": "map",
+            "maps": [
+              "HadesIsle"
+            ]
+          }
+        },
+        {
+          "title": "WWW Isle",
+          "content": {
+            "type": "map",
+            "maps": [
+              "WWWIsle"
+            ]
+          }
+        }
+      ]
+    },
+    "Network_maps": {
+      "type": "tabbed",
+      "tabs": [
+        {
+          "title": "ACDC Net",
+          "content": {
+            "type": "map",
+            "maps": [
+              "ACDCNet"
+            ]
+          }
+        },
+        {
+          "title": "SciLab Net",
+          "content": {
+            "type": "map",
+            "maps": [
+              "SciLabNet"
+            ]
+          }
+        },
+        {
+          "title": "Beach Net",
+          "content": {
+            "type": "map",
+            "maps": [
+              "BeachNet"
+            ]
+          }
+        },
+        {
+          "title": "Yoka Net",
+          "content": {
+            "type": "map",
+            "maps": [
+              "YokaNet"
+            ]
+          }
+        },
+        {
+            "title": "UnderNet 1-4",
+            "content": {
+              "type": "map",
+              "maps": [
+                "Undernet1-4"
+              ]
+            }
+          },
+          {
+            "title": "Undernet 5-7",
+            "content": {
+              "type": "map",
+              "maps": [
+                "Undernet5-7"
+              ]
+            }
+          }
+      ]
+    },
+    "Dungeon_maps": {
+      "type": "tabbed",
+      "tabs": [
+        {
+            "title": "ACDC School",
+            "content": {
+              "type": "map",
+              "maps": [
+                "ACDCSchool"
+              ]
+            }
+        },
+        { 
+            "title": "Zoo Comps",
+            "content": {
+            "type": "map",
+            "maps": [
+            "ZooComps"
+          ]
+        }
+        },
+        { 
+            "title": "Hospital Computers 1-3",
+            "content": {
+            "type": "map",
+            "maps": [
+            "HospitalComps1-3"
+          ]
+        }
+        },
+        { 
+            "title": "Hospital Computers 4-5",
+            "content": {
+            "type": "map",
+            "maps": [
+            "HospitalComps4-5"
+          ]
+        }
+        },
+        { 
+            "title": "Hades Computer",
+            "content": {
+            "type": "map",
+            "maps": [
+            "HadesComp"
+          ]
+        }
+        },
+        { 
+            "title": "WWW Areas",
+            "content": {
+            "type": "map",
+            "maps": [
+            "WWWAreas"
+          ]
+        }
+        }
+      ]
+    }
+  }
+  

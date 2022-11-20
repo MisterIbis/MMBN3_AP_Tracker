@@ -1,66 +1,110 @@
 [
     {
         "name": "ACDCTown",
-        "img": "images/maps/ACDC_Town.png"
+        "img": "images/maps/ACDC_Town.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "ACDCNet",
-        "img": "images/maps/ACDC_Net.png"
+        "img": "images/maps/ACDC_Net.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "ACDCSchool",
-        "img": "images/maps/School_Comp.png"
+        "img": "images/maps/School_Comp.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "SciLab",
-        "img": "images/maps/SciLab.png"
+        "img": "images/maps/SciLab.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "SciLabNet",
-        "img": "images/maps/SciLab_Net.png"
+        "img": "images/maps/SciLab_Net.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "Beach",
-        "img": "images/maps/Beach.png"
+        "img": "images/maps/Beach.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "BeachNet",
-        "img": "images/maps/Beach_Net.png"
+        "img": "images/maps/Beach_Net.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "HospitalComps1-3",
-        "img": "images/maps/Hospital_Comp_123.png"
+        "img": "images/maps/Hospital_Comp_123.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "HospitalComps4-5",
-        "img": "images/maps/Hospital_Comp_45.png"
+        "img": "images/maps/Hospital_Comp_45.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "Yoka",
-        "img": "images/maps/Yoka.png"
+        "img": "images/maps/Yoka.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "YokaNet",
-        "img": "images/maps/Yoka_Net.png"
+        "img": "images/maps/Yoka_Net.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "ZooComps",
-        "img": "images/maps/Zoo_Comps.png"
+        "img": "images/maps/Zoo_Comps.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
-        "name": "Hades",
-        "img": "images/maps/Hades.png"
+        "name": "HadesComp",
+        "img": "images/maps/Hades_comp.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
+    },    
+    {
+        "name": "HadesIsle",
+        "img": "images/maps/Hades_Isle.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "Undernet1-4",
-        "img": "images/maps/Undernet_1234.png"
+        "img": "images/maps/Undernet_1234.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "Undernet5-7",
-        "img": "images/maps/Undernet_567.png"
+        "img": "images/maps/Undernet_567.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     },
     {
         "name": "WWWAreas",
-        "img": "images/maps/WWW_Areas.png"
+        "img": "images/maps/WWW_Areas.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
+    },
+    {
+        "name": "WWWIsle",
+        "img": "images/maps/WWW_Isle.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
     }
 ]
