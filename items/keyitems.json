@@ -2,25 +2,25 @@
     {
         "name": "Cyber ACDC Metro Pass",
         "type": "toggle",
-        "img": "images/CACDCPas.png",
+        "img": "images/CPass.png",
         "codes": "CACDCPas"
     },
     {
         "name": "Cyber Scilab Metro Pass",
         "type": "toggle",
-        "img": "images/CSciPas.png",
+        "img": "images/CPass.png",
         "codes": "CSciPas"
     },   
 	{
         "name": "Cyber Yoka Metro Pass",
         "type": "toggle",
-        "img": "images/CYokaPas.png",
+        "img": "images/CPass.png",
         "codes": "CYokaPas"
     },
 	{
         "name": "Cyber Beach Metro Pass",
         "type": "toggle",
-        "img": "images/CBeacPas.png",
+        "img": "images/CPass.png",
         "codes": "CBeacPas"
     },
 	{
@@ -58,11 +58,5 @@
 		"type": "toggle",
 		"img": "images/OrderSys.png",
 		"codes": "OrderSys"
-	},
-    {
-		"name": "Mr. Famous' Wristband",
-		"type": "toggle",
-		"img": "images/Wristband.png",
-		"codes": "Famous"
 	}
 ]
