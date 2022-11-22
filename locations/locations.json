@@ -63,6 +63,23 @@
 					  ]
 					},
 					{
+						"name": "ACDC2 Central BMD",
+						"map_locations": [
+						  {
+						"map": "ACDCNet",
+						"x": 2115,
+						"y": 506
+					  }
+					],
+					"sections": [
+					  {
+						"name": "ACDC2 Central BMD",
+						"access_rules": [],
+						"item_count": 1
+						}
+					  ]
+					},
+					{
 						"name": "ACDC2 N BMD",
 						"map_locations": [
 						  {
@@ -84,8 +101,8 @@
 						"map_locations": [
 						  {
 						"map": "ACDCNet",
-						"x": 2112,
-						"y": 527
+						"x": 937,
+						"y": 1173
 					  }
 					],
 					"sections": [
@@ -101,8 +118,8 @@
 						"map_locations": [
 						  {
 						"map": "ACDCNet",
-						"x": 936,
-						"y": 1136
+						"x": 1514,
+						"y": 1014
 					  }
 					],
 					"sections": [
@@ -295,7 +312,7 @@
 						{
 						"map": "ACDCSchool",
 						"x": 1852,
-						"y": 549
+						"y": 150
 					}
 					],
 					"sections": [
@@ -397,26 +414,9 @@
                 ],
                 "sections": [
                   {
-                    "name": "ACDC Tank 1 BMD",
+                    "name": "ACDC Tank BMD",
                     "access_rules": [],
-                    "item_count": 1
-					}
-                  ]
-				},
-				{
-					"name": "ACDC Tank 2 BMD",
-					"map_locations": [
-					  {
-                    "map": "ACDCTown",
-                    "x": 930,
-                    "y": 560
-                  }
-                ],
-                "sections": [
-                  {
-                    "name": "ACDC Tank 2 BMD",
-                    "access_rules": [],
-                    "item_count": 1
+                    "item_count": 2
 					}
                   ]
 				},
@@ -443,7 +443,7 @@
                   ]
 				},
 				{
-					"name": "Mayls HP BMD",
+					"name": "Mayls Homepage Mystery Data",
 					"map_locations": [
 					  {
 					"map": "ACDCTown",
@@ -455,8 +455,13 @@
 				  {
 					"name": "Mayls HP BMD",
 					"access_rules": [],
-					"item_count": 1
-					}
+					"item_count": 2
+					},
+					{
+						"name": "Mayls HP PMD",
+						"access_rules": [],
+						"item_count": 1
+						}
 				  ]
 				},
 				{
@@ -654,11 +659,11 @@
                   ]
 				},
 				{
-					"name": "SciLab - Job Board",
+					"name": "SciLab - Job Board ('earlier' access)",
 					"map_locations": [
 					  {
                     "map": "SciLab",
-                    "x": 740,
+                    "x": 720,
                     "y": 409
                   }
                 ],
@@ -674,23 +679,8 @@
 						"item_count": 1
 						},
 						{
-						"name": "Job - Help me with my son",
-						"access_rules": ["Needle"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Transmission error",
-						"access_rules": ["Needle"],
-						"item_count": 1
-						},
-						{
 						"name": "Job - Chip Prices",
 						"access_rules": [],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Im broke",
-						"access_rules": ["Needle"],
 						"item_count": 1
 						},
 						{
@@ -699,38 +689,8 @@
 						"item_count": 1
 						},
 						{
-						"name": "Job - Be my boyfriend",
-						"access_rules": ["PETCase"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Will you deliver",
-						"access_rules": ["Needle,PETCase"],
-						"item_count": 1
-						},
-						{
 						"name": "Job - Somebody please help",
 						"access_rules": [],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Looking for condor",
-						"access_rules": ["Needle,PETCase"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Help with rehab",
-						"access_rules": ["PETCase"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Old Master",
-						"access_rules": ["PETCase"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Catching gang members",
-						"access_rules": ["Needle", "CYokaPas"],
 						"item_count": 1
 						},
 						{
@@ -739,60 +699,117 @@
 						"item_count": 1
 						},
 						{
-						"name": "Job - Legendary Tomes",
-						"access_rules": ["PETCase,Press,Magnum1"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Legendary Tomes Treasure",
-						"access_rules": ["PETCase,Press,Magnum1"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Hide and seek First Child",
-						"access_rules": ["Needle"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Hide and seek Second Child",
-						"access_rules": ["Needle"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Hide and seek Third Child",
-						"access_rules": ["Needle"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Hide and seek Fourth Child",
-						"access_rules": ["Needle"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Hide and seek Completion",
-						"access_rules": ["Needle"],
-						"item_count": 1
-						},
-						{
 						"name": "Job - Finding the blue Navi",
 						"access_rules": ["Press"],
 						"item_count": 1
-						},
-						{
-						"name": "Job - Give your support",
-						"access_rules": ["PETCase"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Stamp collecting",
-						"access_rules": ["PETCase,Needle","PETCase,CYokaPas"],
-						"item_count": 1
-						},
-						{
-						"name": "Job - Help with a will",
-						"access_rules": ["Needle,PETCase,Press"],
-						"item_count": 1
 						}
+                  ]
+				},
+				{
+					"name": "SciLab - Job Board (Other regions)",
+					"map_locations": [
+					  {
+                    "map": "SciLab",
+                    "x": 760,
+                    "y": 409
+                  }
+                ],
+                "sections": [
+					{
+					"name": "Job - Help me with my son",
+					"access_rules": ["Needle"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Transmission error",
+					"access_rules": ["Needle"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Im broke",
+					"access_rules": ["Needle"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Be my boyfriend",
+					"access_rules": ["PETCase"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Will you deliver",
+					"access_rules": ["Needle,PETCase"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Looking for condor",
+					"access_rules": ["Needle,PETCase"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Help with rehab",
+					"access_rules": ["PETCase"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Old Master",
+					"access_rules": ["PETCase"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Catching gang members",
+					"access_rules": ["Needle", "CYokaPas"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Legendary Tomes",
+					"access_rules": ["PETCase,Press,Magnum1"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Legendary Tomes Treasure",
+					"access_rules": ["PETCase,Press,Magnum1"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Hide and seek First Child",
+					"access_rules": ["Needle"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Hide and seek Second Child",
+					"access_rules": ["Needle"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Hide and seek Third Child",
+					"access_rules": ["Needle"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Hide and seek Fourth Child",
+					"access_rules": ["Needle"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Hide and seek Completion",
+					"access_rules": ["Needle"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Give your support",
+					"access_rules": ["PETCase"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Stamp collecting",
+					"access_rules": ["PETCase,Needle","PETCase,CYokaPas"],
+					"item_count": 1
+					},
+					{
+					"name": "Job - Help with a will",
+					"access_rules": ["Needle,PETCase,Press"],
+					"item_count": 1
+					}
                   ]
 				}
 			]
@@ -997,8 +1014,8 @@
 					"map_locations": [
 					  {
                     "map": "Yoka",
-                    "x": 971,
-                    "y": 594
+                    "x": 830,
+                    "y": 630
                   }
                 ],
                 "sections": [
@@ -1077,7 +1094,7 @@
 					"map_locations": [
 					  {
                     "map": "ZooComps",
-                    "x": 780,
+                    "x": 775,
                     "y": 320
                   }
                 ],
@@ -1424,6 +1441,16 @@
 						"name": "Beach Broadcast Computer BMD",
 						"access_rules": [],
 						"item_count": 1
+						},
+						{
+						"name": "Beach DNN Kiosk",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach - DNN Poster",
+						"access_rules": [],
+						"item_count": 1
 						}
                       ]
                     },          
@@ -1431,9 +1458,9 @@
                         "name": "Hades GrabBack K Trade",
                         "map_locations": [
                           {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
+                        "map": "HadesIsle",
+                        "x": 810,
+                        "y": 825
                       }
                     ],
                     "sections": [
@@ -1488,18 +1515,8 @@
 						"name": "Beach Hospital Girl",
 						"access_rules": [],
 						"item_count": 1
-						},
-						{
-						"name": "Beach Hospital Hidden Conversation",
-						"access_rules": [],
-						"item_count": 1
-						},
-						{
-						"name": "Beach Hospital Plaque",
-						"access_rules": [],
-						"item_count": 1
 						}
-                      ]
+						]
                     },          
 					{
                         "name": "Beach - News Van BMD",
@@ -1519,29 +1536,46 @@
                       ]
                     },     
 					{
-                        "name": "Beach DNN Kiosk",
+                        "name": "Beach - Hospital - Hidden Conversation",
                         "map_locations": [
                           {
                         "map": "Beach",
-                        "x": 83,
-                        "y": 101
+                        "x": 93,
+                        "y": 594
                       }
                     ],
                     "sections": [
-                      {
-                        "name": "Beach DNN Kiosk",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
+						{
+						"name": "Hidden Conversation",
+						"access_rules": [],
+						"item_count": 1
+						}
                       ]
-                    },          
+                    },
+					{
+                        "name": "Beach - Hospital Plaque",
+                        "map_locations": [
+                          {
+                        "map": "Beach",
+                        "x": 545,
+                        "y": 545
+                      }
+                    ],
+                    "sections": [
+						{
+						"name": "Beach - Hospital Plaque",
+						"access_rules": [],
+						"item_count": 1
+						}  
+                      ]
+                    },      
 					{
                         "name": "Beach Department Store",
                         "map_locations": [
                           {
                         "map": "Beach",
-                        "x": 83,
-                        "y": 101
+                        "x": 1026,
+                        "y": 256
                       }
                     ],
                     "sections": [
@@ -1564,23 +1598,6 @@
                     "sections": [
                       {
                         "name": "Undernet 6 TV BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },     
-					{
-                        "name": "Beach DNN Poster",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach DNN Poster",
                         "access_rules": [],
                         "item_count": 1
                         }
