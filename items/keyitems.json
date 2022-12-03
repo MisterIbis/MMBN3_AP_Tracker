@@ -2,61 +2,61 @@
     {
         "name": "Cyber ACDC Metro Pass",
         "type": "toggle",
-        "img": "images/CPass.png",
+        "img": "images/items/CPass.png",
         "codes": "CACDCPas"
     },
     {
         "name": "Cyber Scilab Metro Pass",
         "type": "toggle",
-        "img": "images/CPass.png",
+        "img": "images/items/CPass.png",
         "codes": "CSciPas"
     },   
 	{
         "name": "Cyber Yoka Metro Pass",
         "type": "toggle",
-        "img": "images/CPass.png",
+        "img": "images/items/CPass.png",
         "codes": "CYokaPas"
     },
 	{
         "name": "Cyber Beach Metro Pass",
         "type": "toggle",
-        "img": "images/CPass.png",
+        "img": "images/items/CPass.png",
         "codes": "CBeacPas"
     },
 	{
         "name": "WWW ID",
         "type": "toggle",
-        "img": "images/WWW_ID.png",
+        "img": "images/items/WWW_ID.png",
         "codes": "WWW_ID"
     },
 	{
         "name": "Press Program",
         "type": "toggle",
-        "img": "images/press.png",
+        "img": "images/items/press.png",
         "codes": "press"
     },
 	{
 		"name": "SubPET",
 		"type": "toggle",
-		"img": "images/SubPET.png",
+		"img": "images/items/SubPET.png",
 		"codes": "SubPET"
 	},
 	{
 		"name": "Needle",
 		"type": "toggle",
-		"img": "images/Needle.png",
+		"img": "images/items/Needle.png",
 		"codes": "Needle"
 	},
 	{
 		"name": "PETCase",
 		"type": "toggle",
-		"img": "images/PETCase.png",
+		"img": "images/items/PETCase.png",
 		"codes": "PETCase"
 	},
     {
 		"name": "OrderSys",
 		"type": "toggle",
-		"img": "images/OrderSys.png",
+		"img": "images/items/OrderSys.png",
 		"codes": "OrderSys"
 	}
 ]
