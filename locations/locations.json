@@ -2297,7 +2297,7 @@
 			// World 3 island - Time to win!
 			{
 				"name": "WWW island",
-				"access_rules": ["GigFreez"],
+				"access_rules": ["GigFreez, PETCase"],
 				"children": [
 					{
 						"name": "WWW Control Room 1 Screen",

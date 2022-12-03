@@ -38,7 +38,7 @@
             },
             {
                 "img": "images/ranks/GigFreez.png",
-                "codes": "ranks"
+                "codes": "ranks,GigFreez"
             }
         ]
     },
