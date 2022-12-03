@@ -14,7 +14,7 @@
               {
                 "type": "group",
                 "header": "Key Items",
-                "dock": "top",
+                "dock": "left",
                 "content": {
                   "type": "layout",
                   "key": "key_item_grid"
@@ -23,7 +23,7 @@
               {
                 "type": "group",
                 "header": "NaviCust",
-                "dock": "top",
+                "dock": "left",
                 "content": {
                   "type": "layout",
                   "key": "misc_item_grid"
@@ -60,7 +60,7 @@
         ]
       }
     },
-    "tracker_horizontal": {
+    "tracker_vertical": {
       "type": "container",
       "background": "#000000",
       "content": {

@@ -1,43 +1,43 @@
 [
     {
-        "name": "Rank",
+        "name": "Internet Rank",
         "type": "progressive",
         "allow_disabled": false,
         "stages": [
             {
-                "img": "images/ranks/rank-00.gif",
+                "img": "images/ranks/rank-0.png",
                 "codes": "ranks"
             },
             {
-                "img": "images/ranks/rank-01.gif",
+                "img": "images/ranks/rank-1.png",
                 "codes": "ranks"
             },
             {
-                "img": "images/ranks/rank-02.gif",
+                "img": "images/ranks/rank-2.png",
                 "codes": "ranks"
             },
             {
-                "img": "images/ranks/rank-03.gif",
+                "img": "images/ranks/rank-3.png",
                 "codes": "ranks"
             },
             {
-                "img": "images/ranks/rank-04.gif",
+                "img": "images/ranks/rank-4.png",
                 "codes": "ranks"
             },
             {
-                "img": "images/ranks/rank-05.gif",
+                "img": "images/ranks/rank-5.png",
                 "codes": "ranks"
             },
             {
-                "img": "images/ranks/rank-06.gif",
+                "img": "images/ranks/rank-6.png",
                 "codes": "ranks"
             },
             {
-                "img": "images/ranks/rank-07.gif",
+                "img": "images/ranks/rank-7.png",
                 "codes": "ranks"
             },
             {
-                "img": "images/ranks/rank-08.gif",
+                "img": "images/ranks/GigFreez.png",
                 "codes": "ranks"
             }
         ]
@@ -48,39 +48,39 @@
         "allow_disabled": false,
         "stages": [
             {
-                "img": "images/ranks/rank-goal-0.gif",
+                "img": "images/ranks/rank-goal-0.png",
                 "codes": "ranksRequired"
             },
             {
-                "img": "images/ranks/rank-goal-1.gif",
+                "img": "images/ranks/rank-goal-1.png",
                 "codes": "ranksRequired"
             },
             {
-                "img": "images/ranks/rank-goal-2.gif",
+                "img": "images/ranks/rank-goal-2.png",
                 "codes": "ranksRequired"
             },
             {
-                "img": "images/ranks/rank-goal-3.gif",
+                "img": "images/ranks/rank-goal-3.png",
                 "codes": "ranksRequired"
             },
             {
-                "img": "images/ranks/rank-goal-4.gif",
+                "img": "images/ranks/rank-goal-4.png",
                 "codes": "ranksRequired"
             },
             {
-                "img": "images/ranks/rank-goal-5.gif",
+                "img": "images/ranks/rank-goal-5.png",
                 "codes": "ranksRequired"
             },
             {
-                "img": "images/ranks/rank-goal-6.gif",
+                "img": "images/ranks/rank-goal-6.png",
                 "codes": "ranksRequired"
             },
             {
-                "img": "images/ranks/rank-goal-7.gif",
+                "img": "images/ranks/rank-goal-7.png",
                 "codes": "ranksRequired"
             },
             {
-                "img": "images/ranks/rank-goal-8.gif",
+                "img": "images/ranks/rank-goal-8.png",
                 "codes": "ranksRequired"
             }
         ]

@@ -23,11 +23,13 @@
                             [
                             "SubPET",
                             "Needle",
-                            "PETCase"
+                            "PETCase",
+                            "Ranks"
                             ],
                             [
                             "WWW_ID",
-                            "press"
+                            "press",
+                            "OrderSys"
                             ]
                         ]
                     }
@@ -51,8 +53,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                            "ModTools",
-                            "Expanded Memory"
+                            "ModTools"
                             ],
                             [
                             "SpinWht",

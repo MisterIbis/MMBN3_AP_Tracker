@@ -455,7 +455,7 @@
 				  {
 					"name": "Mayls HP BMD",
 					"access_rules": [],
-					"item_count": 2
+					"item_count": 1
 					},
 					{
 						"name": "Mayls HP PMD",
@@ -590,8 +590,8 @@
 					"map_locations": [
 					  {
                     "map": "SciLab",
-                    "x": 577,
-                    "y": 612
+                    "x": 400,
+                    "y": 761
                   }
                 ],
                 "sections": [
@@ -659,7 +659,7 @@
                   ]
 				},
 				{
-					"name": "SciLab - Job Board ('earlier' access)",
+					"name": "SciLab - Job Board (Scilab/ACDC access)",
 					"map_locations": [
 					  {
                     "map": "SciLab",
@@ -675,7 +675,7 @@
 						},
 						{
 						"name": "Job - My Navi is sick",
-						"access_rules": ["Recov30*"],
+						"access_rules": [],
 						"item_count": 1
 						},
 						{
@@ -762,12 +762,12 @@
 					},
 					{
 					"name": "Job - Legendary Tomes",
-					"access_rules": ["PETCase,Press,Magnum1"],
+					"access_rules": ["PETCase,Press"],
 					"item_count": 1
 					},
 					{
 					"name": "Job - Legendary Tomes Treasure",
-					"access_rules": ["PETCase,Press,Magnum1"],
+					"access_rules": ["PETCase,Press"],
 					"item_count": 1
 					},
 					{
