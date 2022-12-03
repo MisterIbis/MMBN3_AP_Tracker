@@ -1,157 +1,123 @@
 {
-	"Key_Items": {
-	  "type": "array",
-	  "h_alignment": "left",
-	  "item_margin": "1,2",
-	  "rows": [
-		["CACDCPas", "CSciPas", "CYokaPas", "CBeacPas"],
-		["SubPET", "Needle", "PETCase"],
-		["WWW_ID", "press"]
-	  ]
-	},
-	"Nice_stuff": {
-		"type": "array",
-		"orientation": "vertical",
-		"v_alignment": "top",
-		"margin": "0,0",
-		"content": [
-		  {
-			"type": "itemgrid",
-			"item_margin": "1,2",
-			"h_alignment": "left",
-			"rows": [
-			["ModTools", "Expanded Memory"],
-			["SpinWht", "SpinPnk", "SpinYllw"],
-			["SpinRed", "SpinBlue", "SpinGrn"],
-			["SpinOrange", "SpinPurple", "SpinDark"]
-		]
-	}
-]
-},
-	"tracker_horizontal": {
-		"type": "container",
-		"content": {
-		  "type": "dock",
-		  "dropshadow": true,
-		  "content": [
-			{
-			  "type": "dock",
-			  "dock": "bottom",
-			  "h_alignment": "stretch",
-			  "content": [
-				{
-				  "type": "group",
-				  "header": "Items",
-				  "content": {
-					"type": "array",
-					"orientation": "horizontal",
-					"margin": "0,0",
-					"content": [
-					  {
-						"type": "layout",
-						"key": "Key_Items"
-					  },
-					  {
-						"type": "layout",
-						"key": "Nice_stuff"
-					  }
-					]
-				  }
-				},
-				{
-				  "type": "group",
-				  "header": "Pinned Locations",
-				  "content": {
-					"type": "recentpins",
-					"style": "wrap",
-					"h_alignment": "stretch",
-					"v_alignment": "stretch",
-					"orientation": "horizontal",
-					"compact": true
-				  }
-				}
-			  ]
-			},
-			{
-			  "type": "tabbed",
-			  "tabs": [
-				{
-				  "title": "Overworld Locations",
-				  "content": {
-					"type": "layout",
-					"key": "overworld_maps"
-				  }
-				},
-				{
-				  "title": "Network Locations",
-				  "content": {
-					"type": "layout",
-					"key": "Network_maps"
-				  }
-				},
-				{
-				  "title": "Dungeon Locations",
-				  "content": {
-					"type": "layout",
-					"key": "Dungeon_maps"
-					  }
-				}
-			  ]
-			}
-		  ]
-		}
-	  },
-	  "tracker_vertical": {
-		"type": "container",
-		"content": {
-		  "type": "dock",
-		  "dropshadow": true,
-		  "content": [
-			{
-			  "type": "dock",
-			  "dock": "bottom",
-			  "h_alignment": "stretch",
-			  "content": [
-				{
-				  "type": "array",
-				  "orientation": "vertical",
-				  "content": [
-					{
-					  "type": "group",
-					  "header": "Items",
-					  "content": {
-						"type": "array",
-						"orientation": "horizontal",
-						"margin": "0,0",
-						"content": [
-						  {
-							"type": "layout",
-							"key": "Key_Items"
-						  },
-						  {
-							"type": "layout",
-							"key": "Nice_stuff"
-						  }
-						]
-					  }
-					},
-					{
-					  "type": "group",
-					  "header": "Pinned Locations",
-					  "content": {
-						"type": "recentpins",
-						"style": "wrap",
-						"h_alignment": "stretch",
-						"v_alignment": "stretch",
-						"orientation": "horizontal",
-						"compact": true
-					  }
-					}
-				  ]
-				}
-			  ]
-			}
-		  ]
-		}
-	  }
-}
+    "tracker_default": {
+      "type": "container",
+      "background": "#000000",
+      "content": {
+        "type": "dock",
+        "dropshadow": true,
+        "content": [
+          {
+            "type": "dock",
+            "dock": "left",
+            "v_alignment": "stretch",
+            "content": [
+              {
+                "type": "group",
+                "header": "Key Items",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "key_item_grid"
+                }
+              },
+              {
+                "type": "group",
+                "header": "NaviCust",
+                "dock": "top",
+                "content": {
+                  "type": "layout",
+                  "key": "misc_item_grid"
+              }
+              }
+            ]
+          },
+          {
+            "type": "tabbed",
+            "tabs": [
+              {
+                "title": "Overworld Locations",
+                "content": {
+                  "type": "layout",
+                  "key": "overworld_maps"
+                }
+              },
+              {
+                "title": "Network Locations",
+                "content": {
+                  "type": "layout",
+                  "key": "Network_maps"
+                }
+              },
+              {
+                "title": "Dungeon Locations",
+                "content": {
+                  "type": "layout",
+                  "key": "Dungeon_maps"
+                    }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "tracker_horizontal": {
+      "type": "container",
+      "background": "#000000",
+      "content": {
+        "type": "dock",
+        "dropshadow": true,
+        "content": [
+          {
+            "type": "dock",
+            "dock": "bottom",
+            "content": [
+                {
+                  "type": "group",
+                  "header": "Key Items",
+                  "dock": "top",
+                  "content": {
+                    "type": "layout",
+                    "key": "key_item_grid"
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "NaviCust",
+                  "dock": "top",
+                  "content": {
+                    "type": "layout",
+                    "key": "misc_item_grid"
+                }
+              }
+              ]
+          },
+          {
+            "type": "tabbed",
+            "tabs": [
+              {
+                "title": "Overworld Locations",
+                "content": {
+                  "type": "layout",
+                  "key": "overworld_maps"
+                }
+              },
+              {
+                "title": "Network Locations",
+                "content": {
+                  "type": "layout",
+                  "key": "Network_maps"
+                }
+              },
+              {
+                "title": "Dungeon Locations",
+                "content": {
+                  "type": "layout",
+                  "key": "Dungeon_maps"
+                    }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }

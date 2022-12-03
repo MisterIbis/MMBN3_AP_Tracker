@@ -1,0 +1,78 @@
+{
+    "key_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "CACDCPas",
+                                "CSciPas",
+                                "CYokaPas",
+                                "CBeacPas"
+                            ],
+                            [
+                            "SubPET",
+                            "Needle",
+                            "PETCase"
+                            ],
+                            [
+                            "WWW_ID",
+                            "press"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "misc_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                            "ModTools",
+                            "Expanded Memory"
+                            ],
+                            [
+                            "SpinWht",
+                            "SpinPnk",
+                            "SpinYllw"
+                            ],
+                            [
+                            "SpinRed",
+                            "SpinBlue",
+                            "SpinGrn"
+                            ],
+                            [
+                            "SpinOrange",
+                            "SpinPurple",
+                            "SpinDark"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

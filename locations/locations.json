@@ -1373,8 +1373,8 @@
 					"map_locations": [
 					  {
                     "map": "Undernet1-4",
-                    "x": 83,
-                    "y": 101
+                    "x": 1579,
+                    "y": 1149
                   }
                 ],
                 "sections": [
@@ -1413,6 +1413,11 @@
 						"item_count": 1
 						},
 						{
+						"name": "Beach DNN Security Panel PMD",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
 						"name": "Beach DNN Shadow J Trade",
 						"access_rules": [],
 						"item_count": 1
@@ -1424,11 +1429,6 @@
 						},
 						{
 						"name": "Beach DNN WideSwrd C Trade",
-						"access_rules": [],
-						"item_count": 1
-						},
-						{
-						"name": "Beach DNN Security Panel PMD",
 						"access_rules": [],
 						"item_count": 1
 						},
@@ -1451,26 +1451,14 @@
 						"name": "Beach - DNN Poster",
 						"access_rules": [],
 						"item_count": 1
+						},
+						{
+						"name": "Undernet 6 TV BMD",
+						"access_rules": [],
+						"item_count": 1
 						}
-                      ]
-                    },          
-					{
-                        "name": "Hades GrabBack K Trade",
-                        "map_locations": [
-                          {
-                        "map": "HadesIsle",
-                        "x": 810,
-                        "y": 825
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Hades GrabBack K Trade",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
+						]
+                    },      
 					{
                         "name": "Beach - Hospital",
                         "map_locations": [
@@ -1513,6 +1501,16 @@
 						},
 						{
 						"name": "Beach Hospital Girl",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach Security System BMD",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach TV BMD",
 						"access_rules": [],
 						"item_count": 1
 						}
@@ -1585,57 +1583,6 @@
                         "item_count": 1
                         }
                       ]
-                    },   
-					{
-                        "name": "Undernet 6 TV BMD",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Undernet 6 TV BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },
-					{
-                        "name": "Beach TV BMD",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach TV BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
-                    },          
-					{
-                        "name": "Beach Security System BMD",
-                        "map_locations": [
-                          {
-                        "map": "Beach",
-                        "x": 83,
-                        "y": 101
-                      }
-                    ],
-                    "sections": [
-                      {
-                        "name": "Beach Security System BMD",
-                        "access_rules": [],
-                        "item_count": 1
-                        }
-                      ]
                     }
 			]
 			},
@@ -1695,6 +1642,23 @@
                         }
                       ]
                     },
+					{
+                        "name": "Hades GrabBack K Trade",
+                        "map_locations": [
+                          {
+                        "map": "HadesIsle",
+                        "x": 810,
+                        "y": 825
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Hades GrabBack K Trade",
+                        "access_rules": [],
+                        "item_count": 1
+                        }
+                      ]
+                    },    
 					{
                         "name": "Hades South BMD",
                         "map_locations": [

@@ -1,56 +1,20 @@
 {
-    "items_broadcast": { //Replace with your desired layout here (examples can be found in layout/items.jsons) or...
-        "type": "itemgrid",
-        "h_alignment": "center",
-        "item_margin": "1,2",
-        "item_size": "3,3",
-        "rows": [
-            [
-                "CACDCPas",
-				"CSciPas",
-				"CYokaPas",
-				"CBeacPas"
-	        ],
-            [
-                "WWW ID",
-                "SubPET",
-                "Needle",
-                "PETCase"
-            ],
-            [
-                "OrderSys",
-				"Mr. Famous' Wristband",
-                "Modtools",
-				"ExpMem"
-            ],
-            [
-				"SpinWht",
-				"SpinPink",
-				"SpinYllw",
-                "SpinRed"
-            ],
-            [
-				"SpinBlue",
-				"SpinGrn",
-				"SpinOrange",
-				"SpinPurple",
-				"SpinDark"
-            ]
-        ]
-    },    
-    "broadcast_item_grid": { //...replace with your desired layout here 
-        "type": "layout",
-        "key": "items_broadcast"
-    },
     "tracker_broadcast": {
-        "type": "array",
-        "dropshadow": false,
-        "margin": "0",
-        "content": [
+      "type": "array",
+      "orientation": "vertical",
+      "margin": "0,0",
+      "content": [
+        {
+          "type": "array",
+          "orientation": "horizontal",
+          "margin": "0,0",
+          "content": [
             {
-                "type": "layout",
-                "key": "broadcast_item_grid"
+              "type": "layout",
+              "key": "key_item_grid"
             }
-        ]
+          ]
+        }
+      ]
     }
-}
+  }
