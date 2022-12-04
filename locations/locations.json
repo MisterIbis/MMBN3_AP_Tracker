@@ -2576,8 +2576,8 @@
 						"map_locations": [
 							{
 						"map": "WWWIsle",
-						"x": 83,
-						"y": 101
+						"x": 893,
+						"y": 245
 						}
 					],
 					"sections": [
@@ -2585,6 +2585,40 @@
 						"name": "Alpha Defeated",
 						"access_rules": [],
 						"hosted_item": "Alpha"
+						}
+						]
+					},
+					{
+						"name": "WWW Control Room 1",
+						"map_locations": [
+							{
+						"map": "WWWIsle",
+						"x": 245,
+						"y": 851
+						}
+					],
+					"sections": [
+						{
+						"name": "Screen",
+						"access_rules": [],
+						"item_count": 1
+						}
+						]
+					},
+					{
+						"name": "WWW Wiley's Office",
+						"map_locations": [
+							{
+						"map": "WWWIsle",
+						"x": 758,
+						"y": 569
+						}
+					],
+					"sections": [
+						{
+						"name": "Desk Item",
+						"access_rules": [],
+						"item_count": 1
 						}
 						]
 					}
