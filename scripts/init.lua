@@ -6,6 +6,7 @@ print("Starting up scripts")
 Tracker:AddItems("items/keyitems.json")
 Tracker:AddItems("items/NaviCust.json")
 Tracker:AddItems("items/ranks.json")
+Tracker:AddItems("items/chips.json")
 
 Tracker:AddMaps("maps/maps.json")
 

@@ -37,6 +37,47 @@
             }
         ]
     },
+    "trade_chips": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                            "recov30",
+                            "magnum",
+                            "sonicwave"
+                            ],
+                            [
+                            "bubbler",
+                            "recov120",
+                            "shake"
+                            ],
+                            [
+                            "firesword",
+                            "dynawave",
+                            "widesword"
+                            ],
+                            [
+                            "holemeteor",
+                            "shadow",
+                            "grabback"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
     "misc_item_grid": {
         "type": "array",
         "orientation": "vertical",

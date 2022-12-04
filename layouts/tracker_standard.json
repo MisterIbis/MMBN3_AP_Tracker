@@ -28,6 +28,15 @@
                   "type": "layout",
                   "key": "misc_item_grid"
               }
+              },
+              {
+                "type": "group",
+                "header": "Tradable Chips",
+                "dock": "left",
+                "content": {
+                  "type": "layout",
+                  "key": "trade_chips"
+              }
               }
             ]
           },
@@ -60,7 +69,7 @@
         ]
       }
     },
-    "tracker_vertical": {
+    "tracker_horizontal": {
       "type": "container",
       "background": "#000000",
       "content": {
@@ -70,25 +79,33 @@
           {
             "type": "dock",
             "dock": "bottom",
+            "h_alignment": "stretch",
             "content": [
                 {
                   "type": "group",
-                  "header": "Key Items",
-                  "dock": "top",
-                  "content": {
-                    "type": "layout",
-                    "key": "key_item_grid"
-                  }
-                },
-                {
-                  "type": "group",
-                  "header": "NaviCust",
-                  "dock": "top",
-                  "content": {
-                    "type": "layout",
+                  "header": "Items",
+                  "content": [
+                    {
+                    "type": "array",
+                    "orientation": "horizontal",
+                    "margin": "0,0",
+                    "content": [
+                      {
+                        "type": "layout",
+                        "key": "key_item_grid"
+                      },
+                      {
+                        "type": "layout",
                     "key": "misc_item_grid"
+                      },
+                      {
+                        "type": "layout",
+                    "key": "trade_chips"
+                      }
+                    ]
+                    }
+                  ]
                 }
-              }
               ]
           },
           {

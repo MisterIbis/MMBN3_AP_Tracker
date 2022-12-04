@@ -1,0 +1,74 @@
+[  
+    {
+        "name": "Recov 30 *",
+        "type": "toggle",
+        "img": "images/items/RecovChip.png",
+        "codes": "recov30"
+    },
+    {
+        "name": "Magnum 1 A",
+        "type": "toggle",
+        "img": "images/items/Magnum.png",
+        "codes": "magnum"
+    },
+    {
+        "name": "SonicWave W",
+        "type": "toggle",
+        "img": "images/items/SWavChip.png",
+        "codes": "sonicwave"
+    },
+    {
+        "name": "Bubbler C",
+        "type": "toggle",
+        "img": "images/items/bubbler.png",
+        "codes": "bubbler"
+    },
+    {
+        "name": "Recov 120 S",
+        "type": "toggle",
+        "img": "images/items/RecovChip.png",
+        "codes": "recov120"
+    },
+    {
+        "name": "Shake 1 S",
+        "type": "toggle",
+        "img": "images/items/Shake.png",
+        "codes": "shake"
+    },
+    {
+        "name": "FireSword P",
+        "type": "toggle",
+        "img": "images/items/Firesword.png",
+        "codes": "firesword"
+    },
+    {
+        "name": "Dynawave V",
+        "type": "toggle",
+        "img": "images/items/SWavChip.png",
+        "codes": "dynawave"
+    },
+    {
+        "name": "Widesword C",
+        "type": "toggle",
+        "img": "images/items/widesword.png",
+        "codes": "widesword"
+    },
+    {
+        "name": "HoleMeteor H",
+        "type": "toggle",
+        "img": "images/items/holemeteor.png",
+        "codes": "holemeteor"
+    },
+    {
+        "name": "Shadow J",
+        "type": "toggle",
+        "img": "images/items/Shadow.png",
+        "codes": "shadow"
+    },
+    {
+        "name": "Grabback K",
+        "type": "toggle",
+        "img": "images/items/Grabback.png",
+        "codes": "grabback"
+    }
+]

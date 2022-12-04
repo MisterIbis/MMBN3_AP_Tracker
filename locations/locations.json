@@ -3,6 +3,8 @@
 		"name": "ACDC Region",
 		"short_name": "ACDC Town",
 		"color": "#0400f8",
+		"chest_unopened_img" : "images/items/bmd.png",
+		"chest_opened_img" : "images/items/GreyBMD.png",
 		"children": [
 			
 			// ACDC Network Locations
@@ -364,6 +366,23 @@
                   ]
 				},
 				{
+					"name": "ACDC Recov 120 S Trade",
+					"map_locations": [
+					  {
+                    "map": "ACDCTown",
+                    "x": 1100,
+                    "y": 260
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Recov 120 S",
+                    "access_rules": ["recov120"],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
 					"name": "SecurityPanel BMD",
 					"map_locations": [
 					  {
@@ -396,11 +415,48 @@
                     "item_count": 1
 					},
 					{
-						"name": "Numberman Codes",
+						"name": "Codes 1-8",
 						"access_rules": [],
-						"clear_as_group": false,
-						"item_count": 31
-						}
+						"clear_as_group": true,
+						"item_count": 8
+					},
+					{
+						"name": "Codes 9-16",
+						"access_rules": [
+							// 2+ explore score
+							"[SubPET]", "[Needle]", "[PETCase]", "[CSciPas]", "[CYokaPas],[CBeacPas]"
+						],
+						"clear_as_group": true,
+						"item_count": 8
+					},
+					{
+						"name": "Codes 17-24",
+						"access_rules": [
+							// 4+ explore score
+							"[SubPET]", "[Needle]", "[PETCase]", "[CSciPas]"
+						],
+						"clear_as_group": true,
+						"item_count": 8
+					},
+					{
+						"name": "Codes 25-28",
+						"access_rules": [
+							// 8+ explore score
+							"[SubPET], [Needle]", "[SubPET], [PETCase]", "[Needle],[PETCase]"
+						],
+						"clear_as_group": true,
+						"item_count": 8
+					},
+					{
+						"name": "Codes 29-31",
+						"access_rules": [
+							// 10+ explore score
+							"[SubPET], [Needle]", "[SubPET], [PETCase]", "[Needle],[PETCase]"
+						],
+						"clear_as_group": true,
+						//TODO - Switch these back to false when we have autotracking.
+						"item_count": 8
+					}
                   ]
 				},
 				{
@@ -421,7 +477,7 @@
                   ]
 				},
 				{
-					"name": "ACDC School BMDs",
+					"name": "ACDC School",
 					"map_locations": [
 					  {
                     "map": "ACDCTown",
@@ -439,6 +495,16 @@
                     "name": "ACDC School Blackboard BMD",
                     "access_rules": [],
                     "item_count": 1
+					},
+					{
+					"name": "SonicWave Trade",
+					"access_rules": ["sonicwave"],
+					"item_count": 1
+					},
+					{
+					"name": "Bubbler Trade",
+					"access_rules": ["bubbler"],
+					"item_count": 1
 					}
                   ]
 				},
@@ -598,6 +664,23 @@
                   {
                     "name": "SciLab - Garbage Can",
                     "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "SciLab - Shake Trade",
+					"map_locations": [
+					  {
+                    "map": "SciLab",
+                    "x": 370,
+                    "y": 427
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Shake 1 S Trade",
+                    "access_rules": ["shake"],
                     "item_count": 1
 					}
                   ]
@@ -771,29 +854,10 @@
 					"item_count": 1
 					},
 					{
-					"name": "Job - Hide and seek First Child",
+					"name": "Job - Hide and Seek",
 					"access_rules": ["Needle"],
-					"item_count": 1
-					},
-					{
-					"name": "Job - Hide and seek Second Child",
-					"access_rules": ["Needle"],
-					"item_count": 1
-					},
-					{
-					"name": "Job - Hide and seek Third Child",
-					"access_rules": ["Needle"],
-					"item_count": 1
-					},
-					{
-					"name": "Job - Hide and seek Fourth Child",
-					"access_rules": ["Needle"],
-					"item_count": 1
-					},
-					{
-					"name": "Job - Hide and seek Completion",
-					"access_rules": ["Needle"],
-					"item_count": 1
+					"clear_as_group": false,
+					"item_count": 5
 					},
 					{
 					"name": "Job - Give your support",
@@ -950,6 +1014,23 @@
 					"name": "Yoka Inn - Hot Spring BMD",
 					"access_rules": [],
 					"item_count": 1
+					}
+                  ]
+				},
+				{
+					"name": "Yoka Inn",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 277,
+                    "y": 757
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Firesword P Trade",
+                    "access_rules": [],
+                    "item_count": 1
 					}
                   ]
 				},
@@ -1419,17 +1500,17 @@
 						},
 						{
 						"name": "Beach DNN Shadow J Trade",
-						"access_rules": [],
+						"access_rules": ["shadow"],
 						"item_count": 1
 						},
 						{
 						"name": "Beach DNN HoleMetr H Trade",
-						"access_rules": [],
+						"access_rules": ["holemeteor"],
 						"item_count": 1
 						},
 						{
 						"name": "Beach DNN WideSwrd C Trade",
-						"access_rules": [],
+						"access_rules": ["widesword"],
 						"item_count": 1
 						},
 						{
@@ -1496,7 +1577,7 @@
 						},
 						{
 						"name": "Hospital DynaWav V Trade",
-						"access_rules": [],
+						"access_rules": ["dynawave"],
 						"item_count": 1
 						},
 						{
@@ -1643,7 +1724,7 @@
                       ]
                     },
 					{
-                        "name": "Hades GrabBack K Trade",
+                        "name": "Hades Trade",
                         "map_locations": [
                           {
                         "map": "HadesIsle",
@@ -1653,8 +1734,8 @@
                     ],
                     "sections": [
                       {
-                        "name": "Hades GrabBack K Trade",
-                        "access_rules": [],
+                        "name": "GrabBack K Trade",
+                        "access_rules": ["grabback"],
                         "item_count": 1
                         }
                       ]
@@ -2299,57 +2380,6 @@
 				"name": "WWW island",
 				"access_rules": ["GigFreez, PETCase"],
 				"children": [
-					{
-						"name": "WWW Control Room 1 Screen",
-						"map_locations": [
-							{
-						"map": "WWWIsle",
-						"x": 83,
-						"y": 101
-						}
-					],
-					"sections": [
-						{
-						"name": "WWW Control Room 1 Screen",
-						"access_rules": [],
-						"item_count": 1
-						}
-						]
-					},
-					{
-						"name": "WWW Wilys Desk",
-						"map_locations": [
-							{
-						"map": "WWWIsle",
-						"x": 83,
-						"y": 101
-						}
-					],
-					"sections": [
-						{
-						"name": "WWW Wilys Desk",
-						"access_rules": [],
-						"item_count": 1
-						}
-						]
-					},
-					{
-						"name": "WWW Wall BMD",
-						"map_locations": [
-							{
-						"map": "WWWIsle",
-						"x": 83,
-						"y": 101
-						}
-					],
-					"sections": [
-						{
-						"name": "WWW Wall BMD",
-						"access_rules": [],
-						"item_count": 1
-						}
-						]
-					},
 					{
 						"name": "WWW 1 East BMD",
 						"map_locations": [
