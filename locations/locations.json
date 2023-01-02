@@ -3,8 +3,6 @@
 		"name": "ACDC Region",
 		"short_name": "ACDC Town",
 		"color": "#0400f8",
-		"chest_unopened_img" : "images/items/bmd.png",
-		"chest_opened_img" : "images/items/GreyBMD.png",
 		"children": [
 			
 			// ACDC Network Locations
@@ -415,47 +413,10 @@
                     "item_count": 1
 					},
 					{
-						"name": "Codes 1-8",
+						"name": "Numberman Gacha (31 Prizes)",
 						"access_rules": [],
-						"clear_as_group": true,
-						"item_count": 8
-					},
-					{
-						"name": "Codes 9-16",
-						"access_rules": [
-							// 2+ explore score
-							"[SubPET]", "[Needle]", "[PETCase]", "[CSciPas]", "[CYokaPas],[CBeacPas]"
-						],
-						"clear_as_group": true,
-						"item_count": 8
-					},
-					{
-						"name": "Codes 17-24",
-						"access_rules": [
-							// 4+ explore score
-							"[SubPET]", "[Needle]", "[PETCase]", "[CSciPas]"
-						],
-						"clear_as_group": true,
-						"item_count": 8
-					},
-					{
-						"name": "Codes 25-28",
-						"access_rules": [
-							// 8+ explore score
-							"[SubPET], [Needle]", "[SubPET], [PETCase]", "[Needle],[PETCase]"
-						],
-						"clear_as_group": true,
-						"item_count": 8
-					},
-					{
-						"name": "Codes 29-31",
-						"access_rules": [
-							// 10+ explore score
-							"[SubPET], [Needle]", "[SubPET], [PETCase]", "[Needle],[PETCase]"
-						],
-						"clear_as_group": true,
-						//TODO - Switch these back to false when we have autotracking.
-						"item_count": 8
+						"clear_as_group": false,
+						"item_count": 31
 					}
                   ]
 				},
@@ -490,6 +451,11 @@
                     "name": "ACDC School Server BMDs",
                     "access_rules": [],
                     "item_count": 2
+					},
+					{
+					"name": "ACDC School Classroom 5-B Bookshelf",
+                    "access_rules": [],
+                    "item_count": 1
 					},
                     {
                     "name": "ACDC School Blackboard BMD",
@@ -975,6 +941,23 @@
 				"name": "Yoka",
 				"access_rules": ["Needle"],
 				"children": [
+				{
+					"name": "Yoka Metroline",
+					"map_locations": [
+					  {
+                    "map": "Yoka",
+                    "x": 700,
+                    "y": 760
+                  }
+                ],
+                "sections": [
+					{
+					"name": "Yoka Chocolate Shop (32 Prizes)",
+					"access_rules": [],
+					"item_count": 32
+					}
+                  ]
+				},
 				{
 					"name": "Yoka Inn",
 					"map_locations": [
@@ -1490,6 +1473,11 @@
                         },
 						{
 						"name": "Beach Battle Console BMD",
+						"access_rules": [],
+						"item_count": 1
+						},
+						{
+						"name": "Beach DNN Security Panel BMD",
 						"access_rules": [],
 						"item_count": 1
 						},
