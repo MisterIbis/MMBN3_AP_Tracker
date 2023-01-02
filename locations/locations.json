@@ -3,6 +3,8 @@
 		"name": "ACDC Region",
 		"short_name": "ACDC Town",
 		"color": "#0400f8",
+		"chest_unopened_img" : "images/items/bmd.png",
+		"chest_opened_img" : "images/items/GreyBMD.png",
 		"children": [
 			
 			// ACDC Network Locations
