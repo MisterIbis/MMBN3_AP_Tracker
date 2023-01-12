@@ -956,6 +956,7 @@
 					{
 					"name": "Yoka Chocolate Shop (32 Prizes)",
 					"access_rules": [],
+					"clear_as_group": false,
 					"item_count": 32
 					}
                   ]
