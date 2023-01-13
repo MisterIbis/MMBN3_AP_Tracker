@@ -415,10 +415,47 @@
                     "item_count": 1
 					},
 					{
-						"name": "Numberman Gacha (31 Prizes)",
+						"name": "Gacha Codes 1-8",
 						"access_rules": [],
-						"clear_as_group": false,
-						"item_count": 31
+						"clear_as_group": true,
+						"item_count": 8
+					},
+					{
+						"name": "Gacha Codes 9-16",
+						"access_rules": [
+							// 2+ explore score
+							"[@2+ExploreScore]"
+						],
+						"clear_as_group": true,
+						"item_count": 8
+					},
+					{
+						"name": "Gacha Codes 17-24",
+						"access_rules": [
+							// 4+ explore score
+							"[@4+ExploreScore]"
+						],
+						"clear_as_group": true,
+						"item_count": 8
+					},
+					{
+						"name": "Gacha Codes 25-28",
+						"access_rules": [
+							// 8+ explore score
+							"[@8+ExploreScore]"
+						],
+						"clear_as_group": true,
+						"item_count": 8
+					},
+					{
+						"name": "Gacha Codes 29-31",
+						"access_rules": [
+							// 10+ explore score
+							"[@10+ExploreScore]"
+						],
+						"clear_as_group": true,
+						//TODO - Switch these back to false when we have autotracking.
+						"item_count": 8
 					}
                   ]
 				},
@@ -1434,23 +1471,6 @@
                     "item_count": 1
 					}
                   ]
-				},
-				{
-					"name": "Undernet - Villain",
-					"map_locations": [
-					  {
-                    "map": "Undernet1-4",
-                    "x": 1579,
-                    "y": 1149
-                  }
-                ],
-                "sections": [
-                  {
-                    "name": "Beach - Villain",
-                    "access_rules": [],
-                    "item_count": 1
-					}
-                  ]
 				}
 			]
 			},
@@ -2032,7 +2052,7 @@
 			//Undernet, regular (Pre-drillman access)
 			{
 				"name": "Undernet",
-			"access_rules": ["Press","GigFreez"],
+			"access_rules": ["[Press],[CBeacPas],CSciPas","Press, CBeacPas"],
 			"children": [
 				{
 					"name": "Undernet 1 South BMD",
@@ -2135,6 +2155,23 @@
 					"item_count": 1
 					}
 					]
+				},
+				{
+					"name": "Undernet - Villain",
+					"map_locations": [
+					  {
+                    "map": "Undernet1-4",
+                    "x": 1579,
+                    "y": 1149
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Villain",
+                    "access_rules": [],
+                    "item_count": 1
+					}
+                  ]
 				},
 				{
 					"name": "Undernet 4 Pillar Prog",
@@ -2645,6 +2682,50 @@
 					}
 				]
 			}
+		]
+	},
+	// Logic tracking
+	{
+		"name": "2+ExploreScore",
+		"access_rules": [
+			"CSciPas",  // 2
+			"CYokaPas,CBeacPas", // 1+1
+			// "CBeacPas,Press", // 1+2, UNDERNET DOESN'T COUNT UNTIL 8+
+			"Needle", // 3, overlaps 1 w/ CYokaPas
+			"PETCase", // 3
+			"SubPET" // 5, overlaps 2 w/CSciPas
+		]
+	},
+	{
+		"name": "4+ExploreScore",
+		"access_rules": [
+			"CSciPas,CYokaPas,CBeacPas", // 2+1+1
+			// "CSciPas,CBeacPas,Press", // 2+1+2 UNDERNET DOESN'T COUNT UNTIL 8+
+			"SubPET", // 5, overlaps 3 w/CSciPas
+			"Needle,CSciPas", // 3 + 2
+			"Needle,CBeacPas", // 3 + 1
+			"PETCase,CSciPas", // 3 + 2
+			"PETCase,CYokaPas" // 3 + 1
+		]
+	},
+	{
+		"name": "8+ExploreScore",
+		"access_rules": [
+		"SubPET,Needle",
+		"SubPET,PETCase",
+		"Needle,PETCase,CSciPas", // 3 + 3 + 2
+		"Needle,PETCase,CBeacPas,Press", // 3 + 3 + 1 + 2
+		"Needle,CSciPas,CBeacPas,Press", // 3 + 2 + 1 + 2
+		"PETCase,CSciPas,CBeacPas,Press" // 3 + 2 + 1 + 1 + 2
+		]
+	},
+	{
+		"name": "10+ExploreScore",
+		"access_rules": [
+			"SubPET,Needle,PETCase", // 5 + 3 + 3
+			"SubPET,Needle,CBeacPas,Press", // 5 + 3 + 1 + 2
+			"Needle,PETCase,CBeacPas,Press,CSciPas", // 3 + 3 + 1 + 2 + 2
+			"GigFreez,PETCase" // 999 + 3
 		]
 	}
 ]
