@@ -14,7 +14,7 @@
 				
 					//ACDC 1
 					{
-						"name": "ACDC1 Southwest BMD",
+						"name": "ACDC 1 Southwest BMD",
 						"map_locations": [
 							{
 							"map": "ACDCNet",
@@ -31,7 +31,7 @@
 						]
 					},
 					{
-						"name": "ACDC1 Northeast BMD",
+						"name": "ACDC 1 Northeast BMD",
 						"map_locations": [
 							{
 							"map": "ACDCNet",
@@ -48,7 +48,7 @@
 						]
 					},
 					{
-						"name": "ACDC1 Purple Mystery Data",
+						"name": "ACDC 1 Purple Mystery Data",
 						"map_locations": [
 						  {
 						"map": "ACDCNet",
@@ -58,7 +58,7 @@
 					],
 					"sections": [
 					  {
-						"name": "ACDC1 PMD",
+						"name": "ACDC 1 PMD",
 						"access_rules": ["WWW_ID"],
 						"item_count": 1
 						}
@@ -445,7 +445,7 @@
 							"[@8+ExploreScore]"
 						],
 						"clear_as_group": true,
-						"item_count": 8
+						"item_count": 4
 					},
 					{
 						"name": "Gacha Codes 29-31",
@@ -455,7 +455,7 @@
 						],
 						"clear_as_group": true,
 						//TODO - Switch these back to false when we have autotracking.
-						"item_count": 8
+						"item_count": 3
 					}
                   ]
 				},
