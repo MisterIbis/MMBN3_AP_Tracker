@@ -64,6 +64,8 @@ function onClear(slot_data)
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here
     end
+    -- Manual workaround for a progressive item without an automatic disabled stage, to prevent incrementation errors later on.
+    Tracker:FindObjectForCode("ranks").Active = true
 end
 
 -- called when an item gets collected
