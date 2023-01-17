@@ -1,18 +1,20 @@
 [   {
         "name": "ModTools",
-        "type": "progressive",
-        "stages": [
-			{
-				"img": "images/items/ModTools.png",
-      			"codes": "ModTools"
-			},
+        "type": "toggle",
+        "img": "images/items/ModTools.png",
+      	"codes": "ModTools"
+	},
+	{
+		"name": "Navicust Memory Expansion",
+		"type": "progressive",
+		"stages": [
             {
 				"img": "images/items/ExpMem.png",
-                "codes": "Expmem1"
+                "codes": "Expmem"
 			},
 			{
 				"img": "images/items/ExpMem2.png",
-                "codes": "Expmem2"
+                "codes": "Expmem"
 			}
 		]
     },

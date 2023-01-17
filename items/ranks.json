@@ -1,6 +1,6 @@
 [
     {
-        "name": "Internet Rank",
+        "name": "Undernet Rank",
         "type": "progressive",
         "allow_disabled": false,
         "stages": [
@@ -11,7 +11,7 @@
             {
                 "img": "images/ranks/rank-1.png",
                 "codes": "ranks"
-            },
+              },
             {
                 "img": "images/ranks/rank-2.png",
                 "codes": "ranks"
@@ -38,12 +38,12 @@
             },
             {
                 "img": "images/ranks/GigFreez.png",
-                "codes": "ranks,GigFreez"
+                "codes": "ranks"
             }
         ]
     },
     {
-        "name": "Ranks Required",
+        "name": "Required Ranks",
         "type": "progressive",
         "allow_disabled": false,
         "stages": [

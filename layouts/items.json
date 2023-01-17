@@ -29,7 +29,8 @@
                             [
                             "WWW_ID",
                             "press",
-                            "OrderSys"
+                            "OrderSys",
+                            "ranksRequired"
                             ]
                         ]
                     }
@@ -94,7 +95,8 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                            "ModTools"
+                            "ModTools",
+                            "Expmem"
                             ],
                             [
                             "SpinWht",
