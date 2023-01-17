@@ -624,7 +624,7 @@
 		],
 		"children": [
 			{
-				"name": "SciLab - Garbage Can",
+				"name": "Garbage Can",
 				"map_locations": [
 					{
 						"map": "SciLab",
@@ -640,7 +640,7 @@
 				]
 			},
 			{
-				"name": "SciLab - Shake Trade",
+				"name": "Shake1 S Trade",
 				"map_locations": [
 					{
 						"map": "SciLab",
@@ -650,7 +650,7 @@
 				],
 				"sections": [
 					{
-						"name": "Shake1 S Trade",
+						"name": "",
 						"access_rules": [
 							"shake"
 						],
@@ -659,7 +659,7 @@
 				]
 			},
 			{
-				"name": "SciLab - Vending Machine BMD",
+				"name": "Vending Machine BMD",
 				"map_locations": [
 					{
 						"map": "SciLab",
@@ -675,7 +675,7 @@
 				]
 			},
 			{
-				"name": "SciLab - Virus Lab Door BMDs",
+				"name": "Virus Lab Door BMDs",
 				"map_locations": [
 					{
 						"map": "SciLab",
@@ -701,11 +701,11 @@
 				],
 				"sections": [
 					{
-						"name": "SciLab Dad's Computer BMD",
+						"name": "BMD",
 						"item_count": 1
 					},
 					{
-						"name": "SciLab Dads Computer PMD",
+						"name": "PMD",
 						"item_count": 1
 					}
 				]
@@ -1099,11 +1099,11 @@
 				],
 				"sections": [
 					{
-						"name": "Panda PMD",
+						"name": "PMD",
 						"item_count": 1
 					},
 					{
-						"name": "Panda BMD",
+						"name": "BMD",
 						"item_count": 1
 					}
 				]
@@ -1571,10 +1571,6 @@
 					},
 					{
 						"name": "Basement - Hidden Conversation",
-						"item_count": 1
-					},
-					{
-						"name": "Security System BMD",
 						"item_count": 1
 					},
 					{
