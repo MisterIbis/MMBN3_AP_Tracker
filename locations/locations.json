@@ -691,7 +691,7 @@
 				]
 			},
 			{
-				"name": "SciLab - Dad's Computer",
+				"name": "Dad's Computer",
 				"map_locations": [
 					{
 						"map": "SciLab",
@@ -711,7 +711,7 @@
 				]
 			},
 			{
-				"name": "SciLab - Job Board (Scilab/ACDC access)",
+				"name": "Job Board (Scilab/ACDC access)",
 				"map_locations": [
 					{
 						"map": "SciLab",
@@ -754,7 +754,7 @@
 				]
 			},
 			{
-				"name": "SciLab - Job Board (Other regions)",
+				"name": "Job Board (Other regions)",
 				"map_locations": [
 					{
 						"map": "SciLab",

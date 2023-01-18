@@ -58,5 +58,11 @@
 		"type": "toggle",
 		"img": "images/items/OrderSys.png",
 		"codes": "OrderSys"
-	}
+	},
+    {
+        "name": "Alpha Defeated",
+        "type":"toggle",
+        "img": "images/items/Alpha.png",
+        "codes": "Alpha"
+    }
 ]
