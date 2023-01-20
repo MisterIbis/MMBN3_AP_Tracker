@@ -2362,8 +2362,8 @@
 				"name": "WWW 1 East BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 567,
+						"map": "WWWArea12",
+						"x": 563,
 						"y": 530
 					}
 				],
@@ -2378,8 +2378,8 @@
 				"name": "WWW 1 West BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 120,
+						"map": "WWWArea12",
+						"x": 115,
 						"y": 373
 					}
 				],
@@ -2394,9 +2394,9 @@
 				"name": "WWW 1 Central BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 419,
-						"y": 415
+						"map": "WWWArea12",
+						"x": 434,
+						"y": 404
 					}
 				],
 				"sections": [
@@ -2410,9 +2410,9 @@
 				"name": "WWW 1 South BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 475,
-						"y": 586
+						"map": "WWWArea12",
+						"x": 470,
+						"y": 580
 					}
 				],
 				"sections": [
@@ -2426,8 +2426,8 @@
 				"name": "WWW 2 East BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 1880,
+						"map": "WWWArea12",
+						"x": 1875,
 						"y": 395
 					}
 				],
@@ -2442,9 +2442,9 @@
 				"name": "WWW 2 Northwest BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 1434,
-						"y": 207
+						"map": "WWWArea12",
+						"x": 1429,
+						"y": 203
 					}
 				],
 				"sections": [
@@ -2458,8 +2458,8 @@
 				"name": "WWW 2 West BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 1210,
+						"map": "WWWArea12",
+						"x": 1203,
 						"y": 481
 					}
 				],
@@ -2474,9 +2474,9 @@
 				"name": "WWW 3 East BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 836,
-						"y": 1327
+						"map": "WWWArea34",
+						"x": 812,
+						"y": 507
 					}
 				],
 				"sections": [
@@ -2490,9 +2490,9 @@
 				"name": "WWW 3 North BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 576,
-						"y": 1006
+						"map": "WWWArea34",
+						"x": 558,
+						"y": 188
 					}
 				],
 				"sections": [
@@ -2506,9 +2506,9 @@
 				"name": "WWW 3 South BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 229,
-						"y": 1438
+						"map": "WWWArea34",
+						"x": 207,
+						"y": 621
 					}
 				],
 				"sections": [
@@ -2522,9 +2522,9 @@
 				"name": "WWW 4 Central BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 1577,
-						"y": 1208
+						"map": "WWWArea34",
+						"x": 1555,
+						"y": 391
 					}
 				],
 				"sections": [
@@ -2538,9 +2538,9 @@
 				"name": "WWW 4 Northwest BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 1355,
-						"y": 1003
+						"map": "WWWArea34",
+						"x": 1335,
+						"y": 185
 					}
 				],
 				"sections": [
@@ -2554,9 +2554,9 @@
 				"name": "WWW 4 East BMD",
 				"map_locations": [
 					{
-						"map": "WWWAreas",
-						"x": 2062,
-						"y": 1259
+						"map": "WWWArea34",
+						"x": 2039,
+						"y": 438
 					}
 				],
 				"sections": [
@@ -2610,6 +2610,159 @@
 				"sections": [
 					{
 						"name": "Desk Item",
+						"item_count": 1
+					}
+				]
+			}
+		]
+	},
+	// Secret Area
+	{
+		"name": "Secret Area",
+		"access_rules": [
+			"Alpha,Needle"
+		],
+		"children": [
+			{
+				"name": "Secret 1 South BMD",
+				"map_locations": [
+					{
+						"map": "Secret1",
+						"x": 298,
+						"y": 519
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 1 Northeast BMD",
+				"map_locations": [
+					{
+						"map": "Secret1",
+						"x": 887,
+						"y": 177
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 1 Northwest BMD",
+				"map_locations": [
+					{
+						"map": "Secret1",
+						"x": 184,
+						"y": 204
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 2 Upper BMD",
+				"map_locations": [
+					{
+						"map": "Secret2",
+						"x": 248,
+						"y": 507
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 2 Lower BMD",
+				"map_locations": [
+					{
+						"map": "Secret2",
+						"x": 247,
+						"y": 250
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 2 Island BMD",
+				"map_locations": [
+					{
+						"map": "Secret2",
+						"x": 505,
+						"y": 58
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 3 South BMD",
+				"map_locations": [
+					{
+						"map": "Secret3",
+						"x": 596,
+						"y": 788
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 3 Island BMD",
+				"map_locations": [
+					{
+						"map": "Secret3",
+						"x": 87,
+						"y": 213
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 3 BugFrag BMD",
+				"map_locations": [
+					{
+						"map": "Secret3",
+						"x": 469,
+						"y": 372
+					}
+				],
+				"sections": [
+					{
+						"name": "",
 						"item_count": 1
 					}
 				]

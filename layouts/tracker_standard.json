@@ -1,140 +1,154 @@
 {
-    "tracker_default": {
-      "type": "container",
-      "background": "#000000",
-      "content": {
-        "type": "dock",
-        "dropshadow": true,
-        "content": [
-          {
-            "type": "dock",
-            "dock": "left",
-            "v_alignment": "stretch",
-            "content": [
-              {
-                "type": "group",
-                "header": "Key Items",
-                "dock": "left",
-                "content": {
-                  "type": "layout",
-                  "key": "key_item_grid"
-                }
-              },
-              {
-                "type": "group",
-                "header": "NaviCust",
-                "dock": "left",
-                "content": {
-                  "type": "layout",
-                  "key": "misc_item_grid"
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Key Items",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "key_item_grid"
               }
-              },
-              {
-                "type": "group",
-                "header": "Tradable Chips",
-                "dock": "left",
-                "content": {
-                  "type": "layout",
-                  "key": "trade_chips"
+            },
+            {
+              "type": "group",
+              "header": "NaviCust",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "misc_item_grid"
               }
+            },
+            {
+              "type": "group",
+              "header": "Tradable Chips",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "trade_chips"
               }
-            ]
-          },
-          {
-            "type": "tabbed",
-            "tabs": [
-              {
-                "title": "Overworld Locations",
-                "content": {
-                  "type": "layout",
-                  "key": "overworld_maps"
-                }
-              },
-              {
-                "title": "Network Locations",
-                "content": {
-                  "type": "layout",
-                  "key": "Network_maps"
-                }
-              },
-              {
-                "title": "Dungeon Locations",
-                "content": {
-                  "type": "layout",
-                  "key": "Dungeon_maps"
-                    }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Overworld Locations",
+              "content": {
+                "type": "layout",
+                "key": "overworld_maps"
               }
-            ]
-          }
-        ]
-      }
-    },
-    "tracker_horizontal": {
-      "type": "container",
-      "background": "#000000",
-      "content": {
-        "type": "dock",
-        "dropshadow": true,
-        "content": [
-          {
-            "type": "dock",
-            "dock": "bottom",
-            "h_alignment": "stretch",
-            "content": [
+            },
+            {
+              "title": "Network Locations",
+              "content": {
+                "type": "layout",
+                "key": "Network_maps"
+              }
+            },
+            {
+              "title": "Dungeon Locations",
+              "content": {
+                "type": "layout",
+                "key": "Dungeon_maps"
+              }
+            },
+            {
+              "title": "Endgame Locations",
+              "content": {
+                "type": "layout",
+                "key": "Endgame"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "h_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "content": [
                 {
-                  "type": "group",
-                  "header": "Items",
+                  "type": "array",
+                  "orientation": "horizontal",
+                  "margin": "0,0",
                   "content": [
                     {
-                    "type": "array",
-                    "orientation": "horizontal",
-                    "margin": "0,0",
-                    "content": [
-                      {
-                        "type": "layout",
-                        "key": "key_item_grid"
-                      },
-                      {
-                        "type": "layout",
-                    "key": "misc_item_grid"
-                      },
-                      {
-                        "type": "layout",
-                    "key": "trade_chips"
-                      }
-                    ]
+                      "type": "layout",
+                      "key": "key_item_grid"
+                    },
+                    {
+                      "type": "layout",
+                      "key": "misc_item_grid"
+                    },
+                    {
+                      "type": "layout",
+                      "key": "trade_chips"
                     }
                   ]
                 }
               ]
-          },
-          {
-            "type": "tabbed",
-            "tabs": [
-              {
-                "title": "Overworld Locations",
-                "content": {
-                  "type": "layout",
-                  "key": "overworld_maps"
-                }
-              },
-              {
-                "title": "Network Locations",
-                "content": {
-                  "type": "layout",
-                  "key": "Network_maps"
-                }
-              },
-              {
-                "title": "Dungeon Locations",
-                "content": {
-                  "type": "layout",
-                  "key": "Dungeon_maps"
-                    }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Overworld Locations",
+              "content": {
+                "type": "layout",
+                "key": "overworld_maps"
               }
-            ]
-          }
-        ]
-      }
+            },
+            {
+              "title": "Network Locations",
+              "content": {
+                "type": "layout",
+                "key": "Network_maps"
+              }
+            },
+            {
+              "title": "Dungeon Locations",
+              "content": {
+                "type": "layout",
+                "key": "Dungeon_maps"
+              }
+            },
+            {
+              "title": "Endgame Locations",
+              "content": {
+                "type": "layout",
+                "key": "Endgame"
+              }
+            }
+          ]
+        }
+      ]
     }
   }
+}
