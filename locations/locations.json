@@ -568,6 +568,7 @@
 			},
 			{
 				"name": "SciLab 1 WWW BMD",
+				"access_rules": ["WWW_ID"]
 				"map_locations": [
 					{
 						"map": "SciLabNet",
