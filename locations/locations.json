@@ -788,7 +788,9 @@
 					{
 						"name": "Job - Be my boyfriend",
 						"access_rules": [
-							"PETCase"
+							// Can be updated once the Metro works "correctly"
+							"CBeacPas,Needle",
+							"CbeacPass,CYokaPas,Press"
 						],
 						"item_count": 1
 					},
@@ -823,22 +825,22 @@
 					{
 						"name": "Job - Catching gang members",
 						"access_rules": [
-							"Needle",
-							"CYokaPas"
+							"Needle,press",
+							"CYokaPas,press"
 						],
 						"item_count": 1
 					},
 					{
 						"name": "Job - Legendary Tomes",
 						"access_rules": [
-							"PETCase,Press"
+							"PETCase,[CBeacPas],[Press],magnum"
 						],
 						"item_count": 1
 					},
 					{
 						"name": "Job - Legendary Tomes Treasure",
 						"access_rules": [
-							"PETCase,Press"
+							"PETCase,[CBeacPas],[Press],magnum"
 						],
 						"item_count": 1
 					},
@@ -860,15 +862,15 @@
 					{
 						"name": "Job - Stamp collecting",
 						"access_rules": [
-							"PETCase,Needle",
-							"PETCase,CYokaPas"
+							"PETCase,CBeacPas,Needle",
+							"PETCase,CbeacPass,CYokaPas,press"
 						],
 						"item_count": 1
 					},
 					{
 						"name": "Job - Help with a will",
 						"access_rules": [
-							"Needle,PETCase,Press"
+							"Needle,PETCase,[Press]"
 						],
 						"item_count": 1
 					}
@@ -1384,8 +1386,11 @@
 	{
 		"name": "Beach Cyberworld",
 		"access_rules": [
-			"PETCase",
-			"CBeacPass"
+			// Can be corrected to CbeacPass + any other pass/needle once metro works "correctly".
+			"CBeacPas,CYokaPas",
+			"CBeacPas,Needle",
+			"[CBeacPas],[CYokaPas],press,CSciPas",
+			"[CBeacPas],[CYokaPas],press,SubPET"
 		],
 		"children": [
 			{
@@ -1446,6 +1451,22 @@
 						"map": "BeachNet",
 						"x": 1388,
 						"y": 357
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Villain",
+				"map_locations": [
+					{
+						"map": "BeachNet",
+						"x": 1851,
+						"y": 194
 					}
 				],
 				"sections": [
@@ -1665,25 +1686,6 @@
 				"sections": [
 					{
 						"name": "",
-						"item_count": 1
-					}
-				]
-			},
-			{
-				"name": "Hades HadesKey BMD",
-				"map_locations": [
-					{
-						"map": "HadesComp",
-						"x": 675,
-						"y": 77
-					}
-				],
-				"sections": [
-					{
-						"name": "",
-						"access_rules": [
-							"press"
-						],
 						"item_count": 1
 					}
 				]
@@ -2117,22 +2119,6 @@
 				]
 			},
 			{
-				"name": "Villain",
-				"map_locations": [
-					{
-						"map": "Undernet1-4",
-						"x": 1579,
-						"y": 1149
-					}
-				],
-				"sections": [
-					{
-						"name": "",
-						"item_count": 1
-					}
-				]
-			},
-			{
 				"name": "Undernet 4 Pillar Prog",
 				"map_locations": [
 					{
@@ -2335,7 +2321,7 @@
 				]
 			},
 			{
-				"name": "Undernet 7 BMD",
+				"name": "Undernet 7 Upper BMD",
 				"map_locations": [
 					{
 						"map": "Undernet5-7",
@@ -2345,7 +2331,7 @@
 				],
 				"sections": [
 					{
-						"name": "Undernet 7 Hammer BMD",
+						"name": "",
 						"item_count": 1
 					}
 				]
@@ -2611,6 +2597,22 @@
 				"sections": [
 					{
 						"name": "Desk Item",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "WWW Wall BMD",
+				"map_locations": [
+					{
+						"map": "WWWIsle",
+						"x": 1225,
+						"y": 1078
+					}
+				],
+				"sections": [
+					{
+						"name": "",
 						"item_count": 1
 					}
 				]

@@ -120,6 +120,7 @@ LOCATION_MAPPING = {
     [11735157] = {"@ACDC Town Locations/Dexs HP BMD/"},
     [11735158] = {"@ACDC Town Locations/Dexs HP BMD/"},
     [11735159] = {"@Yoka Overworld/Tamako's HomePage/BMD"},
+    [11735160] = {"@Deep Undernet/Undernet 7 Upper BMD/"},    
     [11735161] = {"@School Comps/School 1 KeyDataA BMD/"},
     [11735162] = {"@School Comps/School 1 KeyDataB BMD/"},
     [11735163] = {"@School Comps/School 1 KeyDataC BMD/"},
