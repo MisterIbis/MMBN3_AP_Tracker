@@ -2,6 +2,8 @@
 	// ACDC Network Locations
 	{
 		"name": "ACDC Cyberworld",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"children": [
 			{
 				"name": "ACDC 1 Southwest BMD",
@@ -123,6 +125,8 @@
 	//School Computers - NOT loose school checks. those are in the ACDC town locations.
 	{
 		"name": "School Comps",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"children": [
 			{
 				"name": "School 1 Entrance BMD",
@@ -321,6 +325,8 @@
 	//Locations Around ACDC Town
 	{
 		"name": "ACDC Town Locations",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"children": [
 			{
 				"name": "Doghouse BMD",
@@ -469,6 +475,11 @@
 						"item_count": 1
 					},
 					{
+						"name": "Please Deliver This - Delivery",
+						"visibility_rules": ["ShowAllJobSteps,PDT1"],
+						"hosted_item": "PDT2"
+					},
+					{
 						"name": "SonicWave Trade",
 						"access_rules": [
 							"sonicwave"
@@ -481,6 +492,23 @@
 							"bubbler"
 						],
 						"item_count": 1
+					},
+					{
+						"name": "Job - Somebody, please help! Start",
+						"visibility_rules": ["ShowAllJobSteps,SubPET"],
+						"hosted_item": "SPH1"
+					},
+					{
+						"name": "Job - Somebody, Please help! Finish",
+						"visibility_rules": ["ShowAllJobSteps,SPH2,SPH3,SPH4"],
+						"access_rules": ["SPH2,SPH3,SPH4"],
+						"hosted_item": "SPH5"
+					},
+					{
+						"name": "Job - Old Master (Teachers lounge Yearbook)",
+						"visibility_rules": ["ShowAllJobSteps,OM1"],
+						"access_rules": ["OM1"],
+						"hosted_item": "OM2"
 					}
 				]
 			},
@@ -521,6 +549,11 @@
 					{
 						"name": "Yai's Phone BMD",
 						"item_count": 1
+					},
+					{
+						"name": "Rare Chips for Cheap!",
+						"visibility_rules": ["ShowAllJobSteps,SubPET"],
+						"hosted_item": "RC1"
 					}
 				]
 			},
@@ -545,6 +578,8 @@
 	//Scilab network checks
 	{
 		"name": "SciLab Cyberworld",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"CSciPas",
 			"SubPET"
@@ -619,12 +654,14 @@
 	//Scilab Overworld Checks
 	{
 		"name": "SciLab Overworld",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"SubPET"
 		],
 		"children": [
 			{
-				"name": "Garbage Can",
+				"name": "Scilab Station",
 				"map_locations": [
 					{
 						"map": "SciLab",
@@ -634,8 +671,13 @@
 				],
 				"sections": [
 					{
-						"name": "",
+						"name": "Garbage Can",
 						"item_count": 1
+					},
+					{
+						"name": "Job - My Navi is sick",
+						"visibility_rules": ["ShowAllJobSteps"],
+						"hosted_item": "MNIS1"
 					}
 				]
 			},
@@ -671,6 +713,17 @@
 					{
 						"name": "",
 						"item_count": 1
+					},
+					{
+						"name": "Job - Old Master - Start",
+						"visibility_rules": ["ShowAllJobSteps"],
+						"hosted_item": "OM1"
+					},
+					{
+						"name": "Job - Old Master - Finish",
+						"visibility_rules": ["ShowAllJobSteps,OM3"],
+						"access_rules": ["OM3"],
+						"hosted_item": "OM4"
 					}
 				]
 			},
@@ -722,34 +775,37 @@
 				"sections": [
 					{
 						"name": "Job - Please deliver this",
-						"item_count": 1
+						"hosted_item": "PDT3"
 					},
 					{
 						"name": "Job - My Navi is sick",
-						"item_count": 1
+						"hosted_item": "MNIS1"
 					},
 					{
 						"name": "Job - Chip Prices",
-						"item_count": 1
+						"hosted_item": "CP5"
 					},
 					{
 						"name": "Job - Rare chips for cheap",
-						"item_count": 1
+						"hosted_item": "RC1"
 					},
 					{
 						"name": "Job - Somebody please help",
-						"item_count": 1
+						"hosted_item": "SPH5"
 					},
 					{
 						"name": "Job - Please adopt a virus",
-						"item_count": 1
+						"hosted_item": "PAAV1"
 					},
 					{
 						"name": "Job - Finding the blue Navi",
 						"access_rules": [
-							"Press"
+							"Press,Needle,CBeacPas",
+							"Press,CYokaPas,CBeacPas",
+							"[SubPET]",
+							"[CSciPas]"
 						],
-						"item_count": 1
+						"hosted_item": "FTBN1"
 					}
 				]
 			},
@@ -778,54 +834,55 @@
 						"item_count": 1
 					},
 					{
-						"name": "Job - Im broke",
+						"name": "Job - I'm broke?!",
 						"access_rules": [
 							"Needle"
 						],
-						"item_count": 1
+						"hosted_item": "IB3"
 					},
 					{
 						"name": "Job - Be my boyfriend",
 						"access_rules": [
 							"PETCase"
 						],
-						"item_count": 1
+						"hosted_item": "BMB1"
 					},
 					{
 						"name": "Job - Will you deliver",
 						"access_rules": [
 							"Needle,PETCase"
 						],
-						"item_count": 1
+						"hosted_item": "WYD5"
 					},
 					{
 						"name": "Job - Looking for condor",
 						"access_rules": [
 							"Needle,PETCase"
 						],
-						"item_count": 1
+						"hosted_item": "LFC3"
 					},
 					{
 						"name": "Job - Help with rehab",
 						"access_rules": [
 							"PETCase"
 						],
-						"item_count": 1
+						"hosted_item": "HWR1"
 					},
 					{
 						"name": "Job - Old Master",
 						"access_rules": [
 							"PETCase"
 						],
-						"item_count": 1
+						"hosted_item": "OM4"
 					},
 					{
 						"name": "Job - Catching gang members",
 						"access_rules": [
 							"Needle",
-							"CYokaPas"
+							"CYokaPas",
+							"press"
 						],
-						"item_count": 1
+						"hosted_item": "CGM6"
 					},
 					{
 						"name": "Job - Legendary Tomes",
@@ -878,6 +935,8 @@
 	//Yoka Cyberworld
 	{
 		"name": "Yoka Cyberworld",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"Needle",
 			"CYokaPas"
@@ -998,6 +1057,8 @@
 	//Yoka Overworld
 	{
 		"name": "Yoka Overworld",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"Needle"
 		],
@@ -1016,6 +1077,15 @@
 						"name": "Yoka Chocolate Shop",
 						"clear_as_group": false,
 						"item_count": 32
+					},
+					{
+						"name": "Help me with my son!",
+						"visibility_rules": ["ShowAllJobSteps"],
+						"hosted_item": "HMWMS1"
+					},
+					{
+						"name": "Help me with my son - Final!",
+						"visibility_rules": ["ShowAllJobSteps,HMWMS2"]
 					}
 				]
 			},
@@ -1052,6 +1122,17 @@
 					{
 						"name": "Hot Spring BMD",
 						"item_count": 1
+					},
+					{
+						"name": "I'm Broke?! - Start",
+						"visibility_rules": ["ShowAllJobSteps,SubPET"],
+						"hosted_item": "IB1"
+					},
+					{
+						"name": "I'm Broke?! - Finish",
+						"visibility_rules": ["ShowAllJobSteps,IB2"],
+						"access_rules": ["IB2"],
+						"hosted_item": "IB3"
 					}
 				]
 			},
@@ -1165,6 +1246,8 @@
 	// For my own sanity, splitting Zoo comps into their own thing.
 	{
 		"name": "Yoka - Zoo Computers",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"Needle"
 		],
@@ -1382,6 +1465,8 @@
 	//Life's a beach, and then you die
 	{
 		"name": "Beach Cyberworld",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"PETCase",
 			"CBeacPass"
@@ -1453,12 +1538,36 @@
 						"item_count": 1
 					}
 				]
+			},
+			{
+				"name": "Beach Square",
+				"map_locations": [
+					{
+						"map": "BeachNet",
+						"x": 1579,
+						"y": 1149
+					}
+				],
+				"sections": [
+					{
+						"name": "Villain",
+						"item_count": 1
+					},
+					{
+						"name": "Be my boyfriend",
+						"visibility_rules": ["ShowAllJobSteps,SubPET"],
+						"access_rules": ["SubPET"],
+						"hosted_item": "BMB1"
+					}
+				]
 			}
 		]
 	},
 	//Beach Overworld
 	{
 		"name": "Beach Overworld",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"PETCase"
 		],
@@ -1529,6 +1638,11 @@
 					{
 						"name": "Undernet 6 TV BMD",
 						"item_count": 1
+					},
+					{
+						"name": "Job - Will You Deliver?",
+						"visibility_rules": ["ShowAllJobSteps,SubPET,WYD1"],
+						"hosted_item": "WYD2"
 					}
 				]
 			},
@@ -1576,6 +1690,18 @@
 					{
 						"name": "TV BMD",
 						"item_count": 1
+					},
+					{
+						"name": "Job - Help with rehab (in TV)",
+						"visibility_rules": ["ShowAllJobSteps,SubPET"],
+						"access_rules": ["SubPET"],
+						"hosted_item": "HWR1"
+					},
+					{
+						"name": "Looking for Condor (2F, right room)",
+						"visibility_rules": ["ShowAllJobSteps,LFC1"],
+						"access_rules": ["LFC1"],
+						"hosted_item": "LFC2"
 					}
 				]
 			},
@@ -1648,6 +1774,8 @@
 	// Hades Isle Checks
 	{
 		"name": "Hades Isle",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"PETCase"
 		],
@@ -1762,6 +1890,8 @@
 	//Hospital Comps 
 	{
 		"name": "Beach - Hospital Comps",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"PETCase"
 		],
@@ -2011,6 +2141,8 @@
 	//Undernet, regular (Pre-drillman access)
 	{
 		"name": "Undernet",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"[Press],[CBeacPas],CSciPas",
 			"Press, CBeacPas"
@@ -2116,22 +2248,6 @@
 				]
 			},
 			{
-				"name": "Villain",
-				"map_locations": [
-					{
-						"map": "Undernet1-4",
-						"x": 1579,
-						"y": 1149
-					}
-				],
-				"sections": [
-					{
-						"name": "",
-						"item_count": 1
-					}
-				]
-			},
-			{
 				"name": "Undernet 4 Pillar Prog",
 				"map_locations": [
 					{
@@ -2216,6 +2332,8 @@
 	// Deep Undernet
 	{
 		"name": "Deep Undernet",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"CSciPas",
 			"SubPET"
@@ -2354,6 +2472,8 @@
 	// World 3 island - Time to win!
 	{
 		"name": "WWW island",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"$hasEnoughRanks, PETCase"
 		],
@@ -2619,6 +2739,8 @@
 	// Secret Area
 	{
 		"name": "Secret Area",
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"Alpha,Needle"
 		],

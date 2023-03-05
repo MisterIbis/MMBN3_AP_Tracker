@@ -1,0 +1,552 @@
+[
+    {
+        "name": "Job Logic",
+        "visibility_rules": ["ShowAllJobSteps,SubPET"],
+        "children": [
+            // I'm assuming that you grab all Jobs as soon as you can access SciLab. TBH, there's no reason not to.
+            {
+                "name": "Please Deliver This - Start",
+                "map_locations": [
+                    {
+                        "map": "ACDCNet",
+						"x": 1145,
+						"y": 408
+                    }
+                ],
+                "sections": [
+					{
+						"name": "",
+						"hosted_item": "PDT1"
+					},
+                    // Step 2 is in Locations, since it's part of ACDC School
+                    {
+                        "name": "Please Deliver This - Finish",
+                        "access_rules": ["PDT2"],
+                        "visibility_rules": ["PDT2"],
+                        "hosted_item": "PDT3"
+                    }
+				]
+            },
+            // My navi is Sick is in locations, as it's a single step
+            {
+                "name": "Job - Help me with my son!",
+                "visibility_rules": ["HMWMS1"],
+                "map_locations": [
+                    {
+                        "map": "ACDC_Net",
+                        "x": 1273,
+                        "y": 900
+                    }
+                ],
+                "sections": [
+                    {
+                    "name": "",
+                    "hosted_item": "HMWMS2"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Transmission Error",
+                "map_locations": [
+                    {
+                        "map": "SciLab",
+                        "x": 604,
+                        "y": 359
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"Transmission Error Start",
+                        "hosted_item": "TE1"
+                    },
+                    {
+                        "name": "Transmission Error Finish",
+                        "access_rules": ["TE2"],
+                        "visibility_rules": ["TE2"]
+                    }
+                ]
+            },
+            {
+                "name": "Job - Transmission Error",
+                "map_locations": [
+                    {
+                        "map": "Yoka",
+                        "x": 1557,
+                        "y": 486
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"Viruses",
+                        "visibility_rules": ["TE1"],
+                        "hosted_item": "TE2"
+                    }
+                ]
+            },
+            {
+                "name": "ACDC Square",
+                "map_locations": [
+                    {
+                        "map": "ACDC_Net",
+                        "x": 1448,
+                        "y": 1374
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"Chip Prices - Start",
+                        "visibility_rules": [""],
+                        "hosted_item": "CP1"
+                    },
+                    {
+                        "name": "Chip Prices - Do it again",
+                        "visibility_rules": ["CP2"],
+                        "hosted_item": "CP3"
+                    },
+                    {
+                        "name": "Chip Prices - Finish",
+                        "visibility_rules": ["CP4"],
+                        "hosted_item": "CP5"
+                    },
+                    {
+                        "name": "Will You Deliver? - Red Navi",
+                        "visibility_rules": ["WYD3"],
+                        "access_rules": ["WYD3"],
+                        "hosted_item": "WYD4"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Chip Prices (SciLab)",
+                "map_locations": [
+                    {
+                        "map": "SciLabNet",
+                        "x": 1600,
+                        "y": 120
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"Price Check",
+                        "visibility_rules": ["CP1"],
+                        "hosted_item": "CP2"
+                    },
+                    {
+                        "name": "This one again too",
+                        "visibility_rules": ["CP3"],
+                        "hosted_item": "CP4"
+                    }
+                ]
+            },
+            // I'm Broke start/finish in locations, in the Yoka Inn
+            {
+                "name": "Job - I'm Broke?!",
+                "map_locations": [
+                    {
+                        "map": "YokaNet",
+                        "x": 1511,
+                        "y": 88
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"Navi Rescue",
+                        "visibility_rules": ["IB1"],
+                        "hosted_item": "IB2"
+                    }
+                ]
+            },
+            // Rare Chips for Cheap - in Locations, Yai's Phone
+            {
+                "name": "Job - Be my boyfriend",
+                "map_locations": [
+                    {
+                        "map": "BeachNet",
+                        "x": 1511,
+                        "y": 88
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"Navi Rescue",
+                        "visibility_rules": ["IB1"],
+                        "hosted_item": "IB2"
+                    }
+                ]
+            },
+            {
+                "name":"Will You deliver?",
+                "map_locations": [
+                    {
+                        "map": "Yoka",
+                        "x": 366,
+                        "y": 888
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Start",
+                        "hosted_item": "WYD1"
+                    },
+                    // Will You Deliver 2 in Locations, DNN Station
+                    {
+                        "name": "Wrong chip, try again",
+                        "visibility_rules": ["WYD2"],
+                        "hosted_item": "WYD3"
+                    },
+                    {
+                        "name": "Will You Deliver? - Finish",
+                        "visibility_rules": ["WYD4"],
+                        "access_rules": ["WYD4"],
+                        "hosted_item": "WYD5"
+                    }
+                ]
+            },
+            // Somebody Please Help Start/Finish is in ACDC School
+            {
+                "name":"Somebody, please help!",
+                "map_locations": [
+                    {
+                        "map": "ACDCSchool",
+                        "x": 575,
+                        "y": 78
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Virus Bomb - 'Red'",
+                        "visibility_rules": ["SPH1"],
+                        "hosted_item": "SPH2"
+                    }
+                ]
+            },
+            {
+                "name":"Somebody, please help!",
+                "map_locations": [
+                    {
+                        "map": "ACDCSchool",
+                        "x": 1831,
+                        "y": 135
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Virus Bomb - 'Wooden'",
+                        "visibility_rules": ["SPH1"],
+                        "hosted_item": "SPH3"
+                    }
+                ]
+            },
+            {
+                "name":"Somebody, please help!",
+                "map_locations": [
+                    {
+                        "map": "ACDCSchool",
+                        "x": 1340,
+                        "y": 380
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Virus Bomb - 'Zero'",
+                        "visibility_rules": ["SPH1"],
+                        "hosted_item": "SPH4"
+                    }
+                ]
+            },
+            {
+                "name":"Looking for condor",
+                "map_locations": [
+                    {
+                        "map": "Yoka",
+                        "x": 1275,
+                        "y": 370
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Job Start",
+                        "visibility_rules": ["Needle"],
+                        "hosted_item": "LFC1"
+                    }
+                ]
+            },
+            // Step 2 is in Beach Hospital
+            {
+                "name":"Looking for condor",
+                "map_locations": [
+                    {
+                        "map": "ACDCTown",
+                        "x": 890,
+                        "y": 400
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Bag the bird",
+                        "visibility_rules": ["ShowAllJobSteps,LFC2"],
+                        "access_rules": ["LFC2"],
+                        "hosted_item": "LFC3"
+                    }
+                ]
+            },
+            {
+                "name":"Job - Old Master",
+                "map_locations": [
+                    {
+                        "map": "Beach",
+                        "x": 1212,
+                        "y": 238
+                    }
+                ],
+                // Old Master 1 is in SciLab Vending Machine, 2 is in ACDC School
+                "sections": [
+                    {
+                        "name": "Waitress",
+                        "visibility_rules": ["ShowAllJobSteps,PETCase,OM2"],
+                        "access_rules": ["PETCase,OM2"],
+                        "hosted_item": "OM3"
+                    }
+                ]
+            },
+            {
+                "name": "YokaSquare",
+                "map_locations": [
+                    {
+                        "map": "YokaNet",
+                        "x": 1915,
+                        "y": 662
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"Job - Catching gang members - Start",
+                        "visibility_rules": ["ShowAllJobSteps,SubPET,Needle","ShowAllJobSteps,SubPET,CYokaPas"],
+                        "access_rules": ["SubPET,Needle","ShowAllJobSteps,SubPET,CYokaPas"],
+                        "hosted_item": "CGM1"
+                    },
+                    {
+                        "name": "Job - Catching gang members - Finish",
+                        "visibility_rules": ["ShowAllJobSteps,CGM5"],
+                        "access_rules": ["CGM2,CGM3,CGM4,CGM5"],
+                        "hosted_item": "CGM6"
+                    }
+                ]
+            },
+            {
+                "name": "Catching Gang members - 1",
+                "map_locations": [
+                    {
+                        "map": "YokaNet",
+                        "x": 100,
+                        "y": 100
+                        //TODO - CHECK LOCATION
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"",
+                        "visibility_rules": ["ShowAllJobSteps,CGM1"],
+                        "access_rules": ["CGM1"],
+                        "hosted_item": "CGM2"
+                    }
+                ]
+            },
+            {
+                "name": "Catching Gang members - 2",
+                "map_locations": [
+                    {
+                        "map": "YokaNet",
+                        "x": 1846,
+                        "y": 215
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"",
+                        "visibility_rules": ["ShowAllJobSteps,CGM1"],
+                        "access_rules": ["CGM1"],
+                        "hosted_item": "CGM3"
+                    }
+                ]
+            },
+            {
+                "name": "Catching Gang members - 3",
+                "map_locations": [
+                    {
+                        "map": "YokaNet",
+                        "x": 378,
+                        "y": 447
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"",
+                        "visibility_rules": ["ShowAllJobSteps,CGM1"],
+                        "access_rules": ["CGM1"],
+                        "hosted_item": "CGM4"
+                    }
+                ]
+            },
+            {
+                "name": "Catching Gang members - 4",
+                "map_locations": [
+                    {
+                        "map": "YokaNet",
+                        "x": 100,
+                        "y": 100
+                        //TODO - CHECK LOCATION
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"",
+                        "visibility_rules": ["ShowAllJobSteps,CGM1"],
+                        "access_rules": ["CGM1"],
+                        "hosted_item": "CGM5"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Please adopt a virus!",
+                "map_locations": [
+                    {
+                        "map": "SciLabNet",
+                        "x": 100,
+                        "y": 100
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"50 BugFrags later...",
+                        "visibility_rules": ["ShowAllJobSteps"],
+                        "access_rules": [""],
+                        "hosted_item": "PAAV1"
+                    }
+                ]
+            },
+            // TODO - LEGENDARY TOMES
+            {
+                "name": "Job - Hide and seek!",
+                "map_locations": [
+                    {
+                        "map": "Yoka",
+                        "x": 936,
+                        "y": 625
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"Start",
+                        "visibility_rules": ["ShowAllJobSteps"],
+                        "access_rules": ["SubPET,Needle"],
+                        "hosted_item": "HAS1"
+                    },
+                    {
+                        "name": "Finish",
+                        "visibility_rules": ["ShowAllJobSteps,HAS2,HAS3,HAS4,HAS5"],
+                        "access_rules": ["SubPET,Needle,HAS2,HAS3,HAS4,HAS5"],
+                        "hosted_item": "HAS6"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Hide and seek!",
+                "map_locations": [
+                    {
+                        "map": "ZooComps",
+                        "x": 163,
+                        "y": 343
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"First",
+                        "visibility_rules": ["ShowAllJobSteps,HAS1"],
+                        "access_rules": ["HAS1"],
+                        "hosted_item": "HAS2"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Hide and seek!",
+                "map_locations": [
+                    {
+                        "map": "ZooComps",
+                        "x": 1763,
+                        "y": 309
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"Second",
+                        "visibility_rules": ["ShowAllJobSteps,HAS1"],
+                        "access_rules": ["HAS1"],
+                        "hosted_item": "HAS3"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Hide and seek!",
+                "map_locations": [
+                    {
+                        "map": "ZooComps",
+                        "x": 467,
+                        "y": 863
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"Third",
+                        "visibility_rules": ["ShowAllJobSteps,HAS1"],
+                        "access_rules": ["HAS1"],
+                        "hosted_item": "HAS4"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Hide and seek!",
+                "map_locations": [
+                    {
+                        "map": "ZooComps",
+                        "x": 1557,
+                        "y": 810
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"Fourth",
+                        "visibility_rules": ["ShowAllJobSteps,HAS1"],
+                        "access_rules": ["HAS1"],
+                        "hosted_item": "HAS5"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Finding the blue Navi",
+                "map_locations": [
+                    {
+                        "map": "Undernet1-4",
+                        "x": 1771,
+                        "y": 110
+                    }
+                ],
+                "sections": [
+                    {
+                        "name":"",
+                        "visibility_rules": ["ShowAllJobSteps"],
+                        "access_rules": [
+                            "CBeachPas,Press",
+                            "[SubPET]",
+                            "[CSciPas]"
+                        ],
+                        "hosted_item": "FTBN1"
+                    }
+                ]
+            }
+            // TODO - Give your support
+            // TODO - Stamp Collecting
+            // TODO - Help with a will
+        ]
+    }
+]

@@ -8,13 +8,13 @@
       "content": [
         {
           "type": "dock",
-          "dock": "left",
+          "dock": "top",
           "v_alignment": "stretch",
           "content": [
             {
               "type": "group",
               "header": "Key Items",
-              "dock": "left",
+              "dock": "top",
               "content": {
                 "type": "layout",
                 "key": "key_item_grid"
