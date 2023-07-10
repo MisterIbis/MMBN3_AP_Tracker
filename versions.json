@@ -2,8 +2,8 @@
   "versions": [
     {
       "package_version": "0.1.3.3",
-      "download_url": "",
-      "sha256": "",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.1.3.3/MMBN3_AP_Tracker.zip",
+      "sha256": "EEA02AB1AABF137D6453E582AB8D99E48327E6879FA6202BC399D44AB56D2238",
       "changelog": [
         "Resolved incorrect logical access for BeachNet -> Hospital Island BMD and Tamako's PC BMDs."
       ]
