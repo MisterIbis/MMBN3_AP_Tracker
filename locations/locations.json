@@ -995,6 +995,27 @@
 						"item_count": 1
 					}
 				]
+			},
+			{
+				"name": "Tamako's HomePage",
+				"access_rules": ["Needle", "CYokaPas,press"],
+				"map_locations": [
+					{
+						"map": "Yoka",
+						"x": 114,
+						"y": 714
+					}
+				],
+				"sections": [
+					{
+						"name": "PMD",
+						"item_count": 1
+					},
+					{
+						"name": "BMD",
+						"item_count": 1
+					}
+				]
 			}
 		]
 	},
@@ -1139,26 +1160,6 @@
 				"sections": [
 					{
 						"name": "",
-						"item_count": 1
-					}
-				]
-			},
-			{
-				"name": "Tamako's HomePage",
-				"map_locations": [
-					{
-						"map": "Yoka",
-						"x": 114,
-						"y": 714
-					}
-				],
-				"sections": [
-					{
-						"name": "PMD",
-						"item_count": 1
-					},
-					{
-						"name": "BMD",
 						"item_count": 1
 					}
 				]
@@ -1467,6 +1468,23 @@
 						"map": "BeachNet",
 						"x": 1851,
 						"y": 194
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			// placing this here since it's accessible at the same time as beach Square
+			{
+				"name": "Hospital 2 Island BMD",
+				"map_locations": [
+					{
+						"map": "HospitalComps1-3",
+						"x": 1676,
+						"y": 291
 					}
 				],
 				"sections": [
@@ -1808,22 +1826,6 @@
 						"map": "HospitalComps1-3",
 						"x": 426,
 						"y": 431
-					}
-				],
-				"sections": [
-					{
-						"name": "",
-						"item_count": 1
-					}
-				]
-			},
-			{
-				"name": "Hospital 2 Island BMD",
-				"map_locations": [
-					{
-						"map": "HospitalComps1-3",
-						"x": 1676,
-						"y": 291
 					}
 				],
 				"sections": [
