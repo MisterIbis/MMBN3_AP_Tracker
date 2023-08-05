@@ -1788,7 +1788,7 @@
 		],
 		"children": [
 			{
-				"name": "Hospital 1 North BMD",
+				"name": "Hospital 1 Center BMD",
 				"map_locations": [
 					{
 						"map": "HospitalComps1-3",
@@ -1804,7 +1804,7 @@
 				]
 			},
 			{
-				"name": "Hospital 1 West BMD",
+				"name": "Hospital 1 North BMD",
 				"map_locations": [
 					{
 						"map": "HospitalComps1-3",
@@ -1820,7 +1820,7 @@
 				]
 			},
 			{
-				"name": "Hospital 1 Center BMD",
+				"name": "Hospital 1 West BMD",
 				"map_locations": [
 					{
 						"map": "HospitalComps1-3",
@@ -1872,8 +1872,8 @@
 				"map_locations": [
 					{
 						"map": "HospitalComps1-3",
-						"x": 615,
-						"y": 930
+						"x": 648,
+						"y": 1110
 					}
 				],
 				"sections": [
