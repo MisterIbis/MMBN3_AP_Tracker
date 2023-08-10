@@ -946,6 +946,7 @@
 			},
 			{
 				"name": "Yoka 2 Lower BMD",
+				"access_rules": ["Needle","CYokaPas,press"],
 				"map_locations": [
 					{
 						"map": "YokaNet",
@@ -991,7 +992,7 @@
 				],
 				"sections": [
 					{
-						"name": "",
+						"name": "Navicust SJH1UEKA",
 						"item_count": 1
 					}
 				]
@@ -2269,7 +2270,7 @@
 				],
 				"sections": [
 					{
-						"name": "",
+						"name": "NOT CURRENTLY RANDOMIZED",
 						"item_count": 1
 					}
 				]
@@ -2301,7 +2302,7 @@
 				],
 				"sections": [
 					{
-						"name": "",
+						"name": "NOT CURRENTLY RANDOMIZED",
 						"item_count": 1
 					}
 				]
@@ -2317,7 +2318,7 @@
 				],
 				"sections": [
 					{
-						"name": "",
+						"name": "NOT CURRENTLY RANDOMIZED",
 						"item_count": 1
 					}
 				]
