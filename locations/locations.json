@@ -2023,9 +2023,9 @@
 	{
 		"name": "Undernet",
 		"access_rules": [
-			"[press],[CBeacPas],CSciPas",
-			"[press],[CBeacPas],SubPET",
-			"press, CBeacPas"
+			"[press],[CBeacPas],CSciPas,[@8+ExploreScore]",
+			"[press],[CBeacPas],SubPET,[@8+ExploreScore]",
+			"press, CBeacPas,[@8+ExploreScore]"
 		],
 		"children": [
 			{
@@ -2214,7 +2214,8 @@
 		"name": "Deep Undernet",
 		"access_rules": [
 			"CSciPas",
-			"SubPET"
+			"SubPET",
+			"press,CBeacPas"
 		],
 		"children": [
 			{
