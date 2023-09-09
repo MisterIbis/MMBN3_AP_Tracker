@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "0.1.4.1",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.1.4.1/MMBN3_AP_Tracker.zip",
+      "sha256": "CC5F1612A1A6CB38016C3BFCFDB60C7B8FCE46E88B2D64C5A953C27763AE1443",
+      "changelog": [
+        "Undernet and Deep Undernet logic now correctly match underlying AP logic."
+      ]
+    },
+    {
       "package_version": "0.1.4.0",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.1.4.0/MMBN3_AP_Tracker.zip",
       "sha256": "E94FF165EA57BF52D4FFE5D4167FB6762475267396ED68BEBBE6E55E1AD6571F",
