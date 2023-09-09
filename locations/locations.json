@@ -731,7 +731,8 @@
 					},
 					{
 						"name": "Job - My Navi is sick",
-						"item_count": 1
+						"item_count": 1,
+						"access_rules": ["[recov30]"]
 					},
 					{
 						"name": "Job - Chip Prices",
@@ -1797,8 +1798,8 @@
 				"map_locations": [
 					{
 						"map": "HospitalComps1-3",
-						"x": 573,
-						"y": 267
+						"x": 427,
+						"y": 434
 					}
 				],
 				"sections": [
@@ -1813,8 +1814,8 @@
 				"map_locations": [
 					{
 						"map": "HospitalComps1-3",
-						"x": 252,
-						"y": 264
+						"x": 571,
+						"y": 267
 					}
 				],
 				"sections": [
@@ -1829,8 +1830,8 @@
 				"map_locations": [
 					{
 						"map": "HospitalComps1-3",
-						"x": 426,
-						"y": 431
+						"x": 252,
+						"y": 264
 					}
 				],
 				"sections": [
@@ -2022,8 +2023,9 @@
 	{
 		"name": "Undernet",
 		"access_rules": [
-			"[Press],[CBeacPas],CSciPas",
-			"Press, CBeacPas"
+			"[press],[CBeacPas],CSciPas",
+			"[press],[CBeacPas],SubPET",
+			"press, CBeacPas"
 		],
 		"children": [
 			{
