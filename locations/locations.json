@@ -509,6 +509,12 @@
 						"visibility_rules": ["ShowAllJobSteps,OM1"],
 						"access_rules": ["OM1"],
 						"hosted_item": "OM2"
+					},
+					{
+						"name": "Job - Legendary Tomes (Weird Statue in Lounge)",
+						"visibility_rules": ["ShowAllJobSteps"],
+						"access_rules": ["LTSea,LTSky,LTLand"],
+						"hosted_item": "LT2A"
 					}
 				]
 			},
@@ -1719,6 +1725,12 @@
 						"visibility_rules": ["ShowAllJobSteps,LFC1"],
 						"access_rules": ["LFC1"],
 						"hosted_item": "LFC2"
+					},
+					{
+						"name": "Stamp Collecting - Start (2f Nurse)",
+						"visibility_rules": ["ShowAllJobSteps"],
+						"access_rules": ["SubPET,PETCase"],
+						"hosted_item": "SC1"
 					}
 				]
 			},

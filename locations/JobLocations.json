@@ -338,9 +338,8 @@
                 "map_locations": [
                     {
                         "map": "YokaNet",
-                        "x": 100,
-                        "y": 100
-                        //TODO - CHECK LOCATION
+                        "x": 1185,
+                        "y": 380
                     }
                 ],
                 "sections": [
@@ -393,9 +392,8 @@
                 "map_locations": [
                     {
                         "map": "YokaNet",
-                        "x": 100,
-                        "y": 100
-                        //TODO - CHECK LOCATION
+                        "x": 248,
+                        "y": 766
                     }
                 ],
                 "sections": [
@@ -425,7 +423,90 @@
                     }
                 ]
             },
-            // TODO - LEGENDARY TOMES
+            {
+                "name": "Job - Legendary Tomes",
+                "map_locations": [
+                    {
+                        "map": "HadesComp",
+                        "x": 675,
+                        "y": 125
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Start",
+                        "visibility_rules": ["ShowAllJobSteps"],
+                        "access_rules": ["SubPET,PETCase"],
+                        "hosted_item": "LT1"
+                    },
+                    {
+                        "name": "Finish",
+                        "visibility_rules": ["ShowAllJobSteps,LTSea,LTSky,LTLand"],
+                        "access_rules": ["LTSea,LTSky,LTLand"],
+                        "hosted_item": "LT2B"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Legendary Tomes",
+                "map_locations": [
+                    {
+                        "map": "Undernet5-7",
+                        "x": 2080,
+                        "y": 433
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "SeaTome",
+                        "visibility_rules": ["ShowAllJobSteps,LT1"],
+                        "access_rules": ["SubPET,PETCase"],
+                        "hosted_item": "LTSea"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Legendary Tomes",
+                "map_locations": [
+                    {
+                        "map": "Undernet5-7",
+                        "x": 268,
+                        "y": 670
+                    },
+                    {
+                        "map": "Undernet1-4",
+                        "x": 226,
+                        "y": 1075
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "LandTome",
+                        "visibility_rules": ["ShowAllJobSteps,LT1"],
+                        "access_rules": ["SubPET,PETCase"],
+                        "hosted_item": "LTLand"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Legendary Tomes",
+                "map_locations": [
+                    {
+                        "map": "Undernet1-4",
+                        "x": 515,
+                        "y": 1185
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "SkyTome",
+                        "visibility_rules": ["ShowAllJobSteps,LT1"],
+                        "access_rules": ["SubPET,PETCase,[magnum]"],
+                        "hosted_item": "LTSky"
+                    }
+                ]
+            },
+            // Weird Statue in ACDC School
             {
                 "name": "Job - Hide and seek!",
                 "map_locations": [
@@ -543,9 +624,102 @@
                         "hosted_item": "FTBN1"
                     }
                 ]
-            }
+            },
             // Give your support - in Locations, Hades Isle
-            // TODO - Stamp Collecting
+            // Stamp Collecting Start, finish in Beach, Hospital
+            {
+                "name": "Job - Stamp collecting",
+                "map_locations": [
+                    {
+                        "map": "ACDC_Net",
+                        "x": 282,
+                        "y": 299
+
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Contest",
+                        "visibility_rules": ["SC1"],
+                        "access_rules": [],
+                        "hosted_item": "SC2"
+                    },
+                    {
+                        "name": "Finish Contest",
+                        "visibility_rules": ["SC3"],
+                        "access_rules": ["SCSci,SCYoka,SCBeach"],
+                        "hosted_item": "SC4"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Stamp collecting",
+                "map_locations": [
+                    {
+                        "map": "SciLabNet",
+                        "x": 744,
+                        "y": 1031
+
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Scilab Net Stamp",
+                        "visibility_rules": ["SC2"],
+                        "access_rules": [
+                            "SubPET",
+                            "CSciPas",
+                            "[SubPET],CBeachPas,Press",
+                            "[CSciPas],CBeachPas,Press"
+                        ],
+                        "hosted_item": "SCSci"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Stamp collecting",
+                "map_locations": [
+                    {
+                        "map": "YokaNet",
+                        "x": 1593,
+                        "y": 59
+
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Yoka Net Stamp",
+                        "visibility_rules": ["SC2"],
+                        "access_rules": [
+                            "Needle,Press",
+                            "CYokaPas"
+                        ],
+                        "hosted_item": "SCYoka"
+                    }
+                ]
+            },
+            {
+                "name": "Job - Stamp collecting",
+                "map_locations": [
+                    {
+                        "map": "BeachNet",
+                        "x": 634,
+                        "y": 974
+
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Beach Net Stamp",
+                        "visibility_rules": ["SC2"],
+                        "access_rules": [
+                            "Needle,CBeachPas",
+                            "CYokaPas,CBeachPas,Press"
+                        ],
+                        "hosted_item": "SCYoka"
+                    }
+                ]
+            }
             // TODO - Help with a will
         ]
     }
