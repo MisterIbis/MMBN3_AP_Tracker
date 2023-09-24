@@ -617,7 +617,7 @@
                         "name":"",
                         "visibility_rules": ["ShowAllJobSteps"],
                         "access_rules": [
-                            "CBeachPas,Press",
+                            "CBeachPas,press",
                             "[SubPET]",
                             "[CSciPas]"
                         ],
@@ -646,7 +646,7 @@
                     },
                     {
                         "name": "Finish Contest",
-                        "visibility_rules": ["SC3"],
+                        "visibility_rules": ["SCSci,SCYoka,SCBeach"],
                         "access_rules": ["SCSci,SCYoka,SCBeach"],
                         "hosted_item": "SC4"
                     }
@@ -669,8 +669,8 @@
                         "access_rules": [
                             "SubPET",
                             "CSciPas",
-                            "[SubPET],CBeachPas,Press",
-                            "[CSciPas],CBeachPas,Press"
+                            "[SubPET],CBeachPas,press",
+                            "[CSciPas],CBeachPas,press"
                         ],
                         "hosted_item": "SCSci"
                     }
@@ -691,7 +691,7 @@
                         "name": "Yoka Net Stamp",
                         "visibility_rules": ["SC2"],
                         "access_rules": [
-                            "Needle,Press",
+                            "Needle,press",
                             "CYokaPas"
                         ],
                         "hosted_item": "SCYoka"
@@ -714,13 +714,76 @@
                         "visibility_rules": ["SC2"],
                         "access_rules": [
                             "Needle,CBeachPas",
-                            "CYokaPas,CBeachPas,Press"
+                            "CYokaPas,CBeachPas,press"
                         ],
                         "hosted_item": "SCYoka"
                     }
                 ]
-            }
-            // TODO - Help with a will
+            },
+            //Help with a will - Start / Finish in ACDC School
+            {
+                "name": "Job - Help With a Will",
+                "map_locations": [
+                    {
+                        "map": "ACDCNet",
+                        "x": 1294,
+                        "y": 998
+
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Message 1 - Squirrel",
+                        "visibility_rules": ["HWW1"],
+                        "access_rules": ["HWW1"],
+                        "hosted_item": "HWW2"
+                    }
+                ]
+                //HWW part 3 is in Yoka Inn
+            },
+            {
+                "name": "Job - Help With a Will",
+                "map_locations": [
+                    {
+                        "map": "YokaNet",
+                        "x": 794,
+                        "y": 358
+
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Message 3 - Demon Fire",
+                        "visibility_rules": ["HWW3"],
+                        "access_rules": ["HWW3,CYokaPas",
+                                        "HWW3,Needle,press"
+                                        ],
+                        "hosted_item": "HWW4"
+                    }
+                ]
+            },
+                        // Part 5 is in HadesIsle
+			{
+				"name": "Job - Help With A Will",
+				"map_locations": [
+					{
+						"map": "Undernet1-4",
+						"x": 1580,
+						"y": 1080
+					}
+				],
+				"sections": [
+					{
+						"name": "Photo",
+                        "hosted_item": "HWW6",
+                        "access_rules": [
+                            "HWW5,CBeacPas,press",
+                            "HWW5,[CBeachPas],[press]"
+                    ],
+                        "visibility_rules": ["HWW5"]
+					}
+				]
+			}
         ]
     }
 ]

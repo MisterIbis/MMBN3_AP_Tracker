@@ -515,6 +515,17 @@
 						"visibility_rules": ["ShowAllJobSteps"],
 						"access_rules": ["LTSea,LTSky,LTLand"],
 						"hosted_item": "LT2A"
+					},
+					{
+						"name": "Job - Help With A Will - Start (Kid Outside 5A)",
+						"visibility_rules": ["ShowAllJobSteps"],
+						"access_rules": ["SubPET"],
+						"hosted_item": "HWW1"
+					},
+					{
+						"name": "Job - Help With A Will - Finish (Kid Outside 5A)",
+						"visibility_rules": ["ShowAllJobSteps,HWW6"],
+						"access_rules": ["HWW6"]
 					}
 				]
 			},
@@ -1160,6 +1171,12 @@
 						"visibility_rules": ["ShowAllJobSteps,IB2"],
 						"access_rules": ["IB2"],
 						"hosted_item": "IB3"
+					},
+					{
+						"name": "Help With a Will - Samurai Armor",
+						"visibility_rules": ["HWW2"],
+						"access_rules": ["HWW2"],
+						"hosted_item": "HWW3"
 					}
 				]
 			},
@@ -1731,6 +1748,12 @@
 						"visibility_rules": ["ShowAllJobSteps"],
 						"access_rules": ["SubPET,PETCase"],
 						"hosted_item": "SC1"
+					},
+					{
+						"name": "Stamp Collecting - Finish (2f Nurse)",
+						"visibility_rules": ["ShowAllJobSteps,SC4"],
+						"access_rules": ["SubPET,PETCase,SC4"],
+						"hosted_item": "SC5"
 					}
 				]
 			},
@@ -1822,6 +1845,12 @@
 					{
 						"name": "",
 						"item_count": 1
+					},
+					{
+						"name": "Help With a Will - Message 4",
+						"visibility_rules": ["HWW4"],
+						"access_rules": ["HWW4"],
+						"hosted_item": "HWW5"
 					}
 				]
 			},
