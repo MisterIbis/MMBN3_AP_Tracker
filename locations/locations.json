@@ -61,8 +61,8 @@
 				"map_locations": [
 					{
 						"map": "ACDCNet",
-						"x": 2115,
-						"y": 506
+						"x": 2105,
+						"y": 520
 					}
 				],
 				"sections": [
@@ -512,7 +512,7 @@
 					},
 					{
 						"name": "Job - Legendary Tomes (Weird Statue in Lounge)",
-						"visibility_rules": ["ShowAllJobSteps"],
+						"visibility_rules": ["ShowAllJobSteps,LTSea,LTSky,LTLand"],
 						"access_rules": ["LTSea,LTSky,LTLand"],
 						"hosted_item": "LT2A"
 					},
@@ -693,7 +693,7 @@
 					},
 					{
 						"name": "Job - My Navi is sick",
-						"visibility_rules": ["ShowAllJobSteps"],
+						"visibility_rules": ["ShowAllJobSteps,SubPET"],
 						"hosted_item": "MNIS1"
 					}
 				]
@@ -733,7 +733,7 @@
 					},
 					{
 						"name": "Job - Old Master - Start",
-						"visibility_rules": ["ShowAllJobSteps"],
+						"visibility_rules": ["ShowAllJobSteps,SubPET"],
 						"hosted_item": "OM1"
 					},
 					{
@@ -890,7 +890,7 @@
 						"access_rules": [
 							"PETCase"
 						],
-						"hosted_item": "OM4"
+						"hosted_item": "OM1"
 					},
 					{
 						"name": "Job - Catching gang members",
@@ -1735,7 +1735,7 @@
 						"name": "Job - Help with rehab (in TV)",
 						"visibility_rules": ["ShowAllJobSteps,SubPET"],
 						"access_rules": ["SubPET"],
-						"hosted_item": "HWR1"
+						"hosted_item": "HWR2"
 					},
 					{
 						"name": "Looking for Condor (2F, right room)",
@@ -1909,7 +1909,8 @@
 					{
 						"name": "Give Your Support",
 						"visibility_rules": ["ShowAllJobSteps"],
-						"access_rules": ["SubPET"]
+						"access_rules": ["SubPET"],
+						"hosted_item": "GYS1"
 					}
 				]
 			},

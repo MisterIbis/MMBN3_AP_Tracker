@@ -108,6 +108,10 @@
                     {
                       "type": "layout",
                       "key": "trade_chips"
+                    },
+                    {
+                      "type": "layout",
+                      "key": "settings"
                     }
                   ]
                 }

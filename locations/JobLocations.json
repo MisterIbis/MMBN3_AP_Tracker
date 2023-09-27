@@ -62,7 +62,8 @@
                     {
                         "name": "Transmission Error Finish",
                         "access_rules": ["TE2"],
-                        "visibility_rules": ["TE2"]
+                        "visibility_rules": ["TE2"],
+                        "hosted_item": "TE3"
                     }
                 ]
             },
@@ -410,8 +411,8 @@
                 "map_locations": [
                     {
                         "map": "SciLabNet",
-                        "x": 100,
-                        "y": 100
+                        "x": 1387,
+                        "y": 378
                     }
                 ],
                 "sections": [
