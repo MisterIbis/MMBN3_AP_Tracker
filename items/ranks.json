@@ -43,21 +43,6 @@
         ]
     },
     {
-        "name": "Show All Job Steps?",
-        "type": "progressive",
-        "allow_disabled": false,
-        "loop": true,
-        "stages": [
-            {
-                "img": "images/ranks/NoJobs.png"
-            },
-            {
-                "img": "images/ranks/jobs.png",
-                "codes": "ShowAllJobSteps"
-            }
-        ]
-    },
-    {
         "name": "Job Step",
         "type": "toggle",
         "img": "images/ranks/JobBBS.png",
@@ -70,15 +55,15 @@
         "codes": "PDT2"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "PDT3"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "MNIS1"
     },
     {
@@ -94,6 +79,12 @@
         "codes": "HMWMS2"
     },
     {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "HMWMS3"
+    },
+    {
         "name": "Job Step",
         "type": "toggle",
         "img": "images/ranks/JobBBS.png",
@@ -106,9 +97,9 @@
         "codes": "TE2"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "TE3"
     },
     {
@@ -136,9 +127,9 @@
         "codes": "CP4"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "CP5"
     },
     {
@@ -166,9 +157,9 @@
         "codes": "WYD4"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "WYD5"
     },
     {
@@ -184,9 +175,9 @@
         "codes": "IB2"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "IB3"
     },
     {
@@ -214,9 +205,9 @@
         "codes": "SPH4"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "SPH5"
     },
     {
@@ -232,9 +223,9 @@
         "codes": "LFC2"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "LFC3"
     },
     {
@@ -256,9 +247,9 @@
         "codes": "OM3"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "OM4"
     },
     {
@@ -292,15 +283,15 @@
         "codes": "CGM5"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "CGM6"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "PAAV1"
     },
     {
@@ -310,15 +301,15 @@
         "codes": "LT1"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "LT2A"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "LT2B"
     },
     {
@@ -346,39 +337,39 @@
         "codes": "HAS1"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "HAS2"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "HAS3"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",  
         "codes": "HAS4"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "HAS5"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "FTBN1"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "GYS1"
     },
     {
@@ -418,9 +409,9 @@
         "codes": "SC4"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "SC5"
     },
     {
@@ -454,21 +445,21 @@
         "codes": "HWW5"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "HWW6"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "RC1"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "RC2"
     },
     {
@@ -478,9 +469,9 @@
         "codes": "BMB1"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "BMB2"
     },
     {
@@ -490,9 +481,9 @@
         "codes": "HWR1"
     },
     {
-        "name": "Job Step",
+        "name": "Job Reward",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/items/BMD.png",
         "codes": "HWR2"
     }
 ]

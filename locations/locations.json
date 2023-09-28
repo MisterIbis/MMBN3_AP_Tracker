@@ -476,7 +476,7 @@
 					},
 					{
 						"name": "Please Deliver This - Delivery",
-						"visibility_rules": ["ShowAllJobSteps,PDT1"],
+						"visibility_rules": ["PDT1"],
 						"hosted_item": "PDT2"
 					},
 					{
@@ -495,36 +495,36 @@
 					},
 					{
 						"name": "Job - Somebody, please help! Start",
-						"visibility_rules": ["ShowAllJobSteps,SubPET"],
+						"visibility_rules": ["SubPET"],
 						"hosted_item": "SPH1"
 					},
 					{
 						"name": "Job - Somebody, Please help! Finish",
-						"visibility_rules": ["ShowAllJobSteps,SPH2,SPH3,SPH4"],
+						"visibility_rules": ["SubPET"],
 						"access_rules": ["SPH2,SPH3,SPH4"],
 						"hosted_item": "SPH5"
 					},
 					{
 						"name": "Job - Old Master (Teachers lounge Yearbook)",
-						"visibility_rules": ["ShowAllJobSteps,OM1"],
+						"visibility_rules": ["SubPET"],
 						"access_rules": ["OM1"],
 						"hosted_item": "OM2"
 					},
 					{
 						"name": "Job - Legendary Tomes (Weird Statue in Lounge)",
-						"visibility_rules": ["ShowAllJobSteps,LTSea,LTSky,LTLand"],
+						"visibility_rules": ["SubPET"],
 						"access_rules": ["LTSea,LTSky,LTLand"],
 						"hosted_item": "LT2A"
 					},
 					{
 						"name": "Job - Help With A Will - Start (Kid Outside 5A)",
-						"visibility_rules": ["ShowAllJobSteps"],
+						"visibility_rules": ["SubPET"],
 						"access_rules": ["SubPET"],
 						"hosted_item": "HWW1"
 					},
 					{
 						"name": "Job - Help With A Will - Finish (Kid Outside 5A)",
-						"visibility_rules": ["ShowAllJobSteps,HWW6"],
+						"visibility_rules": ["SubPET"],
 						"access_rules": ["HWW6"]
 					}
 				]
@@ -568,8 +568,8 @@
 						"item_count": 1
 					},
 					{
-						"name": "Rare Chips for Cheap!",
-						"visibility_rules": ["ShowAllJobSteps,SubPET"],
+						"name": "Job - Rare Chips for Cheap!",
+						"visibility_rules": ["SubPET"],
 						"hosted_item": "RC1"
 					}
 				]
@@ -693,7 +693,7 @@
 					},
 					{
 						"name": "Job - My Navi is sick",
-						"visibility_rules": ["ShowAllJobSteps,SubPET"],
+						"visibility_rules": ["SubPET"],
 						"hosted_item": "MNIS1"
 					}
 				]
@@ -733,12 +733,12 @@
 					},
 					{
 						"name": "Job - Old Master - Start",
-						"visibility_rules": ["ShowAllJobSteps,SubPET"],
+						"visibility_rules": ["SubPET"],
 						"hosted_item": "OM1"
 					},
 					{
 						"name": "Job - Old Master - Finish",
-						"visibility_rules": ["ShowAllJobSteps,OM3"],
+						"visibility_rules": ["OM3"],
 						"access_rules": ["OM3"],
 						"hosted_item": "OM4"
 					}
@@ -792,7 +792,7 @@
 				"sections": [
 					{
 						"name": "Job - Please deliver this",
-						"hosted_item": "PDT3"
+						"hosted_item": "PDT1,PDT2,PDT3"
 					},
 					{
 						"name": "Job - My Navi is sick",
@@ -800,7 +800,7 @@
 					},
 					{
 						"name": "Job - Chip Prices",
-						"hosted_item": "CP5"
+						"hosted_item": "CP1,CP2,CP3,CP4,CP5"
 					},
 					{
 						"name": "Job - Rare chips for cheap",
@@ -808,7 +808,7 @@
 					},
 					{
 						"name": "Job - Somebody please help",
-						"hosted_item": "SPH5"
+						"hosted_item": "SPH1,SPH2,SPH3,SPH4,SPH5"
 					},
 					{
 						"name": "Job - Please adopt a virus",
@@ -841,56 +841,56 @@
 						"access_rules": [
 							"Needle"
 						],
-						"item_count": 1
+						"hosted_item": "HMWMS1,HMWMS2,HMWMS3"
 					},
 					{
 						"name": "Job - Transmission error",
 						"access_rules": [
 							"Needle"
 						],
-						"item_count": 1
+						"hosted_item": "TE1,TE2,TE3"
 					},
 					{
 						"name": "Job - I'm broke?!",
 						"access_rules": [
 							"Needle"
 						],
-						"hosted_item": "IB3"
+						"hosted_item": "IB1,IB2,IB3"
 					},
 					{
 						"name": "Job - Be my boyfriend",
 						"access_rules": [
 							"PETCase"
 						],
-						"hosted_item": "BMB1"
+						"hosted_item": "BMB1,BMB2"
 					},
 					{
 						"name": "Job - Will you deliver",
 						"access_rules": [
 							"Needle,PETCase"
 						],
-						"hosted_item": "WYD5"
+						"hosted_item": "WYD1,WYD2,WYD3,WYD4,WYD5"
 					},
 					{
 						"name": "Job - Looking for condor",
 						"access_rules": [
 							"Needle,PETCase"
 						],
-						"hosted_item": "LFC3"
+						"hosted_item": "LFC1,LFC2,LFC3"
 					},
 					{
 						"name": "Job - Help with rehab",
 						"access_rules": [
 							"PETCase"
 						],
-						"hosted_item": "HWR1"
+						"hosted_item": "HWR1,HWR2"
 					},
 					{
 						"name": "Job - Old Master",
 						"access_rules": [
 							"PETCase"
 						],
-						"hosted_item": "OM1"
+						"hosted_item": "OM1,OM2,OM3,OM4"
 					},
 					{
 						"name": "Job - Catching gang members",
@@ -899,36 +899,35 @@
 							"CYokaPas",
 							"press"
 						],
-						"hosted_item": "CGM6"
+						"hosted_item": "CGM1,CGM2,CGM3,CGM4,CGM5,CGM6"
 					},
 					{
 						"name": "Job - Legendary Tomes",
 						"access_rules": [
 							"PETCase,Press"
 						],
-						"item_count": 1
+						"hosted_item": "LT1,LTLand,LTSea,LTSky,LT2B"
 					},
 					{
 						"name": "Job - Legendary Tomes Treasure",
 						"access_rules": [
 							"PETCase,Press"
 						],
-						"item_count": 1
+						"hosted_item": "LT2B"
 					},
 					{
 						"name": "Job - Hide and Seek",
 						"access_rules": [
 							"Needle"
 						],
-						"clear_as_group": false,
-						"item_count": 5
+						"hosted_item": "HAS1,HAS2,HAS3,HAS4,HAS5,HAS6"
 					},
 					{
 						"name": "Job - Give your support",
 						"access_rules": [
 							"PETCase"
 						],
-						"item_count": 1
+						"hosted_item": "GYS1"
 					},
 					{
 						"name": "Job - Stamp collecting",
@@ -936,14 +935,14 @@
 							"PETCase,Needle",
 							"PETCase,CYokaPas"
 						],
-						"item_count": 1
+						"hosted_item": "SC1,SC2,SCSci,SCYoka,SCBeach,SC4,SC5"
 					},
 					{
 						"name": "Job - Help with a will",
 						"access_rules": [
 							"Needle,PETCase,Press"
 						],
-						"item_count": 1
+						"hosted_item": "HWW1,HWW2,HWW3,HWW4,HWW5,HWW6"
 					}
 				]
 			}
@@ -1118,12 +1117,13 @@
 					},
 					{
 						"name": "Help me with my son!",
-						"visibility_rules": ["ShowAllJobSteps"],
+						"visibility_rules": ["SubPET"],
 						"hosted_item": "HMWMS1"
 					},
 					{
 						"name": "Help me with my son - Final!",
-						"visibility_rules": ["ShowAllJobSteps,HMWMS2"]
+						"visibility_rules": ["HMWMS2"],
+						"hosted_item": "HMWMS3"
 					}
 				]
 			},
@@ -1163,19 +1163,19 @@
 					},
 					{
 						"name": "I'm Broke?! - Start",
-						"visibility_rules": ["ShowAllJobSteps,SubPET"],
+						"visibility_rules": ["SubPET"],
 						"hosted_item": "IB1"
 					},
 					{
 						"name": "I'm Broke?! - Finish",
-						"visibility_rules": ["ShowAllJobSteps,IB2"],
+						"visibility_rules": ["IB2"],
 						"access_rules": ["IB2"],
 						"hosted_item": "IB3"
 					},
 					{
 						"name": "Help With a Will - Samurai Armor",
 						"visibility_rules": ["HWW2"],
-						"access_rules": ["HWW2"],
+						"access_rules": ["HWW2,Needle"],
 						"hosted_item": "HWW3"
 					}
 				]
@@ -1486,7 +1486,7 @@
 			}
 		]
 	},
-	//Life's a beach, and then you die
+	//Ken.exe's job here is CyberBeach
 	{
 		"name": "Beach Cyberworld",
 		"chest_unopened_img": "images/items/BMD.png",
@@ -1579,7 +1579,7 @@
 					},
 					{
 						"name": "Be my boyfriend",
-						"visibility_rules": ["ShowAllJobSteps,SubPET"],
+						"visibility_rules": ["SubPET"],
 						"access_rules": ["SubPET"],
 						"hosted_item": "BMB1"
 					}
@@ -1681,7 +1681,7 @@
 					},
 					{
 						"name": "Job - Will You Deliver?",
-						"visibility_rules": ["ShowAllJobSteps,SubPET,WYD1"],
+						"visibility_rules": ["SubPET,WYD1"],
 						"hosted_item": "WYD2"
 					}
 				]
@@ -1733,25 +1733,25 @@
 					},
 					{
 						"name": "Job - Help with rehab (in TV)",
-						"visibility_rules": ["ShowAllJobSteps,SubPET"],
+						"visibility_rules": ["SubPET"],
 						"access_rules": ["SubPET"],
 						"hosted_item": "HWR2"
 					},
 					{
 						"name": "Looking for Condor (2F, right room)",
-						"visibility_rules": ["ShowAllJobSteps,LFC1"],
+						"visibility_rules": ["LFC1"],
 						"access_rules": ["LFC1"],
 						"hosted_item": "LFC2"
 					},
 					{
 						"name": "Stamp Collecting - Start (2f Nurse)",
-						"visibility_rules": ["ShowAllJobSteps"],
+						"visibility_rules": ["SubPET"],
 						"access_rules": ["SubPET,PETCase"],
 						"hosted_item": "SC1"
 					},
 					{
 						"name": "Stamp Collecting - Finish (2f Nurse)",
-						"visibility_rules": ["ShowAllJobSteps,SC4"],
+						"visibility_rules": ["SC4"],
 						"access_rules": ["SubPET,PETCase,SC4"],
 						"hosted_item": "SC5"
 					}
@@ -1849,7 +1849,7 @@
 					{
 						"name": "Help With a Will - Message 4",
 						"visibility_rules": ["HWW4"],
-						"access_rules": ["HWW4"],
+						"access_rules": ["HWW4,PETCase"],
 						"hosted_item": "HWW5"
 					}
 				]
@@ -1908,7 +1908,7 @@
 					},
 					{
 						"name": "Give Your Support",
-						"visibility_rules": ["ShowAllJobSteps"],
+						"visibility_rules": ["SubPet"],
 						"access_rules": ["SubPET"],
 						"hosted_item": "GYS1"
 					}
@@ -2778,6 +2778,22 @@
 				"sections": [
 					{
 						"name": "Desk Item",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "WWW Wall BMD",
+				"map_locations": [
+					{
+						"map": "WWWIsle",
+						"x": 1228,
+						"y": 1094
+					}
+				],
+				"sections": [
+					{
+						"name": "",
 						"item_count": 1
 					}
 				]
