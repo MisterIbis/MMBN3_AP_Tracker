@@ -43,46 +43,447 @@
         ]
     },
     {
-        "name": "Required Ranks",
-        "type": "progressive",
-        "allow_disabled": false,
-        "stages": [
-            {
-                "img": "images/ranks/rank-goal-0.png",
-                "codes": "ranksRequired"
-            },
-            {
-                "img": "images/ranks/rank-goal-1.png",
-                "codes": "ranksRequired"
-            },
-            {
-                "img": "images/ranks/rank-goal-2.png",
-                "codes": "ranksRequired"
-            },
-            {
-                "img": "images/ranks/rank-goal-3.png",
-                "codes": "ranksRequired"
-            },
-            {
-                "img": "images/ranks/rank-goal-4.png",
-                "codes": "ranksRequired"
-            },
-            {
-                "img": "images/ranks/rank-goal-5.png",
-                "codes": "ranksRequired"
-            },
-            {
-                "img": "images/ranks/rank-goal-6.png",
-                "codes": "ranksRequired"
-            },
-            {
-                "img": "images/ranks/rank-goal-7.png",
-                "codes": "ranksRequired"
-            },
-            {
-                "img": "images/ranks/rank-goal-8.png",
-                "codes": "ranksRequired"
-            }
-        ]
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "PDT1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "PDT2"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "PDT3"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "MNIS1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "HMWMS1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "HMWMS2"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "HMWMS3"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "TE1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "TE2"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "TE3"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "CP1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "CP2"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "CP3"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "CP4"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "CP5"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "WYD1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "WYD2"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "WYD3"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "WYD4"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "WYD5"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "IB1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "IB2"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "IB3"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "SPH1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "SPH2"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "SPH3"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "SPH4"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "SPH5"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "LFC1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "LFC2"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "LFC3"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "OM1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "OM2"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "OM3"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "OM4"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "CGM1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "CGM2"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "CGM3"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "CGM4"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "CGM5"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "CGM6"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "PAAV1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "LT1"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "LT2A"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "LT2B"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "LTSea"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "LTSky"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "LTLand"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "HAS1"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "HAS2"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "HAS3"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",  
+        "codes": "HAS4"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "HAS5"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "FTBN1"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "GYS1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "SC1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "SC2"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "SCSci"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "SCYoka"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "SCBeach"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "SC4"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "SC5"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "HWW1"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "HWW2"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "HWW3"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "HWW4"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "HWW5"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "HWW6"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "RC1"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "RC2"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "BMB1"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "BMB2"
+    },
+    {
+        "name": "Job Step",
+        "type": "toggle",
+        "img": "images/ranks/JobBBS.png",
+        "codes": "HWR1"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "HWR2"
     }
 ]

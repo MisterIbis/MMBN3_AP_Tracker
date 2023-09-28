@@ -96,8 +96,14 @@
         "location_border_thickness" : 2
     },
     {
-        "name": "WWWAreas",
-        "img": "images/maps/WWW_Areas.png",
+        "name": "WWWArea12",
+        "img": "images/maps/WWW_Areas12.png",
+        "location_size" : 25,
+        "location_border_thickness" : 2
+    },
+    {
+        "name": "WWWArea34",
+        "img": "images/maps/WWW_Areas34.png",
         "location_size" : 25,
         "location_border_thickness" : 2
     },
@@ -105,6 +111,24 @@
         "name": "WWWIsle",
         "img": "images/maps/WWW_Isle.png",
         "location_size" : 25,
+        "location_border_thickness" : 2
+    },
+    {
+        "name": "Secret1",
+        "img": "images/maps/Secret_1.png",
+        "location_size": 25,
+        "location_border_thickness" : 2
+    },
+    {
+        "name": "Secret2",
+        "img": "images/maps/Secret_2.png",
+        "location_size": 25,
+        "location_border_thickness" : 2
+    },
+    {
+        "name": "Secret3",
+        "img": "images/maps/Secret_3.png",
+        "location_size": 25,
         "location_border_thickness" : 2
     }
 ]

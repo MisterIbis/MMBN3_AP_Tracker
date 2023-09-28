@@ -22,6 +22,7 @@ Tracker:AddMaps("maps/maps.json")
 
 ScriptHost:LoadScript("scripts/logic.lua")
 Tracker:AddLocations("locations/locations.json")
+Tracker:AddLocations("locations/JobLocations.json")
 
 Tracker:AddLayouts("layouts/tracker_standard.json")
 Tracker:AddLayouts("layouts/common.json")
