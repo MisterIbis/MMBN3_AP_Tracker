@@ -57,7 +57,8 @@
                 "sections": [
                     {
                         "name":"Transmission Error Start",
-                        "hosted_item": "TE1"
+                        "hosted_item": "TE1",
+                        "access_rules": ["SubPET"]
                     },
                     {
                         "name": "Transmission Error Finish",
@@ -80,6 +81,7 @@
                     {
                         "name":"Viruses",
                         "visibility_rules": ["SubPET"],
+                        "access_rules": ["TE1"],
                         "hosted_item": "TE2"
                     }
                 ]
@@ -158,6 +160,7 @@
                     {
                         "name":"Navi Rescue",
                         "visibility_rules": ["SubPET"],
+                        "access_rules": ["IB1"],
                         "hosted_item": "IB2"
                     }
                 ]

@@ -38,7 +38,7 @@
             },
             {
                 "img": "images/ranks/GigFreez.png",
-                "codes": "ranks"
+                "codes": "ranks,GigFreez"
             }
         ]
     },
@@ -359,6 +359,12 @@
         "type": "toggle",
         "img": "images/items/BMD.png",
         "codes": "HAS5"
+    },
+    {
+        "name": "Job Reward",
+        "type": "toggle",
+        "img": "images/items/BMD.png",
+        "codes": "HAS6"
     },
     {
         "name": "Job Reward",

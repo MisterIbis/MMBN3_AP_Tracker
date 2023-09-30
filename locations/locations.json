@@ -518,7 +518,7 @@
 						"name": "Job - Legendary Tomes (Weird Statue in Lounge)",
 						"visibility_rules": ["SubPET"],
 						"access_rules": ["LTSea,LTSky,LTLand"],
-						"hosted_item": "LT2A"
+						"hosted_item": "LT2B"
 					},
 					{
 						"name": "Job - Help With A Will - Start (Kid Outside 5A)",
@@ -1501,7 +1501,7 @@
 		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			// Can be corrected to CbeacPass + any other pass/needle once metro works "correctly".
-			"CBeacPas,CYokaPas",
+			"CBeacPas,CYokaPas,press",
 			"CBeacPas,Needle",
 			"[CBeacPas],[CYokaPas],press,CSciPas",
 			"[CBeacPas],[CYokaPas],press,SubPET"
@@ -1579,8 +1579,8 @@
 				"map_locations": [
 					{
 						"map": "BeachNet",
-						"x": 1579,
-						"y": 1149
+						"x": 704,
+						"y": 808
 					}
 				],
 				"sections": [
@@ -1860,8 +1860,8 @@
 					},
 					{
 						"name": "Help With a Will - Message 4",
-						"visibility_rules": ["HWW4"],
-						"access_rules": ["HWW4,PETCase"],
+						"visibility_rules": ["PETCase"],
+						"access_rules": ["HWW4"],
 						"hosted_item": "HWW5"
 					}
 				]
@@ -2518,7 +2518,7 @@
 		"chest_unopened_img": "images/items/BMD.png",
 		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
-			"$hasEnoughRanks, PETCase"
+			"GigFreez, PETCase"
 		],
 		"children": [
 			{
