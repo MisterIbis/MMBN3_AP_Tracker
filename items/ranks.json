@@ -45,451 +45,601 @@
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "PDT1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "PDT2"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "PDT3"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "MNIS1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "HMWMS1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "HMWMS2"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "HMWMS3"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "TE1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "TE2"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "TE3"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "CP1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "CP2"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "CP3"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "CP4"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "CP5"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "WYD1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "WYD2"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "WYD3"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "WYD4"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "WYD5"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "IB1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "IB2"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "IB3"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "SPH1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "SPH2"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "SPH3"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "SPH4"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "SPH5"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "LFC1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "LFC2"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "LFC3"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "OM1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "OM2"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "OM3"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "OM4"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "CGM1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "CGM2"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "CGM3"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "CGM4"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "CGM5"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "CGM6"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "PAAV1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "LT1"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "LT2A"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "LT2B"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "LTSea"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "LTSky"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "LTLand"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "HAS1"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "HAS2"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "HAS3"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",  
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "HAS4"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "HAS5"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "HAS6"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "FTBN1"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "GYS1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "SC1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "SC2"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "SCSci"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "SCYoka"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "SCBeach"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "SC4"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "SC5"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "HWW1"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "HWW2"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "HWW3"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "HWW4"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "HWW5"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "HWW6"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "RC1"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "RC2"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "BMB1"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "BMB2"
     },
     {
         "name": "Job Step",
         "type": "toggle",
-        "img": "images/ranks/JobBBS.png",
+        "img": "images/ranks/JobBBSDone.png",
+        "disabled_img": "images/ranks/JobBBS.png",
+        "disabled_img_mods": "none",
         "codes": "HWR1"
     },
     {
         "name": "Job Reward",
         "type": "toggle",
         "img": "images/items/BMD.png",
+        "img_mods": "@disabled",
+        "disabled_img_mods": "none",
         "codes": "HWR2"
     }
 ]
