@@ -1591,7 +1591,7 @@
 					{
 						"name": "Be my boyfriend",
 						"visibility_rules": ["SubPET"],
-						"access_rules": ["SubPET"],
+						"access_rules": ["SubPET,CBeacPas,Needle","SubPET,CBeacPas,CYokaPas,Press"],
 						"hosted_item": "BMB1"
 					}
 				]
@@ -1693,7 +1693,8 @@
 					},
 					{
 						"name": "Job - Will You Deliver?",
-						"visibility_rules": ["SubPET,WYD1"],
+						"visibility_rules": ["SubPET"],
+						"access_rules": ["SubPET,WYD1,PETCase"],
 						"hosted_item": "WYD2"
 					}
 				]

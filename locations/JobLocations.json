@@ -166,23 +166,7 @@
                 ]
             },
             // Rare Chips for Cheap - in Locations, Yai's Phone
-            {
-                "name": "Job - Be my boyfriend",
-                "map_locations": [
-                    {
-                        "map": "BeachNet",
-                        "x": 1511,
-                        "y": 88
-                    }
-                ],
-                "sections": [
-                    {
-                        "name":"Navi Rescue",
-                        "visibility_rules": ["SubPET"],
-                        "hosted_item": "BMB2"
-                    }
-                ]
-            },
+            // Be My Boyfriend - in Locations, Beach Square
             {
                 "name":"Will You deliver?",
                 "map_locations": [
@@ -195,12 +179,14 @@
                 "sections": [
                     {
                         "name": "Start",
-                        "hosted_item": "WYD1"
+                        "hosted_item": "WYD1",
+                        "access_rules": ["SubPET, Needle"]
                     },
                     // Will You Deliver 2 in Locations, DNN Station
                     {
                         "name": "Wrong chip, try again",
                         "visibility_rules": ["SubPET"],
+                        "access_rules": ["SubPET,Needle,WYD2"],
                         "hosted_item": "WYD3"
                     },
                     {
@@ -627,7 +613,7 @@
                         "name":"",
                         "visibility_rules": ["SubPET"],
                         "access_rules": [
-                            "CBeachPas,press",
+                            "CBeacPas,press",
                             "[SubPET]",
                             "[CSciPas]"
                         ],
@@ -679,8 +665,8 @@
                         "access_rules": [
                             "SubPET,SC2",
                             "CSciPas,SC2",
-                            "[SubPET],CBeachPas,press,SC2",
-                            "[CSciPas],CBeachPas,press,SC2"
+                            "[SubPET],CBeacPas,press,SC2",
+                            "[CSciPas],CBeacPas,press,SC2"
                         ],
                         "hosted_item": "SCSci"
                     }
@@ -723,8 +709,8 @@
                         "name": "Beach Net Stamp",
                         "visibility_rules": ["SubPET"],
                         "access_rules": [
-                            "Needle,CBeachPas,SC2",
-                            "CYokaPas,CBeachPas,press,SC2"
+                            "Needle,CBeacPas,SC2",
+                            "CYokaPas,CBeacPas,press,SC2"
                         ],
                         "hosted_item": "SCYoka"
                     }
@@ -788,8 +774,8 @@
                         "hosted_item": "HWW6",
                         "access_rules": [
                             "HWW5,CBeacPas,press",
-                            "HWW5,[CBeachPas],[press]"
-                    ],
+                            "HWW5,[CBeacPas],[press]"
+                                        ],
                         "visibility_rules": ["SubPET"]
 					}
 				]

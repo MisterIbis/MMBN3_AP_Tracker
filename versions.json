@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "package_version": "0.2.0.0",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.0/MMBN3_AP_Tracker.zip",
+      "sha256": "",
+      "changelog": [
+        "Implemented Jobs Tracking for each step of each job. Made them pretty while I was at it too."
+      ]
+    },{
       "package_version": "0.1.4.1",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.1.4.1/MMBN3_AP_Tracker.zip",
       "sha256": "CC5F1612A1A6CB38016C3BFCFDB60C7B8FCE46E88B2D64C5A953C27763AE1443",
