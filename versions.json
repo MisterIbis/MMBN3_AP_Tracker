@@ -3,7 +3,7 @@
     {
       "package_version": "0.2.0.1",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.1/MMBN3_AP_Tracker.zip",
-      "sha256": "76C1D73C0D313698B7DAC4F334B79E320BBF46F087130FE3636466273305193B",
+      "sha256": "0FAEBAB629A1D18D0A413DF88E328C5086DDF4679EA6DD7F4DEC3099A61F2F5A",
       "changelog": [
         "Bugfixes for logical issues w/jobs."
       ]
