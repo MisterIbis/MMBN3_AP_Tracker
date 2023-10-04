@@ -20,7 +20,6 @@ Tracker:AddItems("items/chips.json")
 
 Tracker:AddMaps("maps/maps.json")
 
-ScriptHost:LoadScript("scripts/logic.lua")
 Tracker:AddLocations("locations/locations.json")
 Tracker:AddLocations("locations/JobLocations.json")
 
