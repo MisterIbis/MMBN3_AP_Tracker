@@ -30,12 +30,13 @@
             // My navi is Sick is in locations, as it's a single step
             {
                 "name": "Job - Help me with my son!",
-                "visibility_rules": ["HMWMS1"],
+                "visibility_rules": ["SubPET"],
+                "access_rules": ["HMWMS1"],
                 "map_locations": [
                     {
                         "map": "ACDC_Net",
-                        "x": 1273,
-                        "y": 900
+                        "x": 1200,
+                        "y": 860
                     }
                 ],
                 "sections": [
@@ -90,7 +91,7 @@
                 "name": "ACDC Square",
                 "map_locations": [
                     {
-                        "map": "ACDC_Net",
+                        "map": "ACDCNet",
                         "x": 1448,
                         "y": 1374
                     }
@@ -264,6 +265,12 @@
                         "visibility_rules": ["SubPET"],
                         "access_rules": ["Needle,SubPET"],
                         "hosted_item": "LFC1"
+                    },
+                    {
+                        "name": "Job Finish",
+                        "visibility_rules": ["SubPET"],
+                        "access_rules": ["LFC3"],
+                        "hosted_item": "LFC4"
                     }
                 ]
             },

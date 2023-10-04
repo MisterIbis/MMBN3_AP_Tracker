@@ -884,7 +884,7 @@
 						"access_rules": [
 							"Needle,PETCase"
 						],
-						"hosted_item": "LFC1,LFC2,LFC3"
+						"hosted_item": "LFC1,LFC2,LFC3,LFC4"
 					},
 					{
 						"name": "Job - Help with rehab",
@@ -1591,7 +1591,7 @@
 					{
 						"name": "Be my boyfriend",
 						"visibility_rules": ["SubPET"],
-						"access_rules": ["SubPET,CBeacPas,Needle","SubPET,CBeacPas,CYokaPas,Press"],
+						"access_rules": ["SubPET,CBeacPas,Needle","SubPET,CBeacPas,CYokaPas,Press","SubPET,Press,[CBeacPas],[Needle]","SubPET,press,[CbeacPass],[CYokaPas]"],
 						"hosted_item": "BMB1"
 					}
 				]
