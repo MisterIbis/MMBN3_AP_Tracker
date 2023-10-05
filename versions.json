@@ -1,13 +1,22 @@
 {
   "versions": [
     {
+      "package_version": "0.2.0.2",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.2/MMBN3_AP_Tracker.zip",
+      "sha256": "422B8F1BF1210748CBE4E9C4A4399554287B6B070C5DD8013D5C1584CBF67D54",
+      "changelog": [
+        "Resolved crash of poptracker when attempting to use the Scilab Job board to undo job steps."
+      ]
+    },
+    {
       "package_version": "0.2.0.1",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.1/MMBN3_AP_Tracker.zip",
       "sha256": "0FAEBAB629A1D18D0A413DF88E328C5086DDF4679EA6DD7F4DEC3099A61F2F5A",
       "changelog": [
         "Bugfixes for logical issues w/jobs."
       ]
-    },{
+    },
+    {
       "package_version": "0.2.0.0",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.0/MMBN3_AP_Tracker.zip",
       "sha256": "0A65F7551BFE46F05805569034621D89C32A670E33457997C37B636A2E90E22F",
