@@ -797,31 +797,38 @@
 				"sections": [
 					{
 						"name": "Job - Please deliver this",
+						"clear_as_group": false,
 						"hosted_item": "PDT1,PDT2,PDT3"
 					},
 					{
 						"name": "Job - My Navi is sick",
+						"clear_as_group": false,
 						"hosted_item": "MNIS1",
 						"access_rules": ["[recov30]"]
 					},
 					{
 						"name": "Job - Chip Prices",
+						"clear_as_group": false,
 						"hosted_item": "CP1,CP2,CP3,CP4,CP5"
 					},
 					{
 						"name": "Job - Rare chips for cheap",
+						"clear_as_group": false,
 						"hosted_item": "RC1"
 					},
 					{
 						"name": "Job - Somebody please help",
+						"clear_as_group": false,
 						"hosted_item": "SPH1,SPH2,SPH3,SPH4,SPH5"
 					},
 					{
 						"name": "Job - Please adopt a virus",
+						"clear_as_group": false,
 						"hosted_item": "PAAV1"
 					},
 					{
 						"name": "Job - Finding the blue Navi",
+						"clear_as_group": false,
 						"access_rules": [
 							"Press,Needle,CBeacPas",
 							"Press,CYokaPas,CBeacPas",
@@ -844,6 +851,7 @@
 				"sections": [
 					{
 						"name": "Job - Help me with my son",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle"
 						],
@@ -851,6 +859,7 @@
 					},
 					{
 						"name": "Job - Transmission error",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle"
 						],
@@ -858,6 +867,7 @@
 					},
 					{
 						"name": "Job - I'm broke?!",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle"
 						],
@@ -865,6 +875,7 @@
 					},
 					{
 						"name": "Job - Be my boyfriend",
+						"clear_as_group": false,
 						"access_rules": [
 							// Can be updated once the Metro works "correctly"
 							"CBeacPas,Needle",
@@ -874,6 +885,7 @@
 					},
 					{
 						"name": "Job - Will you deliver",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle,PETCase"
 						],
@@ -881,6 +893,7 @@
 					},
 					{
 						"name": "Job - Looking for condor",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle,PETCase"
 						],
@@ -888,6 +901,7 @@
 					},
 					{
 						"name": "Job - Help with rehab",
+						"clear_as_group": false,
 						"access_rules": [
 							"PETCase"
 						],
@@ -895,6 +909,7 @@
 					},
 					{
 						"name": "Job - Old Master",
+						"clear_as_group": false,
 						"access_rules": [
 							"PETCase"
 						],
@@ -902,6 +917,7 @@
 					},
 					{
 						"name": "Job - Catching gang members",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle,press",
 							"CYokaPas,press"
@@ -910,6 +926,7 @@
 					},
 					{
 						"name": "Job - Legendary Tomes",
+						"clear_as_group": false,
 						"access_rules": [
 							"PETCase,[CBeacPas],[Press],magnum"
 						],
@@ -917,6 +934,7 @@
 					},
 					{
 						"name": "Job - Legendary Tomes Treasure",
+						"clear_as_group": false,
 						"access_rules": [
 							"PETCase,[CBeacPas],[Press],magnum"
 						],
@@ -924,6 +942,7 @@
 					},
 					{
 						"name": "Job - Hide and Seek",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle"
 						],
@@ -931,6 +950,7 @@
 					},
 					{
 						"name": "Job - Give your support",
+						"clear_as_group": false,
 						"access_rules": [
 							"PETCase"
 						],
@@ -938,6 +958,7 @@
 					},
 					{
 						"name": "Job - Stamp collecting",
+						"clear_as_group": false,
 						"access_rules": [
 							"PETCase,CBeacPas,Needle",
 							"PETCase,CbeacPass,CYokaPas,press"
@@ -946,6 +967,7 @@
 					},
 					{
 						"name": "Job - Help with a will",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle,PETCase,[Press]"
 						],
