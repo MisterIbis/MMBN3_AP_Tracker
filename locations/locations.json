@@ -1020,7 +1020,8 @@
 					{
 						"name": "",
 						"access_rules": [
-							"WWW_ID"
+							"WWW_ID,Needle,Press",
+							"WWW_ID,CYokaPas"
 						],
 						"item_count": 1
 					}
@@ -1083,7 +1084,7 @@
 			},
 			{
 				"name": "Comedian",
-				"access_rules": ["modtools,Needle","humor,Needle"],
+				"access_rules": ["modtools,Needle,[SubPET],[PETCase]","SubPET,Needle,PETCase"],
 				"map_locations": [
 					{
 						"map": "YokaNet",

@@ -1,6 +1,16 @@
 {
   "versions": [
     {
+      "package_version": "0.2.0.3",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.3/MMBN3_AP_Tracker.zip",
+      "sha256": "DFE554DABF06F6B2AF51C1421291F14A17882FE539E679C2FF43B6AAE13302C3",
+      "changelog": [
+        "Bugfix for Yoka WWW Door logic.",
+        "Added outlines for Press and the Spins",
+        "Debated starting a band called 'Press and the Spins'"
+      ]
+    },
+    {
       "package_version": "0.2.0.2",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.2/MMBN3_AP_Tracker.zip",
       "sha256": "422B8F1BF1210748CBE4E9C4A4399554287B6B070C5DD8013D5C1584CBF67D54",
