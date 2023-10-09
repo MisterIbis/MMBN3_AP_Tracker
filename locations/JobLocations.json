@@ -325,7 +325,7 @@
                     {
                         "name":"Job - Catching gang members - Start",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,Needle","SubPET,CYokaPas"],
+                        "access_rules": ["SubPET,Needle,press","SubPET,CYokaPas"],
                         "hosted_item": "CGM1"
                     },
                     {
@@ -349,7 +349,7 @@
                     {
                         "name":"",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["CGM1"],
+                        "access_rules": ["CGM1,Needle,press","CGM1,SubPET,CYokaPas,press"],
                         "hosted_item": "CGM2"
                     }
                 ]
@@ -367,7 +367,7 @@
                     {
                         "name":"",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["CGM1"],
+                        "access_rules": ["CGM1,Needle,press","CGM1,SubPET,CYokaPas"],
                         "hosted_item": "CGM3"
                     }
                 ]
@@ -385,7 +385,7 @@
                     {
                         "name":"",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["CGM1"],
+                        "access_rules": ["CGM1,Needle,press","CGM1,SubPET,CYokaPas"],
                         "hosted_item": "CGM4"
                     }
                 ]
@@ -403,7 +403,7 @@
                     {
                         "name":"",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["CGM1"],
+                        "access_rules": ["CGM1,Needle,press","CGM1,SubPET,CYokaPas,press"],
                         "hosted_item": "CGM5"
                     }
                 ]

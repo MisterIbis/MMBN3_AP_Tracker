@@ -1612,7 +1612,7 @@
 						"item_count": 1
 					},
 					{
-						"name": "Be my boyfriend",
+						"name": "Job - Be my boyfriend",
 						"visibility_rules": ["SubPET"],
 						"access_rules": ["SubPET,CBeacPas,Needle","SubPET,CBeacPas,CYokaPas,Press","SubPET,Press,[CBeacPas],[Needle]","SubPET,press,[CbeacPass],[CYokaPas]"],
 						"hosted_item": "BMB1"
@@ -1924,7 +1924,7 @@
 						"item_count": 1
 					},
 					{
-						"name": "Give Your Support",
+						"name": "Job - Give Your Support",
 						"visibility_rules": ["SubPet"],
 						"access_rules": ["SubPET"],
 						"hosted_item": "GYS1"
@@ -2819,6 +2819,157 @@
 			}
 		]
 	},
+	// Secret Secret, we're adding Secret
+	{
+		"name": "Secret Zones",
+		"access_rules": ["Hammer,[@CanSecret],Needle"],
+		"children": [
+			{
+				"name": "Secret 1 South BMD",
+				"map_locations": [
+					{
+					"map": "Secret1",
+					"x": 297,
+					"y": 520
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 1 Northwest BMD",
+				"map_locations": [
+					{
+					"map": "Secret1",
+					"x": 181,
+					"y": 204
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 1 Northeast BMD",
+				"map_locations": [
+					{
+					"map": "Secret1",
+					"x": 888,
+					"y": 177
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 2 Upper BMD",
+				"map_locations": [
+					{
+					"map": "Secret2",
+					"x": 247,
+					"y": 509
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 2 Lower BMD",
+				"map_locations": [
+					{
+					"map": "Secret2",
+					"x": 250,
+					"y": 250
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 2 Island BMD",
+				"map_locations": [
+					{
+					"map": "Secret2",
+					"x": 506,
+					"y": 62
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 3 South BMD",
+				"map_locations": [
+					{
+					"map": "Secret3",
+					"x": 596,
+					"y": 786
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 3 Bugfrag BMD",
+				"map_locations": [
+					{
+					"map": "Secret3",
+					"x": 469,
+					"y": 373
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 3 Island BMD",
+				"map_locations": [
+					{
+					"map": "Secret3",
+					"x": 85,
+					"y": 214
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			}
+		]
+	},
 	// Logic tracking
 	{
 		"name": "2+ExploreScore",
@@ -2837,8 +2988,8 @@
 			"CSciPas,CYokaPas,CBeacPas", // 2+1+1
 			// "CSciPas,CBeacPas,Press", // 2+1+2 UNDERNET DOESN'T COUNT UNTIL 8+
 			"SubPET", // 5, overlaps 3 w/CSciPas
-			"Needle,CSciPas", // 3 + 2
-			"Needle,CBeacPas", // 3 + 1
+			"Needle,press,CSciPas", // 3 + 2
+			"Needle,press,CBeacPas", // 3 + 1
 			"PETCase,CSciPas", // 3 + 2
 			"PETCase,CYokaPas" // 3 + 1
 		]
@@ -2846,7 +2997,7 @@
 	{
 		"name": "8+ExploreScore",
 		"access_rules": [
-			"SubPET,Needle",
+			"SubPET,Needle,press",
 			"SubPET,PETCase",
 			"Needle,PETCase,CSciPas", // 3 + 3 + 2
 			"Needle,PETCase,CBeacPas,Press", // 3 + 3 + 1 + 2
@@ -2861,6 +3012,16 @@
 			"SubPET,Needle,CBeacPas,Press", // 5 + 3 + 1 + 2
 			"Needle,PETCase,CBeacPas,Press,CSciPas", // 3 + 3 + 1 + 2 + 2
 			"$hasEnoughRanks,PETCase" // 999 + 3
+		]
+	},
+	// AKA 12+ explore Score
+	{
+		"name": "CanSecret",
+		"access_rules": [
+			"SubPET,Needle,PETCase,press,CBeacPas",
+			// 4     2         3     1 		3
+			"SubPET,PETCase,Press,CbeacPas,CYokaPas"
+			//  4     3       1       3         1
 		]
 	}
 ]

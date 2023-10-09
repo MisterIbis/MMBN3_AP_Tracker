@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "package_version": "0.2.0.4",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.4/MMBN3_AP_Tracker.zip",
+      "sha256": "",
+      "changelog": [
+        "🎶Secret Secret, implemented Secret (zones)🎶",
+        "Also fixed a couple of naming inconsistencies for Jobs that weren't prefixed with Job"
+      ]
+    },
+    {
       "package_version": "0.2.0.3",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.3/MMBN3_AP_Tracker.zip",
       "sha256": "B7ACA585619D3276EDDD4EE8091DF90A2AFFAA2E15DC8A97F5C9E3E07B7EC2A4",
