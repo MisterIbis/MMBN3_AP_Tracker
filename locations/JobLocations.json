@@ -634,7 +634,7 @@
                 "name": "Job - Stamp collecting",
                 "map_locations": [
                     {
-                        "map": "ACDC_Net",
+                        "map": "ACDCNet",
                         "x": 282,
                         "y": 299
 
