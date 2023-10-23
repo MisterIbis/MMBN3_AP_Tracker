@@ -82,7 +82,7 @@
                     {
                         "name":"Viruses",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["TE1"],
+                        "access_rules": ["TE1,Needle"],
                         "hosted_item": "TE2"
                     }
                 ]

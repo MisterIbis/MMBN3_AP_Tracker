@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "0.2.0.6",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.6/MMBN3_AP_Tracker.zip",
+      "sha256": "3896FF20D7EED0778BA526BADB9110EEE0D3AC7F3184B4ED5FE29FE561FD8122",
+      "changelog": [
+        "Job - Transmission Error now requires needle for Yoka Access for step 2"
+      ]
+    },
+    {
       "package_version": "0.2.0.5",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.5/MMBN3_AP_Tracker.zip",
       "sha256": "F54659F0CD79B2A555AC59D1FF0A5213B1137FF36C02321F7D2BCF457D553959",
