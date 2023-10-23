@@ -1,7 +1,5 @@
 # Megaman Battle Network 3 Tracker Package for PopTracker
 
-**THIS IS STILL WIP!**
-
 BN3 Item and Map Tracker for PopTracker.
 
 PopTracker can be found [here](https://github.com/black-sliver/PopTracker/releases).
