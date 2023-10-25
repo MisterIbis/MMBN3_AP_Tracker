@@ -34,7 +34,7 @@
                 "access_rules": ["HMWMS1"],
                 "map_locations": [
                     {
-                        "map": "ACDC_Net",
+                        "map": "ACDCNet",
                         "x": 1200,
                         "y": 860
                     }
