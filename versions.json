@@ -1,13 +1,24 @@
 {
   "versions": [
     {
+      "package_version": "0.2.0.8",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.8/MMBN3_AP_Tracker.zip",
+      "sha256": "8F931D595D388E5C27D4061C8F13267151EF9D0AAFC4AA60E5ECE470304E6348",
+      "changelog": [
+        "Job - Help with a Will now has the correct number of steps.",
+        "Clarified Comedian logic again, which means Digi will likely implement humor shuffle ASAP",
+        "Added OOL access to chip trades that you can get from the OrderSys. Screw farming for anything that's not recov 30 * though (30% chance in a GMD in ACDC3)"
+      ]
+    },
+    {
       "package_version": "0.2.0.7",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.7/MMBN3_AP_Tracker.zip",
       "sha256": "CCBE9E723187386F585AAA0703A2B7F8689F819F2D8399175B93C4C1226F53AA",
       "changelog": [
         "Job - Help Me With My Son step 2 map typo corrected."
       ]
-    },{
+    },
+    {
       "package_version": "0.2.0.6",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.6/MMBN3_AP_Tracker.zip",
       "sha256": "3896FF20D7EED0778BA526BADB9110EEE0D3AC7F3184B4ED5FE29FE561FD8122",

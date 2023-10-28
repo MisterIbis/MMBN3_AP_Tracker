@@ -484,14 +484,14 @@
 						"hosted_item": "PDT2"
 					},
 					{
-						"name": "SonicWave Trade",
+						"name": "SonicWav W Trade",
 						"access_rules": [
 							"sonicwave"
 						],
 						"item_count": 1
 					},
 					{
-						"name": "Bubbler Trade",
+						"name": "Bubbler C Trade",
 						"access_rules": [
 							"bubbler"
 						],
@@ -529,7 +529,8 @@
 					{
 						"name": "Job - Help With A Will - Finish (Kid Outside 5A)",
 						"visibility_rules": ["SubPET"],
-						"access_rules": ["HWW6"]
+						"access_rules": ["HWW6"],
+						"hosted_item": "HWW7"
 					}
 				]
 			},
@@ -716,7 +717,8 @@
 					{
 						"name": "",
 						"access_rules": [
-							"shake"
+							"shake",
+							"Ordersys,[shake]"
 						],
 						"item_count": 1
 					}
@@ -971,7 +973,7 @@
 						"access_rules": [
 							"Needle,PETCase,[Press]"
 						],
-						"hosted_item": "HWW1,HWW2,HWW3,HWW4,HWW5,HWW6"
+						"hosted_item": "HWW1,HWW2,HWW3,HWW4,HWW5,HWW6,HWW7"
 					}
 				]
 			}
@@ -1094,7 +1096,7 @@
 				],
 				"sections": [
 					{
-						"name": "Navicust SJH1UEKA",
+						"name": "Navicust SJH1UEKA or Job - Help with Rehab",
 						"item_count": 1
 					}
 				]
@@ -1683,7 +1685,8 @@
 					{
 						"name": "HoleMetr H Trade",
 						"access_rules": [
-							"holemeteor"
+							"holemeteor",
+							"Ordersys,[holemeteor]"
 						],
 						"item_count": 1
 					},
@@ -1919,7 +1922,8 @@
 					{
 						"name": "GrabBack K Trade",
 						"access_rules": [
-							"grabback"
+							"grabback",
+							"Ordersys,[grabback]"
 						],
 						"item_count": 1
 					},
