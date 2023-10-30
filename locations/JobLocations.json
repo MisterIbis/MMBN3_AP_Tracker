@@ -463,7 +463,7 @@
                     {
                         "name": "SeaTome",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,PETCase"],
+                        "access_rules": ["SubPET,PETCase,LT1"],
                         "hosted_item": "LTSea"
                     }
                 ]
@@ -486,7 +486,7 @@
                     {
                         "name": "LandTome",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,PETCase"],
+                        "access_rules": ["SubPET,PETCase,LT1"],
                         "hosted_item": "LTLand"
                     }
                 ]
@@ -504,7 +504,7 @@
                     {
                         "name": "SkyTome",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,PETCase,[magnum]"],
+                        "access_rules": ["SubPET,PETCase,[magnum],LT1"],
                         "hosted_item": "LTSky"
                     }
                 ]
