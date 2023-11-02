@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "0.2.0.9",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.9/MMBN3_AP_Tracker.zip",
+      "sha256": "15622824F414B0BD6D69FB20A719B0F83E3BBCD13FD0CFAB120CBE1562CAA1AD",
+      "changelog": [
+        "Corrected Beach's Stamp collecting step to be the Beach stamp instead of Yoka's again. They don't have much else there, but at least they have this stamp now."
+      ]
+    },
+    {
       "package_version": "0.2.0.8",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.8/MMBN3_AP_Tracker.zip",
       "sha256": "CB34803F3C71C0CA8E6C54E14D0C537B4F353E7997BB393E9A787D157E87FF38",
