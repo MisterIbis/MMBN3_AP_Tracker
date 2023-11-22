@@ -1660,19 +1660,7 @@
 				],
 				"sections": [
 					{
-						"name": "Broadcast Computer PMD",
-						"item_count": 1
-					},
-					{
 						"name": "Battle Console BMD",
-						"item_count": 1
-					},
-					{
-						"name": "Security System BMD",
-						"item_count": 1
-					},
-					{
-						"name": "Security System PMD",
 						"item_count": 1
 					},
 					{
@@ -1680,6 +1668,50 @@
 						"access_rules": [
 							"shadow"
 						],
+						"item_count": 1
+					},
+					{
+						"name": "DNN Boxes",
+						"item_count": 1
+					},
+
+					{
+						"name": "DNN Kiosk",
+						"item_count": 1
+					},
+
+					{
+						"name": "Job - Will You Deliver?",
+						"visibility_rules": ["SubPET"],
+						"access_rules": ["SubPET,WYD1,PETCase"],
+						"hosted_item": "WYD2"
+					}
+				]
+			},
+			{
+				"name": "DNN Station 2F",
+				"map_locations": [
+					{
+					"map": "Beach",
+					"x": 1478,
+					"y": 137
+					}
+				],
+				"sections": [
+					{
+						"name": "Broadcast Computer PMD",
+						"item_count": 1
+					},
+					{
+						"name": "Broadcast Computer BMD",
+						"item_count": 1
+					},
+					{
+						"name": "Undernet 6 TV BMD",
+						"item_count": 1
+					},
+					{
+						"name": "DNN Poster",
 						"item_count": 1
 					},
 					{
@@ -1698,30 +1730,12 @@
 						"item_count": 1
 					},
 					{
-						"name": "DNN Boxes",
+						"name": "Security System BMD",
 						"item_count": 1
 					},
 					{
-						"name": "Broadcast Computer BMD",
+						"name": "Security System PMD",
 						"item_count": 1
-					},
-					{
-						"name": "DNN Kiosk",
-						"item_count": 1
-					},
-					{
-						"name": "DNN Poster",
-						"item_count": 1
-					},
-					{
-						"name": "Undernet 6 TV BMD",
-						"item_count": 1
-					},
-					{
-						"name": "Job - Will You Deliver?",
-						"visibility_rules": ["SubPET"],
-						"access_rules": ["SubPET,WYD1,PETCase"],
-						"hosted_item": "WYD2"
 					}
 				]
 			},
@@ -1887,8 +1901,8 @@
 					},
 					{
 						"name": "Help With a Will - Message 4",
-						"visibility_rules": ["PETCase"],
-						"access_rules": ["HWW4"],
+						"visibility_rules": ["SubPET"],
+						"access_rules": ["HWW4,PETCase"],
 						"hosted_item": "HWW5"
 					}
 				]
