@@ -604,7 +604,8 @@
 		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"CSciPas",
-			"SubPET"
+			"SubPET",
+			"[@CanSciNet],@CanYokaNet,CBeacPas,Press"
 		],
 		"children": [
 			{
@@ -3040,6 +3041,20 @@
 			// 4     2         3     1 		3
 			"SubPET,PETCase,Press,CbeacPas,CYokaPas"
 			//  4     3       1       3         1
+		]
+	},
+	{
+		"name": "CanYokaNet",
+		"access_rules": [
+			"CYokaPas",
+			"Needle,Press"
+		]
+	},
+	{
+		"name": "CanSciNet",
+		"access_rules": [
+			"CSciPas",
+			"SubPET"
 		]
 	}
 ]
