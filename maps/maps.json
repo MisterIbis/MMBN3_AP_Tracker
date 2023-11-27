@@ -130,5 +130,11 @@
         "img": "images/maps/Secret_3.png",
         "location_size": 25,
         "location_border_thickness" : 2
+    },
+    {
+        "name": "RegionMap",
+        "img": "images/maps/Metro Map.png",
+        "location_size": 25,
+        "location_border_thickness": 2
     }
 ]

@@ -493,7 +493,8 @@
 					{
 						"name": "Bubbler C Trade",
 						"access_rules": [
-							"bubbler"
+							"[bubbler]"
+							//Go farm in Yai's Phone :)
 						],
 						"item_count": 1
 					},
