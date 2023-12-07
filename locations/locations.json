@@ -702,7 +702,8 @@
 					{
 						"name": "Job - My Navi is sick",
 						"visibility_rules": ["SubPET"],
-						"hosted_item": "MNIS1"
+						"hosted_item": "MNIS1",
+						"access_rules": ["[recov30]"]
 					}
 				]
 			},
