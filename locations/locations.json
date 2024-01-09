@@ -2232,7 +2232,8 @@
 		"access_rules": [
 			"[press],[CBeacPas],CSciPas,[@8+ExploreScore]",
 			"[press],[CBeacPas],SubPET,[@8+ExploreScore]",
-			"press, CBeacPas,[@8+ExploreScore]"
+			"press,CBeacPas,Needle,[@8+ExploreScore]",
+			"press,CbeacPas,CYokaPas,[@8+ExploreScore]"
 		],
 		"children": [
 			{
@@ -2424,7 +2425,7 @@
 		"access_rules": [
 			"CSciPas",
 			"SubPET",
-			"press,CBeacPas"
+			"press,CBeacPas,@CanYokaNet"
 		],
 		"children": [
 			{

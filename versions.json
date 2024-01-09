@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "0.2.1.1",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.1.1/MMBN3_AP_Tracker.zip",
+      "sha256": "2CFC36BE5A37180C499A6C5500C35E48ACC55C3B9E939643330D9E85E8E54CB3",
+      "changelog": [
+        "Fixed Undernet logic to require you to actually be able to get there again, instead of assuming that Beach and Press are good enough."
+      ]
+    },    
+    {
       "package_version": "0.2.1.0",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.1.0/MMBN3_AP_Tracker.zip",
       "sha256": "42AC3CEC515119E179152E476375E281E752C661E0505AC446789AB509BB7A3A",
@@ -11,7 +19,8 @@
         "Split up the DNN Station into 1F and 2F, because half the checks aren't very clear from names alone.",
         "Also added OOL access to Beach via the undernet for masochists. 🎵take the long way home🎵"
       ]
-    },    {
+    },    
+    {
       "package_version": "0.2.0.9",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.9/MMBN3_AP_Tracker.zip",
       "sha256": "15622824F414B0BD6D69FB20A719B0F83E3BBCD13FD0CFAB120CBE1562CAA1AD",
