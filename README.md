@@ -7,7 +7,7 @@ PopTracker can be found [here](https://github.com/black-sliver/PopTracker/releas
 
 ## Installation
 
-Just download the lastest build and put in your packs folder (as a zip or unpacked, both works).
+Just download the lastest build and put in your packs folder (as a zip or unpacked, both work).
 
 ### PopTracker
 
