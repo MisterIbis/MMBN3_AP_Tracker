@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+      "package_version": "0.2.2.0",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.1.1/MMBN3_AP_Tracker.zip",
+      "sha256": "D195C3226F955C18ECE0388602A323EED833359ACB931141E11AD5E489DFFB58",
+      "changelog": [
+        "Thanks to Phantom5800, we are now functional in EmoTracker."
+      ]
+    },    
+    {
       "package_version": "0.2.1.1",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.1.1/MMBN3_AP_Tracker.zip",
       "sha256": "2CFC36BE5A37180C499A6C5500C35E48ACC55C3B9E939643330D9E85E8E54CB3",

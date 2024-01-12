@@ -3013,7 +3013,8 @@
 			"Needle,press,CSciPas", // 3 + 2
 			"Needle,press,CBeacPas", // 3 + 1
 			"PETCase,CSciPas", // 3 + 2
-			"PETCase,CYokaPas" // 3 + 1
+			"PETCase,CYokaPas", // 3 + 1
+			"GigFreez,PETCase"
 		]
 	},
 	{
@@ -3024,7 +3025,8 @@
 			"Needle,PETCase,CSciPas", // 3 + 3 + 2
 			"Needle,PETCase,CBeacPas,Press", // 3 + 3 + 1 + 2
 			"Needle,CSciPas,CBeacPas,Press", // 3 + 2 + 1 + 2
-			"PETCase,CSciPas,CBeacPas,Press" // 3 + 2 + 1 + 1 + 2
+			"PETCase,CSciPas,CBeacPas,Press", // 3 + 2 + 1 + 1 + 2
+			"GigFreez,PETCase"
 		]
 	},
 	{
@@ -3033,7 +3035,7 @@
 			"SubPET,Needle,PETCase", // 5 + 3 + 3
 			"SubPET,Needle,CBeacPas,Press", // 5 + 3 + 1 + 2
 			"Needle,PETCase,CBeacPas,Press,CSciPas", // 3 + 3 + 1 + 2 + 2
-			//"$hasEnoughRanks,PETCase" // 999 + 3
+			"GigFreez,PETCase"
 		]
 	},
 	// AKA 12+ explore Score
