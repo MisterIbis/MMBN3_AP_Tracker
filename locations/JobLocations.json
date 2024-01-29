@@ -161,7 +161,7 @@
                     {
                         "name":"Navi Rescue",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["IB1"],
+                        "access_rules": ["IB1,@CanYokaNet"],
                         "hosted_item": "IB2"
                     }
                 ]
