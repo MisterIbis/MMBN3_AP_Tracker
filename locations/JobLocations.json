@@ -717,7 +717,8 @@
                         "visibility_rules": ["SubPET"],
                         "access_rules": [
                             "Needle,CBeacPas,SC2",
-                            "CYokaPas,CBeacPas,press,SC2"
+                            "CYokaPas,CBeacPas,press,SC2",
+                            "[Needle],[CBeacPas],SC2,@CanSciNet,press"
                         ],
                         "hosted_item": "SCBeach"
                     }
