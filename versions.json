@@ -1,8 +1,17 @@
 {
   "versions": [
     {
+      "package_version": "0.2.2.1",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.2.1/MMBN3_AP_Tracker.zip",
+      "sha256": "A0B132D6861BC6CB1977946CF2A7034481EF903C0448D3A166DFB5D0D7D877EC",
+      "changelog": [
+        "Added OOL rule for Stamp Collecting to the beach Stamp location. It now flags yellow like the rest of the beach when the bad idea can occur.",
+        "PNGs now deflated even further, saving ~30% file size thanks to Nivomi."
+      ]
+    },
+    {
       "package_version": "0.2.2.0",
-      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.1.1/MMBN3_AP_Tracker.zip",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.2.0/MMBN3_AP_Tracker.zip",
       "sha256": "D195C3226F955C18ECE0388602A323EED833359ACB931141E11AD5E489DFFB58",
       "changelog": [
         "Thanks to Phantom5800, we are now functional in EmoTracker."
