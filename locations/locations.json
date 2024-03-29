@@ -1529,10 +1529,12 @@
 		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			// Can be corrected to CbeacPass + any other pass/needle once metro works "correctly".
+			//TODO: fix when logical Beach access includes the metro
 			"CBeacPas,CYokaPas,press",
 			"CBeacPas,Needle",
 			"[CBeacPas],[CYokaPas],press,CSciPas",
-			"[CBeacPas],[CYokaPas],press,SubPET"
+			"[CBeacPas],[CYokaPas],press,SubPET",
+			"CACDCPas,CSciPas,CYokaPas,CBeacPas,[press]"
 		],
 		"children": [
 			{

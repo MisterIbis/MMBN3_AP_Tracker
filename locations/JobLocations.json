@@ -439,7 +439,7 @@
                     {
                         "name": "Start",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,PETCase"],
+                        "access_rules": ["SubPET,PETCase,press"],
                         "hosted_item": "LT1"
                     },
                     {
@@ -718,7 +718,9 @@
                         "access_rules": [
                             "Needle,CBeacPas,SC2",
                             "CYokaPas,CBeacPas,press,SC2",
-                            "[Needle],[CBeacPas],SC2,@CanSciNet,press"
+                            "[Needle],[CBeacPas],SC2,@CanSciNet,press",
+                            //TODO: fix when logical Beach access includes the metro
+                            "CACDCPas,CSciPas,CYokaPas,CBeacPas,[press],SC2"
                         ],
                         "hosted_item": "SCBeach"
                     }
