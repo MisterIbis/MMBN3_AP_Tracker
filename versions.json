@@ -1,6 +1,15 @@
 {
   "versions": [
     {
+      "package_version": "0.2.2.2",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.2.2/MMBN3_AP_Tracker.zip",
+      "sha256": "69AB46F565663DBFDE212C489396F732D84F75B202A28FAC3141E552FC213569",
+      "changelog": [
+        "Added OOL rule for Beachnet in the event that you *gasp, shock* actually get 4 passes to take the metro there.",
+        "Corrected the Legendary Tomes job to require Press to start. No more balance beam practice required."
+      ]
+    },
+    {
       "package_version": "0.2.2.1",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.2.1/MMBN3_AP_Tracker.zip",
       "sha256": "A0B132D6861BC6CB1977946CF2A7034481EF903C0448D3A166DFB5D0D7D877EC",
