@@ -1642,6 +1642,21 @@
 						"item_count": 1
 					}
 				]
+			},
+			{
+				"name": "Hospital 2 Island Access",
+				"map_locations": [
+					{
+						"map": "BeachNet",
+						"x": 703,
+						"y": 808
+					}
+				],
+				"sections": [
+					{
+						"ref": "Beach Cyberworld/Hospital 2 Island BMD/"
+					}
+				]
 			}
 		]
 	},
@@ -1743,6 +1758,21 @@
 						"item_count": 1
 					}
 				]
+			},
+			{
+				"name": "Access in DNN Station 2F",
+				"map_locations": [
+					{
+						"map": "Undernet5-7",
+						"x": 1341,
+						"y": 287
+					}
+				],
+				"sections": [
+					{
+						"ref": "Beach Overworld/DNN Station 2F/Undernet 6 TV BMD"
+					}
+				]	
 			},
 			{
 				"name": "Beach - Hospital",
