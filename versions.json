@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "package_version": "0.2.2.3",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.2.3/MMBN3_AP_Tracker.zip",
+      "sha256": "327E2436847906C8083580022520F17A9F4E4B76CBF39A0A3FDCB71309FC0D89",
+      "changelog": [
+        "Fixed incorrect OOL Access rules for Finding the Blue Navi."
+      ]
+    },{
       "package_version": "0.2.2.2",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.2.2/MMBN3_AP_Tracker.zip",
       "sha256": "69AB46F565663DBFDE212C489396F732D84F75B202A28FAC3141E552FC213569",

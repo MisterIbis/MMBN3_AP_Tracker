@@ -837,8 +837,8 @@
 						"access_rules": [
 							"Press,Needle,CBeacPas",
 							"Press,CYokaPas,CBeacPas",
-							"[SubPET]",
-							"[CSciPas]"
+                            "SubPET,[CBeacPas],[press]",
+                            "CSciPas,[CBeacPas],[press]"
 						],
 						"hosted_item": "FTBN1"
 					}

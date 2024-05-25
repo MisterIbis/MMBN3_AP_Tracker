@@ -621,8 +621,8 @@
                         "visibility_rules": ["SubPET"],
                         "access_rules": [
                             "CBeacPas,press",
-                            "[SubPET]",
-                            "[CSciPas]"
+                            "SubPET,[CBeacPas],[press]",
+                            "CSciPas,[CBeacPas],[press]"
                         ],
                         "hosted_item": "FTBN1"
                     }
