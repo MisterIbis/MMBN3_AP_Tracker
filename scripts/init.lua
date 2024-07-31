@@ -13,7 +13,7 @@ print("Starting up scripts")
 ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Scrips to automatically clear the job substeps when the Job is completed
-ScriptHost:LoadScript("scripts/jobs.lua")
+ScriptHost:LoadScript("scripts/autotracking/jobs.lua")
 
 -- Add Items
 Tracker:AddItems("items/keyitems.json")

@@ -514,7 +514,7 @@
 						"name": "Job - Legendary Tomes (Weird Statue in Lounge)",
 						"visibility_rules": ["SubPET"],
 						"access_rules": ["LTSea,LTSky,LTLand"],
-						"hosted_item": "LT2A"
+						"hosted_item": "LT2Treasure"
 					},
 					{
 						"name": "Job - Help With A Will - Start (Kid Outside 5A)",
@@ -906,14 +906,14 @@
 						"access_rules": [
 							"PETCase,Press"
 						],
-						"hosted_item": "LT1,LTLand,LTSea,LTSky,LT2B"
+						"hosted_item": "LT1,LTLand,LTSea,LTSky,LT2A"
 					},
 					{
 						"name": "Job - Legendary Tomes Treasure",
 						"access_rules": [
 							"PETCase,Press"
 						],
-						"hosted_item": "LT2B"
+						"hosted_item": "LT2Treasure"
 					},
 					{
 						"name": "Job - Hide and Seek",
