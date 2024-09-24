@@ -30,12 +30,13 @@
             // My navi is Sick is in locations, as it's a single step
             {
                 "name": "Job - Help me with my son!",
-                "visibility_rules": ["HMWMS1"],
+                "visibility_rules": ["SubPET"],
+                "access_rules": ["HMWMS1"],
                 "map_locations": [
                     {
-                        "map": "ACDC_Net",
-                        "x": 1273,
-                        "y": 900
+                        "map": "ACDCNet",
+                        "x": 1200,
+                        "y": 860
                     }
                 ],
                 "sections": [
@@ -57,7 +58,8 @@
                 "sections": [
                     {
                         "name":"Transmission Error Start",
-                        "hosted_item": "TE1"
+                        "hosted_item": "TE1",
+                        "access_rules": ["SubPET"]
                     },
                     {
                         "name": "Transmission Error Finish",
@@ -80,6 +82,7 @@
                     {
                         "name":"Viruses",
                         "visibility_rules": ["SubPET"],
+                        "access_rules": ["TE1,Needle"],
                         "hosted_item": "TE2"
                     }
                 ]
@@ -88,7 +91,7 @@
                 "name": "ACDC Square",
                 "map_locations": [
                     {
-                        "map": "ACDC_Net",
+                        "map": "ACDCNet",
                         "x": 1448,
                         "y": 1374
                     }
@@ -150,36 +153,21 @@
                 "map_locations": [
                     {
                         "map": "YokaNet",
-                        "x": 1511,
-                        "y": 88
+                        "x": 1276,
+                        "y": 120
                     }
                 ],
                 "sections": [
                     {
                         "name":"Navi Rescue",
                         "visibility_rules": ["SubPET"],
+                        "access_rules": ["IB1,@CanYokaNet"],
                         "hosted_item": "IB2"
                     }
                 ]
             },
             // Rare Chips for Cheap - in Locations, Yai's Phone
-            {
-                "name": "Job - Be my boyfriend",
-                "map_locations": [
-                    {
-                        "map": "BeachNet",
-                        "x": 1511,
-                        "y": 88
-                    }
-                ],
-                "sections": [
-                    {
-                        "name":"Navi Rescue",
-                        "visibility_rules": ["SubPET"],
-                        "hosted_item": "BMB2"
-                    }
-                ]
-            },
+            // Be My Boyfriend - in Locations, Beach Square
             {
                 "name":"Will You deliver?",
                 "map_locations": [
@@ -192,12 +180,14 @@
                 "sections": [
                     {
                         "name": "Start",
-                        "hosted_item": "WYD1"
+                        "hosted_item": "WYD1",
+                        "access_rules": ["SubPET, Needle"]
                     },
                     // Will You Deliver 2 in Locations, DNN Station
                     {
                         "name": "Wrong chip, try again",
                         "visibility_rules": ["SubPET"],
+                        "access_rules": ["SubPET,Needle,WYD2"],
                         "hosted_item": "WYD3"
                     },
                     {
@@ -231,7 +221,7 @@
                 "map_locations": [
                     {
                         "map": "ACDCSchool",
-                        "x": 1831,
+                        "x": 1826,
                         "y": 135
                     }
                 ],
@@ -275,6 +265,12 @@
                         "visibility_rules": ["SubPET"],
                         "access_rules": ["Needle,SubPET"],
                         "hosted_item": "LFC1"
+                    },
+                    {
+                        "name": "Job Finish",
+                        "visibility_rules": ["SubPET"],
+                        "access_rules": ["LFC3"],
+                        "hosted_item": "LFC4"
                     }
                 ]
             },
@@ -329,7 +325,7 @@
                     {
                         "name":"Job - Catching gang members - Start",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,Needle","SubPET,CYokaPas"],
+                        "access_rules": ["SubPET,Needle,press","SubPET,CYokaPas"],
                         "hosted_item": "CGM1"
                     },
                     {
@@ -353,7 +349,7 @@
                     {
                         "name":"",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["CGM1"],
+                        "access_rules": ["CGM1,Needle,press","CGM1,SubPET,CYokaPas,press"],
                         "hosted_item": "CGM2"
                     }
                 ]
@@ -371,7 +367,7 @@
                     {
                         "name":"",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["CGM1"],
+                        "access_rules": ["CGM1,Needle,press","CGM1,SubPET,CYokaPas"],
                         "hosted_item": "CGM3"
                     }
                 ]
@@ -389,7 +385,7 @@
                     {
                         "name":"",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["CGM1"],
+                        "access_rules": ["CGM1,Needle,press","CGM1,SubPET,CYokaPas"],
                         "hosted_item": "CGM4"
                     }
                 ]
@@ -407,7 +403,7 @@
                     {
                         "name":"",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["CGM1"],
+                        "access_rules": ["CGM1,Needle,press","CGM1,SubPET,CYokaPas,press"],
                         "hosted_item": "CGM5"
                     }
                 ]
@@ -443,7 +439,7 @@
                     {
                         "name": "Start",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,PETCase"],
+                        "access_rules": ["SubPET,PETCase,press"],
                         "hosted_item": "LT1"
                     },
                     {
@@ -467,7 +463,7 @@
                     {
                         "name": "SeaTome",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,PETCase"],
+                        "access_rules": ["SubPET,PETCase,LT1"],
                         "hosted_item": "LTSea"
                     }
                 ]
@@ -490,7 +486,7 @@
                     {
                         "name": "LandTome",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,PETCase"],
+                        "access_rules": ["SubPET,PETCase,LT1"],
                         "hosted_item": "LTLand"
                     }
                 ]
@@ -508,7 +504,7 @@
                     {
                         "name": "SkyTome",
                         "visibility_rules": ["SubPET"],
-                        "access_rules": ["SubPET,PETCase,[magnum]"],
+                        "access_rules": ["SubPET,PETCase,[magnum],LT1"],
                         "hosted_item": "LTSky"
                     }
                 ]
@@ -624,9 +620,9 @@
                         "name":"",
                         "visibility_rules": ["SubPET"],
                         "access_rules": [
-                            "CBeachPas,press",
-                            "[SubPET]",
-                            "[CSciPas]"
+                            "CBeacPas,press",
+                            "SubPET,[CBeacPas],[press]",
+                            "CSciPas,[CBeacPas],[press]"
                         ],
                         "hosted_item": "FTBN1"
                     }
@@ -638,7 +634,7 @@
                 "name": "Job - Stamp collecting",
                 "map_locations": [
                     {
-                        "map": "ACDC_Net",
+                        "map": "ACDCNet",
                         "x": 282,
                         "y": 299
 
@@ -676,8 +672,8 @@
                         "access_rules": [
                             "SubPET,SC2",
                             "CSciPas,SC2",
-                            "[SubPET],CBeachPas,press,SC2",
-                            "[CSciPas],CBeachPas,press,SC2"
+                            "[SubPET],CBeacPas,press,SC2",
+                            "[CSciPas],CBeacPas,press,SC2"
                         ],
                         "hosted_item": "SCSci"
                     }
@@ -720,10 +716,13 @@
                         "name": "Beach Net Stamp",
                         "visibility_rules": ["SubPET"],
                         "access_rules": [
-                            "Needle,CBeachPas,SC2",
-                            "CYokaPas,CBeachPas,press,SC2"
+                            "Needle,CBeacPas,SC2",
+                            "CYokaPas,CBeacPas,press,SC2",
+                            "[Needle],[CBeacPas],SC2,@CanSciNet,press",
+                            //TODO: fix when logical Beach access includes the metro
+                            "CACDCPas,CSciPas,CYokaPas,CBeacPas,[press],SC2"
                         ],
-                        "hosted_item": "SCYoka"
+                        "hosted_item": "SCBeach"
                     }
                 ]
             },
@@ -785,8 +784,8 @@
                         "hosted_item": "HWW6",
                         "access_rules": [
                             "HWW5,CBeacPas,press",
-                            "HWW5,[CBeachPas],[press]"
-                    ],
+                            "HWW5,[CBeacPas],[press]"
+                                        ],
                         "visibility_rules": ["SubPET"]
 					}
 				]

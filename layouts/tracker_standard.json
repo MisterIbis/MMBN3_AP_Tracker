@@ -8,7 +8,7 @@
       "content": [
         {
           "type": "dock",
-          "dock": "top",
+          "dock": "left",
           "v_alignment": "stretch",
           "content": [
             {
@@ -22,20 +22,20 @@
             },
             {
               "type": "group",
-              "header": "NaviCust",
-              "dock": "left",
+              "header": "Trade Chips",
+              "dock": "top",
               "content": {
                 "type": "layout",
-                "key": "misc_item_grid"
+                "key": "trade_chips"
               }
             },
             {
               "type": "group",
-              "header": "Tradable Chips",
-              "dock": "left",
+              "header": "NaviCust Upgrades",
+              "dock": "top",
               "content": {
                 "type": "layout",
-                "key": "trade_chips"
+                "key": "misc_item_grid"
               }
             }
           ]
@@ -90,32 +90,30 @@
           "content": [
             {
               "type": "group",
-              "header": "Items",
-              "content": [
-                {
-                  "type": "array",
-                  "orientation": "horizontal",
-                  "margin": "0,0",
-                  "content": [
-                    {
-                      "type": "layout",
-                      "key": "key_item_grid"
-                    },
-                    {
-                      "type": "layout",
-                      "key": "misc_item_grid"
-                    },
-                    {
-                      "type": "layout",
-                      "key": "trade_chips"
-                    },
-                    {
-                      "type": "layout",
-                      "key": "settings"
-                    }
-                  ]
-                }
-              ]
+              "header": "Key Items",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "key_item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Trade Chips",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "trade_chips"
+              }
+            },
+            {
+              "type": "group",
+              "header": "NaviCust Upgrades",
+              "dock": "left",
+              "content": {
+                "type": "layout",
+                "key": "misc_item_grid"
+              }
             }
           ]
         },

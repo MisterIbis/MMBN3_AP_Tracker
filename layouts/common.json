@@ -46,6 +46,15 @@
             "HadesIsle"
           ]
         }
+      },
+      {
+        "title": "Region Overview",
+        "content": {
+          "type": "map",
+          "maps": [
+            "RegionMap"
+          ]
+        }
       }
     ]
   },

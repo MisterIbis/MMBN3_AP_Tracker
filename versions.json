@@ -1,0 +1,221 @@
+{
+  "versions": [
+    {
+      "package_version": "0.2.2.3",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.2.3/MMBN3_AP_Tracker.zip",
+      "sha256": "327E2436847906C8083580022520F17A9F4E4B76CBF39A0A3FDCB71309FC0D89",
+      "changelog": [
+        "Fixed incorrect OOL Access rules for Finding the Blue Navi."
+      ]
+    },{
+      "package_version": "0.2.2.2",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.2.2/MMBN3_AP_Tracker.zip",
+      "sha256": "69AB46F565663DBFDE212C489396F732D84F75B202A28FAC3141E552FC213569",
+      "changelog": [
+        "Added OOL rule for Beachnet in the event that you *gasp, shock* actually get 4 passes to take the metro there.",
+        "Corrected the Legendary Tomes job to require Press to start. No more balance beam practice required."
+      ]
+    },
+    {
+      "package_version": "0.2.2.1",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.2.1/MMBN3_AP_Tracker.zip",
+      "sha256": "A0B132D6861BC6CB1977946CF2A7034481EF903C0448D3A166DFB5D0D7D877EC",
+      "changelog": [
+        "Added OOL rule for Stamp Collecting to the beach Stamp location. It now flags yellow like the rest of the beach when the bad idea can occur.",
+        "PNGs now deflated even further, saving ~30% file size thanks to Nivomi."
+      ]
+    },
+    {
+      "package_version": "0.2.2.0",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.2.0/MMBN3_AP_Tracker.zip",
+      "sha256": "D195C3226F955C18ECE0388602A323EED833359ACB931141E11AD5E489DFFB58",
+      "changelog": [
+        "Thanks to Phantom5800, we are now functional in EmoTracker."
+      ]
+    },    
+    {
+      "package_version": "0.2.1.1",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.1.1/MMBN3_AP_Tracker.zip",
+      "sha256": "2CFC36BE5A37180C499A6C5500C35E48ACC55C3B9E939643330D9E85E8E54CB3",
+      "changelog": [
+        "Fixed Undernet logic to require you to actually be able to get there again, instead of assuming that Beach and Press are good enough."
+      ]
+    },    
+    {
+      "package_version": "0.2.1.0",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.1.0/MMBN3_AP_Tracker.zip",
+      "sha256": "42AC3CEC515119E179152E476375E281E752C661E0505AC446789AB509BB7A3A",
+      "changelog": [
+        "Lots of little stuff corrected or clarified across the board.",
+        "Added Metro Station-style map to show region connectivity",
+        "Added OOL access to a few chips that are reasonably easy to farm (Ex, Yai's telephone has a 50% chance at Bubbler C)",
+        "Split up the DNN Station into 1F and 2F, because half the checks aren't very clear from names alone.",
+        "Also added OOL access to Beach via the undernet for masochists. 🎵take the long way home🎵"
+      ]
+    },    
+    {
+      "package_version": "0.2.0.9",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.9/MMBN3_AP_Tracker.zip",
+      "sha256": "15622824F414B0BD6D69FB20A719B0F83E3BBCD13FD0CFAB120CBE1562CAA1AD",
+      "changelog": [
+        "Corrected Beach's Stamp collecting step to be the Beach stamp instead of Yoka's again. They don't have much else there, but at least they have this stamp now."
+      ]
+    },
+    {
+      "package_version": "0.2.0.8",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.8/MMBN3_AP_Tracker.zip",
+      "sha256": "CB34803F3C71C0CA8E6C54E14D0C537B4F353E7997BB393E9A787D157E87FF38",
+      "changelog": [
+        "Job - Help with a Will now has the correct number of steps.",
+        "Clarified Comedian logic again, which means Digi will likely implement humor shuffle ASAP",
+        "Added OOL access to chip trades that you can get from the OrderSys. Screw farming for anything that's not recov 30 * though (30% chance in a GMD in ACDC3)"
+      ]
+    },
+    {
+      "package_version": "0.2.0.7",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.7/MMBN3_AP_Tracker.zip",
+      "sha256": "CCBE9E723187386F585AAA0703A2B7F8689F819F2D8399175B93C4C1226F53AA",
+      "changelog": [
+        "Job - Help Me With My Son step 2 map typo corrected."
+      ]
+    },
+    {
+      "package_version": "0.2.0.6",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.6/MMBN3_AP_Tracker.zip",
+      "sha256": "3896FF20D7EED0778BA526BADB9110EEE0D3AC7F3184B4ED5FE29FE561FD8122",
+      "changelog": [
+        "Job - Transmission Error now requires needle for Yoka Access for step 2"
+      ]
+    },
+    {
+      "package_version": "0.2.0.5",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.5/MMBN3_AP_Tracker.zip",
+      "sha256": "F54659F0CD79B2A555AC59D1FF0A5213B1137FF36C02321F7D2BCF457D553959",
+      "changelog": [
+        "ACDC Stamp Collecting Progbot typo preventing visiblity fixed"
+      ]
+    },
+    {
+      "package_version": "0.2.0.4",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.4/MMBN3_AP_Tracker.zip",
+      "sha256": "B8C99166433FB3A508FC31372E57BAC87E99B277CA69C0B114E76A6DCE293D34",
+      "changelog": [
+        "🎶Secret Secret, implemented Secret (zones)🎶",
+        "Also fixed a couple of naming inconsistencies for Jobs that weren't prefixed with Job"
+      ]
+    },
+    {
+      "package_version": "0.2.0.3",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.3/MMBN3_AP_Tracker.zip",
+      "sha256": "B7ACA585619D3276EDDD4EE8091DF90A2AFFAA2E15DC8A97F5C9E3E07B7EC2A4",
+      "changelog": [
+        "Bugfix for Yoka WWW Door logic.",
+        "Added outlines for Press and the Spins",
+        "Debated starting a band called 'Press and the Spins'"
+      ]
+    },
+    {
+      "package_version": "0.2.0.2",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.2/MMBN3_AP_Tracker.zip",
+      "sha256": "422B8F1BF1210748CBE4E9C4A4399554287B6B070C5DD8013D5C1584CBF67D54",
+      "changelog": [
+        "Resolved crash of poptracker when attempting to use the Scilab Job board to undo job steps."
+      ]
+    },
+    {
+      "package_version": "0.2.0.1",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.1/MMBN3_AP_Tracker.zip",
+      "sha256": "0FAEBAB629A1D18D0A413DF88E328C5086DDF4679EA6DD7F4DEC3099A61F2F5A",
+      "changelog": [
+        "Bugfixes for logical issues w/jobs."
+      ]
+    },
+    {
+      "package_version": "0.2.0.0",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.0.0/MMBN3_AP_Tracker.zip",
+      "sha256": "0A65F7551BFE46F05805569034621D89C32A670E33457997C37B636A2E90E22F",
+      "changelog": [
+        "Implemented Jobs Tracking for each step of each job. Made them pretty while I was at it too.",
+        "Manual tracking of jobs is required, as job steps are not part of AP's tracking"
+      ]
+    },
+    {
+      "package_version": "0.1.4.1",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.1.4.1/MMBN3_AP_Tracker.zip",
+      "sha256": "CC5F1612A1A6CB38016C3BFCFDB60C7B8FCE46E88B2D64C5A953C27763AE1443",
+      "changelog": [
+        "Undernet and Deep Undernet logic now correctly match underlying AP logic."
+      ]
+    },
+    {
+      "package_version": "0.1.4.0",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.1.4.0/MMBN3_AP_Tracker.zip",
+      "sha256": "E94FF165EA57BF52D4FFE5D4167FB6762475267396ED68BEBBE6E55E1AD6571F",
+      "changelog": [
+      "After 10,000 years in limbo, we've finally reached the AP release of BN3.",
+      "Further bugfixes for autotracking typos, corrected recov30 * logic.",
+      "Also fixed the hospital 1 BMD names once and for all... Until Digi breaks them again. "
+      ]
+    },
+    {
+      "package_version": "0.1.3.4",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/blob/main/MMBN3_AP_Tracker.zip",
+      "sha256":"DD6642F3D498E49EEBA72DF8A4FA7D1A7D65D014DBAAEA57CE0BD84216008210",
+      "changelog": [
+        "Corrected location changes / autotracking disparities, added School Desk check to ACDC."
+      ]
+    },
+    {
+      "package_version": "0.1.3.3",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.1.3.3/MMBN3_AP_Tracker.zip",
+      "sha256": "EEA02AB1AABF137D6453E582AB8D99E48327E6879FA6202BC399D44AB56D2238",
+      "changelog": [
+        "Resolved incorrect logical access for BeachNet -> Hospital Island BMD and Tamako's PC BMDs."
+      ]
+    },
+    {
+      "package_version": "0.1.3.2a",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.1.3.2/MMBN3_AP_Tracker.zip",
+      "sha256": "c30c01b35f6bcfbf3ab3be38025060ad99e64ae9f9d06acbbc634c3d72b06204",
+      "changelog": [
+        "Removed nonexistent checks from initial beta tests",
+        "Fixed logic for SciLab WWW BMD, Villain location",
+		    "BeachNet Logic exists now"
+      ]
+    },
+    {
+      "package_version": "0.1.3.0",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.1.3.0/MMBN3_AP_Tracker.zip",
+      "sha256": "64c966e5a26bdc04a22a4466355825e8ded2287b6e80ed5f0337dca9b3741629",
+      "changelog": [
+        "Implemented Autotracking and Alpha logic"
+      ]
+    },
+	{
+      "package_version": "0.1.2.0",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.1.2.0/MMBN3_AP_Tracker.zip",
+      "sha256": "e2907963fc771ccabfa8849c839174b1a41acbe387dbd200355cb0355176ce54",
+      "changelog": [
+        "Chocolate Shop added"
+      ]
+    },
+	{
+      "package_version": "0.1.1.0",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.1.1.0/MMBN3_AP_Tracker.zip",
+      "sha256": "8e490808b355f6d03d29616e8f46b76838c1692dfe5e5aa9155138712d8376dd",
+      "changelog": [
+        "Chip trades now have logic",
+		    "added WWW Island map",
+	    	"Higsby's Gatcha has approximate logic"
+      ]
+    },
+	{
+      "package_version": "0.1.0.0",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.1.0.0/MMBN3_AP_Tracker.zip",
+      "sha256": "b4b685c04abb12d611a014608b8753a292b2d977c92dc7bdddd2129c81b72cbb",
+      "changelog": [
+        "Initial Stable release"
+      ]
+    }
+  ]
+}

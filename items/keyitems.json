@@ -64,5 +64,11 @@
         "type":"toggle",
         "img": "images/items/Alpha.png",
         "codes": "Alpha"
+    },
+    {
+        "name": "Hammer",
+        "type": "toggle",
+        "img": "images/items/Hammer.png",
+        "codes": "Hammer"
     }
 ]

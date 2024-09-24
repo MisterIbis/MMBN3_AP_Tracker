@@ -467,6 +467,10 @@
 						"item_count": 2
 					},
 					{
+						"name": "ACDC School Desk",
+						"item_count": 1
+					},
+					{
 						"name": "Class 5B Bookshelf",
 						"item_count": 1
 					},
@@ -480,16 +484,17 @@
 						"hosted_item": "PDT2"
 					},
 					{
-						"name": "SonicWave Trade",
+						"name": "SonicWav W Trade",
 						"access_rules": [
 							"sonicwave"
 						],
 						"item_count": 1
 					},
 					{
-						"name": "Bubbler Trade",
+						"name": "Bubbler C Trade",
 						"access_rules": [
-							"bubbler"
+							"[bubbler]"
+							//Go farm in Yai's Phone :)
 						],
 						"item_count": 1
 					},
@@ -514,7 +519,7 @@
 						"name": "Job - Legendary Tomes (Weird Statue in Lounge)",
 						"visibility_rules": ["SubPET"],
 						"access_rules": ["LTSea,LTSky,LTLand"],
-						"hosted_item": "LT2Treasure"
+						"hosted_item": "LT2B"
 					},
 					{
 						"name": "Job - Help With A Will - Start (Kid Outside 5A)",
@@ -525,7 +530,8 @@
 					{
 						"name": "Job - Help With A Will - Finish (Kid Outside 5A)",
 						"visibility_rules": ["SubPET"],
-						"access_rules": ["HWW6"]
+						"access_rules": ["HWW6"],
+						"hosted_item": "HWW7"
 					}
 				]
 			},
@@ -599,7 +605,8 @@
 		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"CSciPas",
-			"SubPET"
+			"SubPET",
+			"[@CanSciNet],@CanYokaNet,CBeacPas,Press"
 		],
 		"children": [
 			{
@@ -620,6 +627,7 @@
 			},
 			{
 				"name": "SciLab 1 WWW BMD",
+				"access_rules": ["WWW_ID"],
 				"map_locations": [
 					{
 						"map": "SciLabNet",
@@ -694,7 +702,8 @@
 					{
 						"name": "Job - My Navi is sick",
 						"visibility_rules": ["SubPET"],
-						"hosted_item": "MNIS1"
+						"hosted_item": "MNIS1",
+						"access_rules": ["[recov30]"]
 					}
 				]
 			},
@@ -711,7 +720,8 @@
 					{
 						"name": "",
 						"access_rules": [
-							"shake"
+							"shake",
+							"Ordersys,[shake]"
 						],
 						"item_count": 1
 					}
@@ -792,35 +802,43 @@
 				"sections": [
 					{
 						"name": "Job - Please deliver this",
+						"clear_as_group": false,
 						"hosted_item": "PDT1,PDT2,PDT3"
 					},
 					{
 						"name": "Job - My Navi is sick",
-						"hosted_item": "MNIS1"
+						"clear_as_group": false,
+						"hosted_item": "MNIS1",
+						"access_rules": ["[recov30]"]
 					},
 					{
 						"name": "Job - Chip Prices",
+						"clear_as_group": false,
 						"hosted_item": "CP1,CP2,CP3,CP4,CP5"
 					},
 					{
 						"name": "Job - Rare chips for cheap",
+						"clear_as_group": false,
 						"hosted_item": "RC1"
 					},
 					{
 						"name": "Job - Somebody please help",
+						"clear_as_group": false,
 						"hosted_item": "SPH1,SPH2,SPH3,SPH4,SPH5"
 					},
 					{
 						"name": "Job - Please adopt a virus",
+						"clear_as_group": false,
 						"hosted_item": "PAAV1"
 					},
 					{
 						"name": "Job - Finding the blue Navi",
+						"clear_as_group": false,
 						"access_rules": [
 							"Press,Needle,CBeacPas",
 							"Press,CYokaPas,CBeacPas",
-							"[SubPET]",
-							"[CSciPas]"
+                            "SubPET,[CBeacPas],[press]",
+                            "CSciPas,[CBeacPas],[press]"
 						],
 						"hosted_item": "FTBN1"
 					}
@@ -838,6 +856,7 @@
 				"sections": [
 					{
 						"name": "Job - Help me with my son",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle"
 						],
@@ -845,6 +864,7 @@
 					},
 					{
 						"name": "Job - Transmission error",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle"
 						],
@@ -852,6 +872,7 @@
 					},
 					{
 						"name": "Job - I'm broke?!",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle"
 						],
@@ -859,13 +880,17 @@
 					},
 					{
 						"name": "Job - Be my boyfriend",
+						"clear_as_group": false,
 						"access_rules": [
-							"PETCase"
+							// Can be updated once the Metro works "correctly"
+							"CBeacPas,Needle",
+							"CbeacPass,CYokaPas,Press"
 						],
 						"hosted_item": "BMB1,BMB2"
 					},
 					{
 						"name": "Job - Will you deliver",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle,PETCase"
 						],
@@ -873,13 +898,15 @@
 					},
 					{
 						"name": "Job - Looking for condor",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle,PETCase"
 						],
-						"hosted_item": "LFC1,LFC2,LFC3"
+						"hosted_item": "LFC1,LFC2,LFC3,LFC4"
 					},
 					{
 						"name": "Job - Help with rehab",
+						"clear_as_group": false,
 						"access_rules": [
 							"PETCase"
 						],
@@ -887,6 +914,7 @@
 					},
 					{
 						"name": "Job - Old Master",
+						"clear_as_group": false,
 						"access_rules": [
 							"PETCase"
 						],
@@ -894,29 +922,32 @@
 					},
 					{
 						"name": "Job - Catching gang members",
+						"clear_as_group": false,
 						"access_rules": [
-							"Needle",
-							"CYokaPas",
-							"press"
+							"Needle,press",
+							"CYokaPas,press"
 						],
 						"hosted_item": "CGM1,CGM2,CGM3,CGM4,CGM5,CGM6"
 					},
 					{
 						"name": "Job - Legendary Tomes",
+						"clear_as_group": false,
 						"access_rules": [
-							"PETCase,Press"
+							"PETCase,[CBeacPas],[Press],magnum"
 						],
-						"hosted_item": "LT1,LTLand,LTSea,LTSky,LT2A"
+						"hosted_item": "LT1,LTLand,LTSea,LTSky,LT2B"
 					},
 					{
 						"name": "Job - Legendary Tomes Treasure",
+						"clear_as_group": false,
 						"access_rules": [
-							"PETCase,Press"
+							"PETCase,[CBeacPas],[Press],magnum"
 						],
-						"hosted_item": "LT2Treasure"
+						"hosted_item": "LT2B"
 					},
 					{
 						"name": "Job - Hide and Seek",
+						"clear_as_group": false,
 						"access_rules": [
 							"Needle"
 						],
@@ -924,6 +955,7 @@
 					},
 					{
 						"name": "Job - Give your support",
+						"clear_as_group": false,
 						"access_rules": [
 							"PETCase"
 						],
@@ -931,18 +963,20 @@
 					},
 					{
 						"name": "Job - Stamp collecting",
+						"clear_as_group": false,
 						"access_rules": [
-							"PETCase,Needle",
-							"PETCase,CYokaPas"
+							"PETCase,CBeacPas,Needle",
+							"PETCase,CbeacPass,CYokaPas,press"
 						],
 						"hosted_item": "SC1,SC2,SCSci,SCYoka,SCBeach,SC4,SC5"
 					},
 					{
 						"name": "Job - Help with a will",
+						"clear_as_group": false,
 						"access_rules": [
-							"Needle,PETCase,Press"
+							"Needle,PETCase,[Press]"
 						],
-						"hosted_item": "HWW1,HWW2,HWW3,HWW4,HWW5,HWW6"
+						"hosted_item": "HWW1,HWW2,HWW3,HWW4,HWW5,HWW6,HWW7"
 					}
 				]
 			}
@@ -991,7 +1025,8 @@
 					{
 						"name": "",
 						"access_rules": [
-							"WWW_ID"
+							"WWW_ID,Needle,Press",
+							"WWW_ID,CYokaPas"
 						],
 						"item_count": 1
 					}
@@ -1018,6 +1053,7 @@
 			},
 			{
 				"name": "Yoka 2 Lower BMD",
+				"access_rules": ["Needle","CYokaPas,press"],
 				"map_locations": [
 					{
 						"map": "YokaNet",
@@ -1053,7 +1089,7 @@
 			},
 			{
 				"name": "Comedian",
-				"access_rules": ["modtools,Needle","humor,Needle"],
+				"access_rules": ["modtools,Needle,[SubPET],[PETCase]","SubPET,Needle,PETCase"],
 				"map_locations": [
 					{
 						"map": "YokaNet",
@@ -1063,14 +1099,14 @@
 				],
 				"sections": [
 					{
-						"name": "",
+						"name": "Navicust SJH1UEKA or Job - Help with Rehab",
 						"item_count": 1
 					}
 				]
 			},
 			{
 				"name": "Tamako's HomePage",
-				"access_rules": ["Needle", "press,CYokaPas"],
+				"access_rules": ["Needle", "CYokaPas,press"],
 				"map_locations": [
 					{
 						"map": "Yoka",
@@ -1492,8 +1528,13 @@
 		"chest_unopened_img": "images/items/BMD.png",
 		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
-			"PETCase",
-			"CBeacPass"
+			// Can be corrected to CbeacPass + any other pass/needle once metro works "correctly".
+			//TODO: fix when logical Beach access includes the metro
+			"CBeacPas,CYokaPas,press",
+			"CBeacPas,Needle",
+			"[CBeacPas],[CYokaPas],press,CSciPas",
+			"[CBeacPas],[CYokaPas],press,SubPET",
+			"CACDCPas,CSciPas,CYokaPas,CBeacPas,[press]"
 		],
 		"children": [
 			{
@@ -1568,8 +1609,8 @@
 				"map_locations": [
 					{
 						"map": "BeachNet",
-						"x": 1579,
-						"y": 1149
+						"x": 1851,
+						"y": 191
 					}
 				],
 				"sections": [
@@ -1578,13 +1619,14 @@
 						"item_count": 1
 					},
 					{
-						"name": "Be my boyfriend",
+						"name": "Job - Be my boyfriend",
 						"visibility_rules": ["SubPET"],
-						"access_rules": ["SubPET"],
+						"access_rules": ["SubPET,CBeacPas,Needle","SubPET,CBeacPas,CYokaPas,Press","SubPET,Press,[CBeacPas],[Needle]","SubPET,press,[CbeacPass],[CYokaPas]"],
 						"hosted_item": "BMB1"
 					}
 				]
 			},
+			// placing this here since it's accessible at the same time as beach Square
 			{
 				"name": "Hospital 2 Island BMD",
 				"map_locations": [
@@ -1598,6 +1640,21 @@
 					{
 						"name": "",
 						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Hospital 2 Island Access",
+				"map_locations": [
+					{
+						"map": "BeachNet",
+						"x": 703,
+						"y": 808
+					}
+				],
+				"sections": [
+					{
+						"ref": "Beach Cyberworld/Hospital 2 Island BMD/"
 					}
 				]
 			}
@@ -1623,19 +1680,7 @@
 				],
 				"sections": [
 					{
-						"name": "Broadcast Computer PMD",
-						"item_count": 1
-					},
-					{
 						"name": "Battle Console BMD",
-						"item_count": 1
-					},
-					{
-						"name": "Security System BMD",
-						"item_count": 1
-					},
-					{
-						"name": "Security System PMD",
 						"item_count": 1
 					},
 					{
@@ -1646,9 +1691,54 @@
 						"item_count": 1
 					},
 					{
+						"name": "DNN Boxes",
+						"item_count": 1
+					},
+
+					{
+						"name": "DNN Kiosk",
+						"item_count": 1
+					},
+
+					{
+						"name": "Job - Will You Deliver?",
+						"visibility_rules": ["SubPET"],
+						"access_rules": ["SubPET,WYD1,PETCase"],
+						"hosted_item": "WYD2"
+					}
+				]
+			},
+			{
+				"name": "DNN Station 2F",
+				"map_locations": [
+					{
+					"map": "Beach",
+					"x": 1478,
+					"y": 100
+					}
+				],
+				"sections": [
+					{
+						"name": "Broadcast Computer PMD",
+						"item_count": 1
+					},
+					{
+						"name": "Broadcast Computer BMD",
+						"item_count": 1
+					},
+					{
+						"name": "Undernet 6 TV BMD",
+						"item_count": 1
+					},
+					{
+						"name": "DNN Poster",
+						"item_count": 1
+					},
+					{
 						"name": "HoleMetr H Trade",
 						"access_rules": [
-							"holemeteor"
+							"holemeteor",
+							"Ordersys,[holemeteor]"
 						],
 						"item_count": 1
 					},
@@ -1660,31 +1750,29 @@
 						"item_count": 1
 					},
 					{
-						"name": "DNN Boxes",
+						"name": "Security System BMD",
 						"item_count": 1
 					},
 					{
-						"name": "Broadcast Computer BMD",
+						"name": "Security System PMD",
 						"item_count": 1
-					},
-					{
-						"name": "DNN Kiosk",
-						"item_count": 1
-					},
-					{
-						"name": "DNN Poster",
-						"item_count": 1
-					},
-					{
-						"name": "Undernet 6 TV BMD",
-						"item_count": 1
-					},
-					{
-						"name": "Job - Will You Deliver?",
-						"visibility_rules": ["SubPET,WYD1"],
-						"hosted_item": "WYD2"
 					}
 				]
+			},
+			{
+				"name": "Access in DNN Station 2F",
+				"map_locations": [
+					{
+						"map": "Undernet5-7",
+						"x": 1341,
+						"y": 287
+					}
+				],
+				"sections": [
+					{
+						"ref": "Beach Overworld/DNN Station 2F/Undernet 6 TV BMD"
+					}
+				]	
 			},
 			{
 				"name": "Beach - Hospital",
@@ -1848,28 +1936,9 @@
 					},
 					{
 						"name": "Help With a Will - Message 4",
-						"visibility_rules": ["HWW4"],
+						"visibility_rules": ["SubPET"],
 						"access_rules": ["HWW4,PETCase"],
 						"hosted_item": "HWW5"
-					}
-				]
-			},
-			{
-				"name": "Hades HadesKey BMD",
-				"map_locations": [
-					{
-						"map": "HadesComp",
-						"x": 675,
-						"y": 77
-					}
-				],
-				"sections": [
-					{
-						"name": "",
-						"access_rules": [
-							"press"
-						],
-						"item_count": 1
 					}
 				]
 			},
@@ -1902,12 +1971,13 @@
 					{
 						"name": "GrabBack K Trade",
 						"access_rules": [
-							"grabback"
+							"grabback",
+							"Ordersys,[grabback]"
 						],
 						"item_count": 1
 					},
 					{
-						"name": "Give Your Support",
+						"name": "Job - Give Your Support",
 						"visibility_rules": ["SubPet"],
 						"access_rules": ["SubPET"],
 						"hosted_item": "GYS1"
@@ -1961,11 +2031,27 @@
 		],
 		"children": [
 			{
+				"name": "Hospital 1 Center BMD",
+				"map_locations": [
+					{
+						"map": "HospitalComps1-3",
+						"x": 427,
+						"y": 434
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
 				"name": "Hospital 1 North BMD",
 				"map_locations": [
 					{
 						"map": "HospitalComps1-3",
-						"x": 573,
+						"x": 571,
 						"y": 267
 					}
 				],
@@ -1983,22 +2069,6 @@
 						"map": "HospitalComps1-3",
 						"x": 252,
 						"y": 264
-					}
-				],
-				"sections": [
-					{
-						"name": "",
-						"item_count": 1
-					}
-				]
-			},
-			{
-				"name": "Hospital 1 Center BMD",
-				"map_locations": [
-					{
-						"map": "HospitalComps1-3",
-						"x": 426,
-						"y": 431
 					}
 				],
 				"sections": [
@@ -2045,8 +2115,8 @@
 				"map_locations": [
 					{
 						"map": "HospitalComps1-3",
-						"x": 615,
-						"y": 930
+						"x": 648,
+						"y": 1110
 					}
 				],
 				"sections": [
@@ -2192,8 +2262,10 @@
 		"chest_unopened_img": "images/items/BMD.png",
 		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
-			"[Press],[CBeacPas],CSciPas",
-			"Press, CBeacPas"
+			"[press],[CBeacPas],CSciPas,[@8+ExploreScore]",
+			"[press],[CBeacPas],SubPET,[@8+ExploreScore]",
+			"press,CBeacPas,Needle,[@8+ExploreScore]",
+			"press,CbeacPas,CYokaPas,[@8+ExploreScore]"
 		],
 		"children": [
 			{
@@ -2384,7 +2456,8 @@
 		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
 			"CSciPas",
-			"SubPET"
+			"SubPET",
+			"press,CBeacPas,@CanYokaNet"
 		],
 		"children": [
 			{
@@ -2446,7 +2519,7 @@
 				],
 				"sections": [
 					{
-						"name": "",
+						"name": "NOT CURRENTLY RANDOMIZED",
 						"item_count": 1
 					}
 				]
@@ -2478,7 +2551,7 @@
 				],
 				"sections": [
 					{
-						"name": "",
+						"name": "NOT CURRENTLY RANDOMIZED",
 						"item_count": 1
 					}
 				]
@@ -2494,13 +2567,13 @@
 				],
 				"sections": [
 					{
-						"name": "",
+						"name": "NOT CURRENTLY RANDOMIZED",
 						"item_count": 1
 					}
 				]
 			},
 			{
-				"name": "Undernet 7 BMD",
+				"name": "Undernet 7 Upper BMD",
 				"map_locations": [
 					{
 						"map": "Undernet5-7",
@@ -2510,7 +2583,7 @@
 				],
 				"sections": [
 					{
-						"name": "Undernet 7 Hammer BMD",
+						"name": "",
 						"item_count": 1
 					}
 				]
@@ -2523,7 +2596,7 @@
 		"chest_unopened_img": "images/items/BMD.png",
 		"chest_opened_img": "images/items/GreyBMD.png",
 		"access_rules": [
-			"$hasEnoughRanks, PETCase"
+			"GigFreez, PETCase"
 		],
 		"children": [
 			{
@@ -2787,8 +2860,8 @@
 				"map_locations": [
 					{
 						"map": "WWWIsle",
-						"x": 1228,
-						"y": 1094
+						"x": 1225,
+						"y": 1078
 					}
 				],
 				"sections": [
@@ -2800,38 +2873,18 @@
 			}
 		]
 	},
-	// Secret Area
+	// Secret Secret, we're adding Secret
 	{
-		"name": "Secret Area",
-		"chest_unopened_img": "images/items/BMD.png",
-		"chest_opened_img": "images/items/GreyBMD.png",
-		"access_rules": [
-			"Alpha,Needle"
-		],
+		"name": "Secret Zones",
+		"access_rules": ["Hammer,[@CanSecret],Needle"],
 		"children": [
 			{
 				"name": "Secret 1 South BMD",
 				"map_locations": [
 					{
-						"map": "Secret1",
-						"x": 298,
-						"y": 519
-					}
-				],
-				"sections": [
-					{
-						"name": "",
-						"item_count": 1
-					}
-				]
-			},
-			{
-				"name": "Secret 1 Northeast BMD",
-				"map_locations": [
-					{
-						"map": "Secret1",
-						"x": 887,
-						"y": 177
+					"map": "Secret1",
+					"x": 297,
+					"y": 520
 					}
 				],
 				"sections": [
@@ -2845,9 +2898,25 @@
 				"name": "Secret 1 Northwest BMD",
 				"map_locations": [
 					{
-						"map": "Secret1",
-						"x": 184,
-						"y": 204
+					"map": "Secret1",
+					"x": 181,
+					"y": 204
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 1 Northeast BMD",
+				"map_locations": [
+					{
+					"map": "Secret1",
+					"x": 888,
+					"y": 177
 					}
 				],
 				"sections": [
@@ -2861,9 +2930,9 @@
 				"name": "Secret 2 Upper BMD",
 				"map_locations": [
 					{
-						"map": "Secret2",
-						"x": 248,
-						"y": 507
+					"map": "Secret2",
+					"x": 247,
+					"y": 509
 					}
 				],
 				"sections": [
@@ -2877,9 +2946,9 @@
 				"name": "Secret 2 Lower BMD",
 				"map_locations": [
 					{
-						"map": "Secret2",
-						"x": 247,
-						"y": 250
+					"map": "Secret2",
+					"x": 250,
+					"y": 250
 					}
 				],
 				"sections": [
@@ -2893,9 +2962,9 @@
 				"name": "Secret 2 Island BMD",
 				"map_locations": [
 					{
-						"map": "Secret2",
-						"x": 505,
-						"y": 58
+					"map": "Secret2",
+					"x": 506,
+					"y": 62
 					}
 				],
 				"sections": [
@@ -2909,9 +2978,25 @@
 				"name": "Secret 3 South BMD",
 				"map_locations": [
 					{
-						"map": "Secret3",
-						"x": 596,
-						"y": 788
+					"map": "Secret3",
+					"x": 596,
+					"y": 786
+					}
+				],
+				"sections": [
+					{
+						"name": "",
+						"item_count": 1
+					}
+				]
+			},
+			{
+				"name": "Secret 3 Bugfrag BMD",
+				"map_locations": [
+					{
+					"map": "Secret3",
+					"x": 469,
+					"y": 373
 					}
 				],
 				"sections": [
@@ -2925,25 +3010,9 @@
 				"name": "Secret 3 Island BMD",
 				"map_locations": [
 					{
-						"map": "Secret3",
-						"x": 87,
-						"y": 213
-					}
-				],
-				"sections": [
-					{
-						"name": "",
-						"item_count": 1
-					}
-				]
-			},
-			{
-				"name": "Secret 3 BugFrag BMD",
-				"map_locations": [
-					{
-						"map": "Secret3",
-						"x": 469,
-						"y": 372
+					"map": "Secret3",
+					"x": 85,
+					"y": 214
 					}
 				],
 				"sections": [
@@ -2973,21 +3042,23 @@
 			"CSciPas,CYokaPas,CBeacPas", // 2+1+1
 			// "CSciPas,CBeacPas,Press", // 2+1+2 UNDERNET DOESN'T COUNT UNTIL 8+
 			"SubPET", // 5, overlaps 3 w/CSciPas
-			"Needle,CSciPas", // 3 + 2
-			"Needle,CBeacPas", // 3 + 1
+			"Needle,press,CSciPas", // 3 + 2
+			"Needle,press,CBeacPas", // 3 + 1
 			"PETCase,CSciPas", // 3 + 2
-			"PETCase,CYokaPas" // 3 + 1
+			"PETCase,CYokaPas", // 3 + 1
+			"GigFreez,PETCase"
 		]
 	},
 	{
 		"name": "8+ExploreScore",
 		"access_rules": [
-			"SubPET,Needle",
+			"SubPET,Needle,press",
 			"SubPET,PETCase",
 			"Needle,PETCase,CSciPas", // 3 + 3 + 2
 			"Needle,PETCase,CBeacPas,Press", // 3 + 3 + 1 + 2
 			"Needle,CSciPas,CBeacPas,Press", // 3 + 2 + 1 + 2
-			"PETCase,CSciPas,CBeacPas,Press" // 3 + 2 + 1 + 1 + 2
+			"PETCase,CSciPas,CBeacPas,Press", // 3 + 2 + 1 + 1 + 2
+			"GigFreez,PETCase"
 		]
 	},
 	{
@@ -2996,7 +3067,31 @@
 			"SubPET,Needle,PETCase", // 5 + 3 + 3
 			"SubPET,Needle,CBeacPas,Press", // 5 + 3 + 1 + 2
 			"Needle,PETCase,CBeacPas,Press,CSciPas", // 3 + 3 + 1 + 2 + 2
-			"$hasEnoughRanks,PETCase" // 999 + 3
+			"GigFreez,PETCase"
+		]
+	},
+	// AKA 12+ explore Score
+	{
+		"name": "CanSecret",
+		"access_rules": [
+			"SubPET,Needle,PETCase,press,CBeacPas",
+			// 4     2         3     1 		3
+			"SubPET,PETCase,Press,CbeacPas,CYokaPas"
+			//  4     3       1       3         1
+		]
+	},
+	{
+		"name": "CanYokaNet",
+		"access_rules": [
+			"CYokaPas",
+			"Needle,Press"
+		]
+	},
+	{
+		"name": "CanSciNet",
+		"access_rules": [
+			"CSciPas",
+			"SubPET"
 		]
 	}
 ]
