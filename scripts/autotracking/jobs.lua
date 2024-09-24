@@ -1,3 +1,22 @@
+ScriptHost:AddWatchForCode("Please Deliver This","PDT3", PDT)
+ScriptHost:AddWatchForCode("Help Me","HMWMS3", HMWMS)
+ScriptHost:AddWatchForCode("Transmission Error","TE3", TE)
+ScriptHost:AddWatchForCode("Chip Prices","CP5", CP)
+ScriptHost:AddWatchForCode("Will You Deliver?","WYD5", WYD)
+ScriptHost:AddWatchForCode("I'm Broke","IB3", IB)
+ScriptHost:AddWatchForCode("Somebody Please Help","SPH5", SPH)
+ScriptHost:AddWatchForCode("Looking for Chip","LFC4", LFC)
+ScriptHost:AddWatchForCode("Old Master","OM4", OM)
+ScriptHost:AddWatchForCode("Catching Gang Members","CGM6", CGM)
+ScriptHost:AddWatchForCode("Legendary Tomes","LT2A", LT)
+ScriptHost:AddWatchForCode("Hide and Seek","HAS5", HAS)
+ScriptHost:AddWatchForCode("Stamp Collecting","SC5", SC)
+ScriptHost:AddWatchForCode("Help With a Will","HWW6", HWW)
+ScriptHost:AddWatchForCode("Rare Chips for Cheap","RC2", RC)
+ScriptHost:AddWatchForCode("Be My Boyfriend!","BMB2", BMB)
+ScriptHost:AddWatchForCode("Help With Rehab","HWR2", HWR)
+
+
 -- undoes exactly one misclicked job
 function MagicWand(...) --takes all codes from the job
     recovery = {}
