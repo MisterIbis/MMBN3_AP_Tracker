@@ -14,6 +14,7 @@ ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Scrips to automatically clear the job substeps when the Job is completed
 ScriptHost:LoadScript("scripts/autotracking/jobs.lua")
+ScriptHost:LoadScript("scripts/autotracking/JobWatch.lua")
 
 -- Add Items
 Tracker:AddItems("items/keyitems.json")

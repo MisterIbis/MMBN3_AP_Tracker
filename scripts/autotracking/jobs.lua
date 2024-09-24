@@ -115,9 +115,6 @@ end
 function HAS()
     if Tracker.FindObjectForCode("HAS5").Active == true then
         Tracker:FindObjectForCode("HAS1").Active = true
-        Tracker:FindObjectForCode("HAS2").Active = true
-        Tracker:FindObjectForCode("HAS3").Active = true
-        Tracker:FindObjectForCode("HAS4").Active = true
 end
 
 function SC()

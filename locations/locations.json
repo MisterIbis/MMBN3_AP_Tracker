@@ -935,7 +935,7 @@
 						"access_rules": [
 							"PETCase,[CBeacPas],[Press],magnum"
 						],
-						"hosted_item": "LT1,LTLand,LTSea,LTSky,LT2B"
+						"hosted_item": "LT1,LTLand,LTSea,LTSky,LT2A"
 					},
 					{
 						"name": "Job - Legendary Tomes Treasure",
