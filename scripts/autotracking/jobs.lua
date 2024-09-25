@@ -91,7 +91,7 @@ function LT()
 end
 
 function HAS()
-    if Tracker:FindObjectForCode("HAS5").Active == true then
+    if Tracker:FindObjectForCode("HAS6").Active == true then
         Tracker:FindObjectForCode("HAS1").Active = true
     end
 end

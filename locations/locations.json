@@ -2877,6 +2877,8 @@
 	{
 		"name": "Secret Zones",
 		"access_rules": ["Hammer,[@CanSecret],Needle"],
+		"chest_unopened_img": "images/items/BMD.png",
+		"chest_opened_img": "images/items/GreyBMD.png",
 		"children": [
 			{
 				"name": "Secret 1 South BMD",
@@ -3021,7 +3023,17 @@
 						"item_count": 1
 					}
 				]
-			}
+			},
+			/*{
+				"name": "Beat Serenade",
+				"map_locations": [
+					{
+						"map": "Secret3",
+						"x": 600,
+						"y": 127
+					}
+				]
+			}*/
 		]
 	},
 	// Logic tracking
