@@ -446,7 +446,7 @@
                         "name": "Finish",
                         "visibility_rules": ["SubPET"],
                         "access_rules": ["LTSea,LTSky,LTLand"],
-                        "hosted_item": "LT2B"
+                        "hosted_item": "LT2A"
                     }
                 ]
             },
