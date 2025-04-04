@@ -39,5 +39,8 @@ ITEM_MAPPING = {
     [11735215] = {"holemeteor", "toggle"},
     [11735216] = {"shadow", "toggle"},
     [11735194] = {"Press", "toggle"},
-    [11735263] = {"Hammer","toggle"}
+    [11735263] = {"Hammer","toggle"},
+    [11735264] = {"Humor","toggle"},
+    [11735265] = {"BlkMnd","toggle"},
+    [11735064] = {"unlocker","consumable"}
 }

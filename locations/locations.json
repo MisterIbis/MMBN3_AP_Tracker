@@ -50,7 +50,7 @@
 					{
 						"name": "",
 						"access_rules": [
-							"WWW_ID"
+							"WWW_ID,CanUnlock"
 						],
 						"item_count": 1
 					}
@@ -551,7 +551,8 @@
 					},
 					{
 						"name": "Mayls HP PMD",
-						"item_count": 1
+						"item_count": 1,
+						"access_rules":["CanUnlock"]
 					}
 				]
 			},
@@ -786,7 +787,8 @@
 					},
 					{
 						"name": "PMD",
-						"item_count": 1
+						"item_count": 1,
+						"access_rules":["CanUnlock"]
 					}
 				]
 			},
@@ -910,7 +912,7 @@
 						"access_rules": [
 							"PETCase"
 						],
-						"hosted_item": "HWR1,HWR2"
+						"hosted_item": "HWR1,HWR2A,HWR2B"
 					},
 					{
 						"name": "Job - Old Master",
@@ -1045,7 +1047,7 @@
 					{
 						"name": "",
 						"access_rules": [
-							"press"
+							"press,CanUnlock"
 						],
 						"item_count": 1
 					}
@@ -1089,7 +1091,7 @@
 			},
 			{
 				"name": "Comedian",
-				"access_rules": ["modtools,Needle,[SubPET],[PETCase]","SubPET,Needle,PETCase"],
+				"access_rules": ["modtools,[Humor],Needle","Humor,Needle"],
 				"map_locations": [
 					{
 						"map": "YokaNet",
@@ -1099,7 +1101,7 @@
 				],
 				"sections": [
 					{
-						"name": "Navicust SJH1UEKA or Job - Help with Rehab",
+						"name": "Navicust SJH1UEKA or Install Humor program",
 						"item_count": 1
 					}
 				]
@@ -1117,7 +1119,8 @@
 				"sections": [
 					{
 						"name": "PMD",
-						"item_count": 1
+						"item_count": 1,
+						"access_rules":["CanUnlock"]
 					},
 					{
 						"name": "BMD",
@@ -1261,7 +1264,8 @@
 				"sections": [
 					{
 						"name": "PMD",
-						"item_count": 1
+						"item_count": 1,
+						"access_rules":["CanUnlock"]
 					},
 					{
 						"name": "BMD",
@@ -1565,7 +1569,8 @@
 				"sections": [
 					{
 						"name": "",
-						"item_count": 1
+						"item_count": 1,
+						"access_rules":["CanUnlock"]
 					}
 				]
 			},
@@ -1615,8 +1620,9 @@
 				],
 				"sections": [
 					{
-						"name": "Villain",
-						"item_count": 1
+						"name": "Villain - Install BlackMind Program",
+						"item_count": 1,
+						"access_rules": ["BlkMnd"]
 					},
 					{
 						"name": "Job - Be my boyfriend",
@@ -1720,7 +1726,8 @@
 				"sections": [
 					{
 						"name": "Broadcast Computer PMD",
-						"item_count": 1
+						"item_count": 1,
+						"access_rules":["CanUnlock"]
 					},
 					{
 						"name": "Broadcast Computer BMD",
@@ -1755,7 +1762,8 @@
 					},
 					{
 						"name": "Security System PMD",
-						"item_count": 1
+						"item_count": 1,
+						"access_rules":["CanUnlock"]
 					}
 				]
 			},
@@ -1823,7 +1831,7 @@
 						"name": "Job - Help with rehab (in TV)",
 						"visibility_rules": ["SubPET"],
 						"access_rules": ["SubPET"],
-						"hosted_item": "HWR2"
+						"hosted_item": "HWR2A,HWR2B"
 					},
 					{
 						"name": "Looking for Condor (2F, right room)",
@@ -2519,8 +2527,9 @@
 				],
 				"sections": [
 					{
-						"name": "NOT CURRENTLY RANDOMIZED",
-						"item_count": 1
+						"name": "",
+						"item_count": 1,
+						"access_rules":["CanUnlock"]
 					}
 				]
 			},
@@ -2551,7 +2560,7 @@
 				],
 				"sections": [
 					{
-						"name": "NOT CURRENTLY RANDOMIZED",
+						"name": "",
 						"item_count": 1
 					}
 				]
@@ -2567,7 +2576,7 @@
 				],
 				"sections": [
 					{
-						"name": "NOT CURRENTLY RANDOMIZED",
+						"name": "",
 						"item_count": 1
 					}
 				]
@@ -3024,8 +3033,8 @@
 					}
 				]
 			},
-			/*{
-				"name": "Beat Serenade",
+			{
+				"name": "Serenade",
 				"map_locations": [
 					{
 						"map": "Secret3",
@@ -3033,7 +3042,7 @@
 						"y": 127
 					}
 				]
-			}*/
+			}
 		]
 	},
 	// Logic tracking
@@ -3104,6 +3113,14 @@
 		"access_rules": [
 			"CSciPas",
 			"SubPET"
+		]
+	},
+	{
+		"name": "CanUnlock",
+		"access_rules":[
+			"$Has_Unlockers",
+			"SubPET",
+			"CanYokaNet"
 		]
 	}
 ]

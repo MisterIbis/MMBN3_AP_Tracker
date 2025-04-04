@@ -135,6 +135,16 @@ function HWR()
     end
 end
 
+function Has_Unlockers()
+    local count = Tracker:ProvideCountForCode('unlocker')
+    if ENABLE_DEBUG_LOG then
+        print(string.format("Called Has_Unlockers, current Count: " count))
+    if count > 7 then
+        return 1
+    end
+    return 0
+end
+
 ScriptHost:AddWatchForCode("Please Deliver This","PDT3", PDT)
 ScriptHost:AddWatchForCode("Help Me","HMWMS3", HMWMS)
 ScriptHost:AddWatchForCode("Transmission Error","TE3", TE)

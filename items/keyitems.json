@@ -70,5 +70,17 @@
         "type": "toggle",
         "img": "images/items/Hammer.png",
         "codes": "Hammer"
+    },
+    {
+        "name": "Humor Program",
+        "type": "toggle",
+        "img": "",
+        "codes": "Humor"
+    },
+    {
+        "name": "BlackMind Program",
+        "type": "toggle",
+        "img": "",
+        "codes": "BlkMnd"
     }
 ]
