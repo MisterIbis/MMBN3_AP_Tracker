@@ -50,7 +50,7 @@
 					{
 						"name": "",
 						"access_rules": [
-							"WWW_ID,CanUnlock"
+							"WWW_ID,@CanUnlock"
 						],
 						"item_count": 1
 					}
@@ -552,7 +552,7 @@
 					{
 						"name": "Mayls HP PMD",
 						"item_count": 1,
-						"access_rules":["CanUnlock"]
+						"access_rules":["@CanUnlock"]
 					}
 				]
 			},
@@ -788,7 +788,7 @@
 					{
 						"name": "PMD",
 						"item_count": 1,
-						"access_rules":["CanUnlock"]
+						"access_rules":["@CanUnlock"]
 					}
 				]
 			},
@@ -1047,7 +1047,7 @@
 					{
 						"name": "",
 						"access_rules": [
-							"press,CanUnlock"
+							"press,@CanUnlock"
 						],
 						"item_count": 1
 					}
@@ -1120,7 +1120,7 @@
 					{
 						"name": "PMD",
 						"item_count": 1,
-						"access_rules":["CanUnlock"]
+						"access_rules":["@CanUnlock"]
 					},
 					{
 						"name": "BMD",
@@ -1265,7 +1265,7 @@
 					{
 						"name": "PMD",
 						"item_count": 1,
-						"access_rules":["CanUnlock"]
+						"access_rules":["@CanUnlock"]
 					},
 					{
 						"name": "BMD",
@@ -1570,7 +1570,7 @@
 					{
 						"name": "",
 						"item_count": 1,
-						"access_rules":["CanUnlock"]
+						"access_rules":["@CanUnlock"]
 					}
 				]
 			},
@@ -1727,7 +1727,7 @@
 					{
 						"name": "Broadcast Computer PMD",
 						"item_count": 1,
-						"access_rules":["CanUnlock"]
+						"access_rules":["@CanUnlock"]
 					},
 					{
 						"name": "Broadcast Computer BMD",
@@ -1763,7 +1763,7 @@
 					{
 						"name": "Security System PMD",
 						"item_count": 1,
-						"access_rules":["CanUnlock"]
+						"access_rules":["@CanUnlock"]
 					}
 				]
 			},
@@ -2529,7 +2529,7 @@
 					{
 						"name": "",
 						"item_count": 1,
-						"access_rules":["CanUnlock"]
+						"access_rules":["@CanUnlock"]
 					}
 				]
 			},
@@ -3120,7 +3120,7 @@
 		"access_rules":[
 			"$Has_Unlockers",
 			"SubPET",
-			"CanYokaNet"
+			"@CanYokaNet"
 		]
 	}
 ]

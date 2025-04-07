@@ -42,5 +42,5 @@ ITEM_MAPPING = {
     [11735263] = {"Hammer","toggle"},
     [11735264] = {"Humor","toggle"},
     [11735265] = {"BlkMnd","toggle"},
-    [11735064] = {"unlocker","consumable"}
+    [11735064] = {"Unlocker","consumable"}
 }

@@ -82,5 +82,11 @@
         "type": "toggle",
         "img": "",
         "codes": "BlkMnd"
+    },
+    {
+        "name": "Unlockers",
+        "type": "consumable",
+        "img": "",
+        "codes": "Unlocker"
     }
 ]
