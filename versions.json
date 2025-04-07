@@ -1,6 +1,17 @@
 {
   "versions": [
     {
+      "package_version": "0.3.0.0",
+      "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.3.0.0/MMBN3_AP_Tracker.zip",
+      "sha256": "BAEE5A72A10802BE86EF65ECCEF6C460B0AFDA3C6A4DE0B8409BA85D73820B12",
+      "changelog": [
+        "Added changes for the new AP 0.6.0 Logic.",
+        "Unlockers now are logically accounted for, and will actually turn green if you get sent all 8 or can access a shop that sells them. Yes, that's how the logic works.",
+        "Humor and Blkmnd now tracked and can be logically required. Humor code is still in the location name because I can.",
+        "Undernet 7 BMDs are now *all* AP items. Bug Digi about creating the WWW Island IDs as AP locations if you want everything autotrackable."
+      ]
+    },
+    {
       "package_version": "0.2.3.0",
       "download_url": "https://github.com/MisterIbis/MMBN3_AP_Tracker/releases/download/0.2.3.0/MMBN3_AP_Tracker.zip",
       "sha256": "CAF1158DE0D98064DD7CFDAF29BC26BB3CCA1BDE03133FE50387BE071D751F7F",

@@ -80,13 +80,14 @@
     {
         "name": "BlackMind Program",
         "type": "toggle",
-        "img": "",
+        "img": "images/items/BlkMnd.png",
         "codes": "BlkMnd"
     },
     {
-        "name": "Unlockers",
+        "name": "Unlocker Subchips",
         "type": "consumable",
-        "img": "",
+        "max_quantity": 8,
+        "img": "images/items/Unlocker.png",
         "codes": "Unlocker"
     }
 ]
